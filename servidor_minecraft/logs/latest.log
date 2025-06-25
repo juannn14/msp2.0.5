@@ -397,3 +397,13 @@ locate<--[HERE]
 [21:11:21] [Server thread/INFO]: aininsano issued server command: /reg
 [21:11:37] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
 [21:11:37] [Server thread/INFO]: aininsano left the game
+[21:12:21] [User Authenticator #11/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:12:21] [Server thread/INFO]: aininsano joined the game
+[21:12:21] [Server thread/INFO]: aininsano[/127.224.206.148:52295] logged in with entity id 40360 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:12:34] [Server thread/INFO]: [AuthMe] aininsano registered 127.224.206.148
+[21:12:34] [Craft Scheduler Thread - 90 - AuthMe/INFO]: [AuthMe] aininsano logged in 127.224.206.148
+[21:12:46] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <darkkettoo> "login"
+[21:13:16] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <darkkettoo> "/login messi123"
+[21:15:40] [Server thread/INFO]: Clandestino darkkettoo has made the advancement [Sneak 100]
+[21:18:23] [Server thread/INFO]: Clandestino darkkettoo has made the advancement [Cover Me with Diamonds]
+[21:18:26] [Async Chat Thread - #29/INFO]: [Not Secure] [Clandestino] <darkkettoo> KJSAKSJAKJSA
