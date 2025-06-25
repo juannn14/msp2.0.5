@@ -417,3 +417,7 @@ locate<--[HERE]
 [21:40:01] [Server thread/INFO]: Can't find element 'minecraft:nigh_vision' of type 'minecraft:mob_effect'
 [21:40:57] [Server thread/INFO]: No entity was found
 [21:41:46] [Server thread/INFO]: Applied effect Night Vision to aininsano
+[21:44:57] [Server thread/INFO]: Set aininsano's game mode to Creative Mode
+[21:45:35] [Server thread/INFO]: Teleported aininsano to -1602.500000, 72.000000, -354.500000
+[21:45:52] [Server thread/INFO]: Set aininsano's game mode to Survival Mode
+[21:48:58] [Server thread/INFO]: aininsano burned to death
