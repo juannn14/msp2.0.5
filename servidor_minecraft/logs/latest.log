@@ -1,0 +1,78 @@
+[20:00:16] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:00:21] [ServerMain/INFO]: Loaded 7 recipes
+[20:00:22] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[20:00:22] [Server thread/INFO]: Loading properties
+[20:00:22] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[20:00:24] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:00:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:00:25] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[20:00:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[20:00:26] [Server thread/INFO]: Default game type: SURVIVAL
+[20:00:26] [Server thread/INFO]: Generating keypair
+[20:00:27] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:00:27] [Server thread/INFO]: Using epoll channel type
+[20:00:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:00:27] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[20:00:28] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[20:00:28] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[20:00:28] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[20:00:28] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:00:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:00:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:00:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:00:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:00:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:00:28] [Server thread/INFO]: Preparing level "world"
+[20:00:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:00:31] [Server thread/INFO]: Time elapsed: 979 ms
+[20:00:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:00:31] [Server thread/INFO]: Time elapsed: 339 ms
+[20:00:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:00:31] [Server thread/INFO]: Time elapsed: 201 ms
+[20:00:31] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[20:00:34] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[20:00:34] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[20:00:36] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[20:00:37] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[20:00:37] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[20:00:39] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@29726f42
+[20:00:39] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[20:00:39] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[20:00:39] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[20:00:39] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[20:00:39] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1ba4604f
+[20:00:40] [Server thread/INFO]: Running delayed init tasks
+[20:00:40] [Server thread/INFO]: Done (17.465s)! For help, type "help"
+[20:00:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[20:00:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[20:00:40] [Craft Scheduler Thread - 2 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[20:00:40] [Server thread/INFO]: Timings Reset
+[20:00:40] [Craft Scheduler Thread - 2 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[20:02:08] [User Authenticator #0/INFO]: UUID of player darkkettoo is e9702bba-66c9-30c6-8a10-3f35e97367de
+[20:02:08] [Server thread/INFO]: darkkettoo joined the game
+[20:02:08] [Server thread/INFO]: darkkettoo[/127.203.218.242:57863] logged in with entity id 70 at ([world]80.30000001192093, 64.0, -396.69098208140326)
+[20:02:21] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] darkkettoo logged in 127.203.218.242
+[20:03:36] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[20:03:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@403d4da4[id=449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d,name=Vityfraca10,properties={},legacy=false] (/127.219.133.250:59107) lost connection: Disconnected
+[20:03:56] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[20:03:56] [Server thread/INFO]: Vityfraca10 joined the game
+[20:03:56] [Server thread/INFO]: Vityfraca10[/127.219.133.250:37871] logged in with entity id 399 at ([world]-229.4432714289808, 64.0, -615.9726343893336)
+[20:04:07] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] Vityfraca10 logged in 127.219.133.250
+[20:04:34] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Acquire Hardware]
+[20:06:16] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> zzz}
+[20:06:22] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <darkkettoo> coso
+[20:06:28] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <darkkettoo> no encontre ni una oveja
+[20:06:31] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <darkkettoo> no seas cagon
+[20:06:39] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> qbot
+[20:08:22] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.2912907091522925
+[20:08:22] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.4925111970055127
+[20:09:24] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <darkkettoo> bancame q le subo la ram
+[20:09:30] [Async Chat Thread - #3/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no
+[20:09:35] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <darkkettoo> si
+[20:09:38] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <darkkettoo> osea
+[20:09:42] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <darkkettoo> a mi juego
+[20:09:43] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <darkkettoo> nuv
+[20:09:47] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <darkkettoo> al server no
+[20:09:51] [Async Chat Thread - #2/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ok

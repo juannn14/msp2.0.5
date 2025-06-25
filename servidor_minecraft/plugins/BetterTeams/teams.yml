@@ -1,0 +1,9 @@
+storageType: YAML
+teamNameLookup:
+- sixseven:3531cdf4-2a40-436c-81be-2ef05bfe4867
+- clandestino:2afae82b-e090-4707-9e9c-6ece3ab2ad4f
+playerLookup:
+- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d:3531cdf4-2a40-436c-81be-2ef05bfe4867
+- 76acff87-aaa1-31f3-a782-463a7b6cef41:3531cdf4-2a40-436c-81be-2ef05bfe4867
+- e9702bba-66c9-30c6-8a10-3f35e97367de:2afae82b-e090-4707-9e9c-6ece3ab2ad4f
+chestClaims: []
