@@ -350,3 +350,50 @@ locate<--[HERE]
 [21:01:03] [Server thread/INFO]: aininsano[/127.224.206.148:39071] logged in with entity id 34047 at ([world]27.5, 71.0, -61.5)
 [21:01:32] [Server thread/INFO]: aininsano lost connection: Disconnected
 [21:01:32] [Server thread/INFO]: aininsano left the game
+[21:02:20] [Server thread/INFO]: Expected whitespace to end one argument, but found trailing data
+...cient_city
+/locate structure minecraft:ancient_city<--[HERE]
+[21:02:48] [Server thread/INFO]: The nearest minecraft:ancient_city is at [-1520, ~, -1136] (1886 blocks away)
+[21:02:48] [Server thread/INFO]: Locating element minecraft:ancient_city took 78 ms
+[21:03:32] [User Authenticator #9/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:03:32] [Server thread/INFO]: aininsano joined the game
+[21:03:32] [Server thread/INFO]: aininsano[/127.224.206.148:55847] logged in with entity id 34426 at ([world]27.5, 71.0, -61.5)
+[21:03:36] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[21:03:54] [Async Chat Thread - #22/INFO]: [Not Secure] [Clandestino] <darkkettoo> -1520, ~, -1136
+[21:04:02] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:04:02] [Server thread/INFO]: aininsano left the game
+[21:07:24] [User Authenticator #10/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:07:24] [Server thread/INFO]: aininsano joined the game
+[21:07:24] [Server thread/INFO]: aininsano[/127.224.206.148:38169] logged in with entity id 39100 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:07:54] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:07:54] [Server thread/INFO]: aininsano left the game
+[21:08:05] [User Authenticator #10/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:08:05] [Server thread/INFO]: aininsano joined the game
+[21:08:05] [Server thread/INFO]: aininsano[/127.224.206.148:42841] logged in with entity id 39294 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:08:34] [Server thread/INFO]: aininsano lost connection: Disconnected
+[21:08:34] [Server thread/INFO]: aininsano left the game
+[21:08:56] [User Authenticator #10/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:08:56] [Server thread/INFO]: aininsano joined the game
+[21:08:56] [Server thread/INFO]: aininsano[/127.224.206.148:42641] logged in with entity id 39495 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:09:26] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:09:26] [Server thread/INFO]: aininsano left the game
+[21:09:26] [Server thread/INFO]: Set Clandestino darkkettoo's game mode to Survival Mode
+[21:09:38] [Server thread/INFO]: darkkettoo lost connection: Disconnected
+[21:09:38] [Server thread/INFO]: Clandestino darkkettoo left the game
+[21:09:40] [User Authenticator #10/INFO]: UUID of player darkkettoo is e9702bba-66c9-30c6-8a10-3f35e97367de
+[21:09:40] [Server thread/INFO]: darkkettoo joined the game
+[21:09:40] [Server thread/INFO]: darkkettoo[/127.203.218.242:34531] logged in with entity id 39709 at ([world]-1523.015407727555, -16.0, -1001.2850788761743)
+[21:10:02] [Craft Scheduler Thread - 78 - AuthMe/INFO]: [AuthMe] darkkettoo logged in 127.203.218.242
+[21:10:19] [User Authenticator #10/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:10:19] [Server thread/INFO]: aininsano joined the game
+[21:10:19] [Server thread/INFO]: aininsano[/127.224.206.148:41143] logged in with entity id 39941 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:10:41] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <darkkettoo> register
+[21:10:48] [Server thread/INFO]: darkkettoo issued server command: /register
+[21:10:49] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:10:49] [Server thread/INFO]: aininsano left the game
+[21:11:07] [User Authenticator #10/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[21:11:07] [Server thread/INFO]: aininsano joined the game
+[21:11:07] [Server thread/INFO]: aininsano[/127.224.206.148:50627] logged in with entity id 40134 at ([world]27.55877307215491, 71.0, -61.692151449351016)
+[21:11:21] [Server thread/INFO]: aininsano issued server command: /reg
+[21:11:37] [Server thread/INFO]: aininsano lost connection: Login timeout exceeded, you have been kicked from the server, please try again!
+[21:11:37] [Server thread/INFO]: aininsano left the game
