@@ -410,3 +410,10 @@ locate<--[HERE]
 [21:25:56] [Server thread/INFO]: aininsano fell from a high place
 [21:26:08] [Async Chat Thread - #30/INFO]: [Not Secure] [Clandestino] <darkkettoo> jooo
 [21:27:30] [Server thread/INFO]: aininsano fell from a high place
+[21:36:28] [Server thread/INFO]: aininsano has made the advancement [Stone Age]
+[21:38:21] [Server thread/INFO]: aininsano has made the advancement [Getting an Upgrade]
+[21:39:09] [Server thread/INFO]: Invalid name or UUID
+...fect give <jugador> minecraft:night_vision 1000000 0 true<--[HERE]
+[21:40:01] [Server thread/INFO]: Can't find element 'minecraft:nigh_vision' of type 'minecraft:mob_effect'
+[21:40:57] [Server thread/INFO]: No entity was found
+[21:41:46] [Server thread/INFO]: Applied effect Night Vision to aininsano
