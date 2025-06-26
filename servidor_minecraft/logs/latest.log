@@ -87,3 +87,17 @@
 [20:40:43] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <Vityfraca10> q bot
 [20:46:44] [Server thread/INFO]: Set Clandestino darkkettoo's game mode to Survival Mode
 [20:47:58] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Cover Me with Diamonds]
+[20:49:03] [Async Chat Thread - #9/INFO]: [Not Secure] [SixSeven] <Vityfraca10> full diamond paaa
+[20:49:18] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> felicitame
+[20:49:31] [Async Chat Thread - #9/INFO]: [Not Secure] [SixSeven] <Vityfraca10> chau
+[20:49:32] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[20:49:32] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[20:50:46] [Server thread/INFO]: Unknown scoreboard objective 'Kills'
+[20:51:19] [Server thread/INFO]: Unknown scoreboard objective 'kills'
+[20:52:26] [Server thread/INFO]: Created new objective [Kills]
+[20:53:28] [Server thread/INFO]: Unknown scoreboard objective 'kills'
+[20:53:57] [Server thread/INFO]: Set display slot list to show objective Kills
+[20:56:24] [Server thread/INFO]: Villager EntityVillager['Fisherman'/10607, uuid='427e047f-e45e-40e9-98df-dad9c50a8035', l='ServerLevel[world]', x=-3506.70, y=70.42, z=5059.40, cpos=[-220, 316], tl=22149, v=true] died, message: 'Fisherman was slain by Zombie'
+[20:57:32] [Server thread/INFO]: An objective already exists by that name
+[20:57:55] [Server thread/INFO]: An objective already exists by that name
+[20:58:22] [Server thread/INFO]: An objective already exists by that name
