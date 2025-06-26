@@ -7,6 +7,8 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-06-25 22:52:37 +0000",
+      "minecraft:frozen_river": "2025-06-25 23:06:01 +0000",
       "minecraft:cherry_grove": "2025-06-25 20:36:06 +0000",
       "minecraft:birch_forest": "2025-06-25 20:24:29 +0000",
       "minecraft:savanna_plateau": "2025-06-25 20:46:38 +0000",
@@ -15,8 +17,13 @@
       "minecraft:stony_peaks": "2025-06-25 20:38:41 +0000",
       "minecraft:river": "2025-06-24 20:53:53 +0000",
       "minecraft:stony_shore": "2025-06-25 20:19:33 +0000",
+      "minecraft:snowy_plains": "2025-06-26 20:27:39 +0000",
       "minecraft:dripstone_caves": "2025-06-25 20:31:06 +0000",
+      "minecraft:snowy_taiga": "2025-06-25 23:05:42 +0000",
+      "minecraft:cold_ocean": "2025-06-25 22:24:52 +0000",
       "minecraft:forest": "2025-06-24 20:53:44 +0000",
+      "minecraft:ice_spikes": "2025-06-26 20:27:57 +0000",
+      "minecraft:ocean": "2025-06-25 22:25:03 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-25 20:21:40 +0000",
       "minecraft:deep_dark": "2025-06-25 20:57:59 +0000",
       "minecraft:meadow": "2025-06-25 20:24:56 +0000",
@@ -390,7 +397,8 @@
       "minecraft:skeleton": "2025-06-25 20:45:35 +0000",
       "minecraft:spider": "2025-06-25 20:08:14 +0000",
       "minecraft:enderman": "2025-06-25 20:52:51 +0000",
-      "minecraft:zombie": "2025-06-24 21:19:45 +0000"
+      "minecraft:zombie": "2025-06-24 21:19:45 +0000",
+      "minecraft:drowned": "2025-06-25 22:59:20 +0000"
     },
     "done": false
   },
@@ -410,8 +418,10 @@
     "criteria": {
       "cooked_mutton": "2025-06-25 21:14:00 +0000",
       "cooked_beef": "2025-06-25 20:07:06 +0000",
+      "porkchop": "2025-06-26 20:37:41 +0000",
       "bread": "2025-06-25 20:42:23 +0000",
-      "rotten_flesh": "2025-06-24 21:21:34 +0000"
+      "rotten_flesh": "2025-06-24 21:21:34 +0000",
+      "golden_carrot": "2025-06-25 22:45:36 +0000"
     },
     "done": false
   },
@@ -1087,27 +1097,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
+  "minecraft:adventure/avoid_vibration": {
     "criteria": {
-      "has_gray_wool": "2025-06-25 21:22:01 +0000"
+      "avoid_vibration": "2025-06-25 21:15:40 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
       "has_book": "2025-06-25 21:16:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/shiny_gear": {
-    "criteria": {
-      "diamond_leggings": "2025-06-25 21:18:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/avoid_vibration": {
-    "criteria": {
-      "avoid_vibration": "2025-06-25 21:15:40 +0000"
     },
     "done": true
   },
@@ -1123,6 +1121,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-25 21:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-06-25 21:18:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-25 21:22:01 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/gray_banner": {
     "criteria": {
       "has_gray_wool": "2025-06-25 21:22:01 +0000"
@@ -1135,9 +1151,171 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/writable_book": {
+  "minecraft:recipes/redstone/redstone_torch": {
     "criteria": {
-      "has_book": "2025-06-25 21:16:26 +0000"
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-06-25 21:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-06-25 22:31:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-06-25 22:32:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-06-25 22:32:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-06-25 22:32:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_axe": "2025-06-25 22:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_axe": "2025-06-25 22:32:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-25 22:34:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-06-25 22:47:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-26 20:22:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-06-26 20:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-06-26 20:37:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-06-26 20:32:03 +0000"
     },
     "done": true
   },
