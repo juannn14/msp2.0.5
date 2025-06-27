@@ -1,9 +1,11 @@
 storageType: YAML
 teamNameLookup:
-- sixseven:3531cdf4-2a40-436c-81be-2ef05bfe4867
-- clandestino:2afae82b-e090-4707-9e9c-6ece3ab2ad4f
+- sixseven:2c70df22-88ef-4e6c-b4d4-23ad2a2177f1
+- clandestino:739fbcae-9faf-46d4-8368-635a1af3949c
 playerLookup:
-- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d:3531cdf4-2a40-436c-81be-2ef05bfe4867
-- 76acff87-aaa1-31f3-a782-463a7b6cef41:3531cdf4-2a40-436c-81be-2ef05bfe4867
-- e9702bba-66c9-30c6-8a10-3f35e97367de:2afae82b-e090-4707-9e9c-6ece3ab2ad4f
+- 372fbfca-8808-3c09-b8ce-838ea619b7af:739fbcae-9faf-46d4-8368-635a1af3949c
+- c5e6271c-ee48-3bbe-b5fe-1a3558ccc729:739fbcae-9faf-46d4-8368-635a1af3949c
+- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d:2c70df22-88ef-4e6c-b4d4-23ad2a2177f1
+- 76acff87-aaa1-31f3-a782-463a7b6cef41:2c70df22-88ef-4e6c-b4d4-23ad2a2177f1
+- d9292b5e-7694-3cd8-ad1d-7634b5ba32c6:739fbcae-9faf-46d4-8368-635a1af3949c
 chestClaims: []

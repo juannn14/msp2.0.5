@@ -1,0 +1,15 @@
+name: SixSeven
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: b
+chests: []
+players:
+- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d,DEFAULT
+- 76acff87-aaa1-31f3-a782-463a7b6cef41,OWNER
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 0

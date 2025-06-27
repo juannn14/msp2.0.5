@@ -1,0 +1,16 @@
+name: Clandestino
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: '4'
+chests: []
+players:
+- c5e6271c-ee48-3bbe-b5fe-1a3558ccc729,DEFAULT
+- 372fbfca-8808-3c09-b8ce-838ea619b7af,OWNER
+- d9292b5e-7694-3cd8-ad1d-7634b5ba32c6,DEFAULT
+anchoredPlayers: []
+level: 1
+tag: ''
+score: 0
