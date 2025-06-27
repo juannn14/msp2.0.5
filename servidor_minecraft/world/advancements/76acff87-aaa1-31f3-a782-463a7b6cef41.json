@@ -501,6 +501,7 @@
     "criteria": {
       "minecraft:skeleton": "2025-06-27 00:20:02 +0000",
       "minecraft:spider": "2025-06-27 00:28:41 +0000",
+      "minecraft:witch": "2025-06-27 20:41:53 +0000",
       "minecraft:silverfish": "2025-06-27 00:58:31 +0000",
       "minecraft:enderman": "2025-06-27 20:26:23 +0000",
       "minecraft:zombie": "2025-06-27 00:19:19 +0000"
@@ -1575,9 +1576,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-06-27 20:44:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_slab": {
     "criteria": {
       "has_polished_andesite": "2025-06-27 20:14:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
     },
     "done": true
   },
@@ -1587,9 +1618,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
     "criteria": {
       "has_polished_andesite": "2025-06-27 20:14:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-06-27 20:41:54 +0000"
     },
     "done": true
   },
