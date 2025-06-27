@@ -68,3 +68,22 @@
 [20:10:24] [Server thread/INFO]: aininsano[/127.224.206.148:46251] logged in with entity id 1580 at ([world]-40.5, 69.0, 38.5)
 [20:10:37] [Async Chat Thread - #3/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hola ain insan
 [20:11:17] [Server thread/INFO]: Vityfraca10 issued server command: /msg aininsano -1492 1544
+[20:13:23] [User Authenticator #2/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
+[20:13:23] [Server thread/INFO]: saderos21 joined the game
+[20:13:23] [Server thread/INFO]: saderos21[/127.64.125.32:46415] logged in with entity id 2576 at ([world]-1494.8716643743812, 72.0, 1542.1656755743495)
+[20:13:29] [Async Chat Thread - #4/INFO]: [Not Secure] [SixSeven] <saderos21> euu
+[20:13:32] [Async Chat Thread - #5/INFO]: [Not Secure] [SixSeven] <saderos21> virgenes
+[20:13:32] [Async Chat Thread - #4/INFO]: [Not Secure] [SixSeven] <Vityfraca10> qqqq
+[20:13:34] [Async Chat Thread - #5/INFO]: [Not Secure] [SixSeven] <saderos21> discord
+[20:14:15] [Server thread/INFO]: Teleported aininsano to SixSeven Vityfraca10
+[20:16:05] [Async Chat Thread - #6/INFO]: [Not Secure] [SixSeven] <Vityfraca10> entra a disc
+[20:16:06] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <saderos21> discord?
+[20:16:18] [Server thread/INFO]: saderos21 issued server command: /team invite aininsano
+[20:16:44] [Server thread/INFO]: aininsano issued server command: /team join SixSeven
+[20:16:52] [Server thread/INFO]: aininsano lost connection: Disconnected
+[20:16:52] [Server thread/INFO]: aininsano left the game
+[20:17:00] [User Authenticator #3/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[20:17:00] [Server thread/INFO]: aininsano joined the game
+[20:17:00] [Server thread/INFO]: aininsano[/127.224.206.148:57377] logged in with entity id 3149 at ([world]-1498.3313538676164, 75.0, 1518.933614829838)
+[20:17:43] [Server thread/INFO]: SixSeven aininsano has made the advancement [Suit Up]
+[20:21:06] [Server thread/INFO]: SixSeven aininsano has made the advancement [Sweet Dreams]
