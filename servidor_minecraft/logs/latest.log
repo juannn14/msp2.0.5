@@ -90,3 +90,10 @@
 [02:48:04] [Server thread/INFO]: saderos21 issued server command: /msg Vityfraca10 -910 75 1909
 [02:49:53] [Server thread/INFO]: Vityfraca10 issued server command: /msg saderos21 -1480 1540
 [02:57:02] [Server thread/INFO]: Villager EntityVillager['Villager'/164, uuid='b77eee7d-eccd-400d-b1d0-cce54eb4eb6e', l='ServerLevel[world]', x=-1512.30, y=67.00, z=1549.70, cpos=[-95, 96], tl=93369, v=true] died, message: 'Villager was slain by SixSeven saderos21'
+[02:57:56] [Server thread/INFO]: saderos21 lost connection: Disconnected
+[02:57:56] [Server thread/INFO]: SixSeven saderos21 left the game
+[02:58:10] [User Authenticator #2/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
+[02:58:10] [Server thread/INFO]: SixSeven saderos21 joined the game
+[02:58:10] [Server thread/INFO]: saderos21[/127.64.125.32:36625] logged in with entity id 12173 at ([world]-1508.0506362783015, 67.0, 1547.699999988079)
+[02:59:44] [Server thread/INFO]: SixSeven saderos21 has made the advancement [What a Deal!]
+[03:07:16] [Server thread/INFO]: Villager EntityVillager['Nitwit'/146, uuid='4ba4766f-3167-4aa5-b094-fc2c56da0156', l='ServerLevel[world]', x=-1498.70, y=72.00, z=1533.35, cpos=[-94, 95], tl=107796, v=true] died, message: 'Nitwit suffocated in a wall'
