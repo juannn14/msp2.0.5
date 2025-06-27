@@ -1,110 +1,65 @@
-[02:36:18] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[02:36:22] [ServerMain/INFO]: Loaded 7 recipes
-[02:36:23] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[02:36:23] [Server thread/INFO]: Loading properties
-[02:36:23] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[02:36:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:36:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:36:25] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[19:52:20] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[19:52:24] [ServerMain/INFO]: Loaded 7 recipes
+[19:52:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[19:52:26] [Server thread/INFO]: Loading properties
+[19:52:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[19:52:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:52:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:52:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:36:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:36:26] [Server thread/INFO]: Default game type: SURVIVAL
-[02:36:26] [Server thread/INFO]: Generating keypair
-[02:36:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:36:27] [Server thread/INFO]: Using epoll channel type
-[02:36:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:36:27] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[02:36:27] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[02:36:27] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[02:36:27] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[02:36:27] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[02:36:27] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[02:36:27] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:36:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:36:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:36:27] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:36:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:36:27] [Server thread/INFO]: Preparing level "world"
-[02:36:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:36:30] [Server thread/INFO]: Time elapsed: 891 ms
-[02:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:36:30] [Server thread/INFO]: Time elapsed: 214 ms
-[02:36:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:36:30] [Server thread/INFO]: Time elapsed: 202 ms
-[02:36:30] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[02:36:30] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[02:36:31] [Server thread/INFO]: [ClearLag] Loading modules...
-[02:36:31] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[02:36:31] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[02:36:31] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[02:36:31] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[02:36:31] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[02:36:31] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[02:36:32] [Thread-6/INFO]: [ClearLag] No updates found!
-[02:36:32] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[02:36:33] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[02:36:34] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[02:36:36] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@6730b76c
-[02:36:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[02:36:37] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[02:36:37] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[02:36:37] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[02:36:37] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1efd64b3
-[02:36:38] [Server thread/INFO]: Running delayed init tasks
-[02:36:38] [Server thread/INFO]: Done (14.427s)! For help, type "help"
-[02:36:38] [Server thread/INFO]: Timings Reset
-[02:36:42] [User Authenticator #0/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
-[02:36:42] [Server thread/INFO]: SixSeven saderos21 joined the game
-[02:36:42] [Server thread/INFO]: saderos21[/127.64.125.32:49289] logged in with entity id 35 at ([world]-1465.312960307558, 68.0, 1496.3145178767847)
-[02:36:44] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[02:36:44] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
-[02:36:44] [Server thread/INFO]: Vityfraca10[/127.40.252.53:58825] logged in with entity id 56 at ([world]-1500.2064848415914, 73.00133597911214, 1536.981837277992)
-[02:36:48] [Server thread/WARN]: Vityfraca10 was kicked for floating too long!
-[02:36:48] [Server thread/INFO]: Vityfraca10 lost connection: Flying is not enabled on this server
-[02:36:48] [Server thread/INFO]: Vityfraca10 left the game
-[02:36:50] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[02:36:50] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
-[02:36:50] [Server thread/INFO]: Vityfraca10[/127.40.252.53:51753] logged in with entity id 115 at ([world]-1500.2064848415914, 72.77080861019918, 1536.981837277992)
-[02:36:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5056ms or 101 ticks behind
-[02:38:58] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[02:38:58] [Server thread/INFO]: LJu4nn_L joined the game
-[02:38:58] [Server thread/INFO]: LJu4nn_L[/127.203.218.242:49299] logged in with entity id 553 at ([world]1047.4225559077145, 102.8500000178814, 5822.115306244469)
-[02:39:33] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:39:35] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:39:36] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[02:39:38] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzzzz
-[02:39:39] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:39:40] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:39:41] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.2895573711430188
-[02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.7340511184333991
-[02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.2596378717130392
-[02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.8110713250696335
-[02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 1.3663084535987764
-[02:42:08] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.44368859537371463
-[02:42:08] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.9373775886533622
-[02:46:04] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[02:46:04] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[02:47:49] [Server thread/INFO]: Vityfraca10 issued server command: /msg saderos21 -1292 1843
-[02:48:04] [Server thread/INFO]: saderos21 issued server command: /msg Vityfraca10 -910 75 1909
-[02:49:53] [Server thread/INFO]: Vityfraca10 issued server command: /msg saderos21 -1480 1540
-[02:57:02] [Server thread/INFO]: Villager EntityVillager['Villager'/164, uuid='b77eee7d-eccd-400d-b1d0-cce54eb4eb6e', l='ServerLevel[world]', x=-1512.30, y=67.00, z=1549.70, cpos=[-95, 96], tl=93369, v=true] died, message: 'Villager was slain by SixSeven saderos21'
-[02:57:56] [Server thread/INFO]: saderos21 lost connection: Disconnected
-[02:57:56] [Server thread/INFO]: SixSeven saderos21 left the game
-[02:58:10] [User Authenticator #2/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
-[02:58:10] [Server thread/INFO]: SixSeven saderos21 joined the game
-[02:58:10] [Server thread/INFO]: saderos21[/127.64.125.32:36625] logged in with entity id 12173 at ([world]-1508.0506362783015, 67.0, 1547.699999988079)
-[02:59:44] [Server thread/INFO]: SixSeven saderos21 has made the advancement [What a Deal!]
-[03:07:16] [Server thread/INFO]: Villager EntityVillager['Nitwit'/146, uuid='4ba4766f-3167-4aa5-b094-fc2c56da0156', l='ServerLevel[world]', x=-1498.70, y=72.00, z=1533.35, cpos=[-94, 95], tl=107796, v=true] died, message: 'Nitwit suffocated in a wall'
-[03:20:04] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.2541182884253885
-[03:20:04] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.3337288050956886
-[03:26:08] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
-[03:26:08] [Server thread/INFO]: SixSeven Vityfraca10 left the game
-[03:26:12] [User Authenticator #3/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[03:26:12] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
-[03:26:12] [Server thread/INFO]: Vityfraca10[/127.40.252.53:56439] logged in with entity id 16110 at ([world]-1494.0345891069987, 72.0, 1541.4713757351776)
-[03:26:18] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
-[03:26:18] [Server thread/INFO]: SixSeven Vityfraca10 left the game
-[03:26:20] [Server thread/INFO]: saderos21 lost connection: Disconnected
-[03:26:20] [Server thread/INFO]: SixSeven saderos21 left the game
+[19:52:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[19:52:28] [Server thread/INFO]: Default game type: SURVIVAL
+[19:52:28] [Server thread/INFO]: Generating keypair
+[19:52:29] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:52:29] [Server thread/INFO]: Using epoll channel type
+[19:52:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:52:29] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:52:30] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[19:52:30] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[19:52:30] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[19:52:30] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[19:52:30] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[19:52:30] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:52:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:52:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:52:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:52:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:52:30] [Server thread/INFO]: Preparing level "world"
+[19:52:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:52:33] [Server thread/INFO]: Time elapsed: 789 ms
+[19:52:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:52:33] [Server thread/INFO]: Time elapsed: 229 ms
+[19:52:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:52:33] [Server thread/INFO]: Time elapsed: 247 ms
+[19:52:33] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[19:52:33] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[19:52:34] [Server thread/INFO]: [ClearLag] Loading modules...
+[19:52:34] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[19:52:34] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[19:52:34] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[19:52:34] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[19:52:34] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[19:52:34] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[19:52:34] [Thread-6/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[19:52:34] [Thread-6/WARN]: java.lang.NullPointerException: Cannot invoke "org.json.simple.JSONObject.get(Object)" because "line" is null
+[19:52:34] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:59)
+[19:52:34] [Thread-6/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[19:52:34] [Thread-6/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:840)
+[19:52:35] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[19:52:35] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[19:52:36] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[19:52:38] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@6b6e1d
+[19:52:38] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[19:52:38] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[19:52:38] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[19:52:38] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[19:52:38] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6054072f
+[19:52:39] [Server thread/INFO]: Running delayed init tasks
+[19:52:39] [Server thread/INFO]: Done (13.365s)! For help, type "help"
+[19:52:39] [Server thread/INFO]: Timings Reset
+[19:57:35] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[19:57:35] [Server thread/INFO]: Vityfraca10 joined the game
+[19:57:35] [Server thread/INFO]: Vityfraca10[/127.40.252.53:34883] logged in with entity id 116 at ([world]-1491.6686515961062, 72.0, 1544.0374035558664)
+[20:00:27] [Server thread/INFO]: [Not Secure] [Server] vity puto
+[20:00:39] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan puto
