@@ -9,16 +9,21 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-06-27 21:30:06 +0000",
       "minecraft:taiga": "2025-06-27 21:14:04 +0000",
+      "minecraft:frozen_river": "2025-06-27 21:35:32 +0000",
       "minecraft:cherry_grove": "2025-06-27 20:31:14 +0000",
       "minecraft:birch_forest": "2025-06-27 21:13:58 +0000",
       "minecraft:beach": "2025-06-27 21:15:43 +0000",
       "minecraft:river": "2025-06-27 20:12:32 +0000",
+      "minecraft:snowy_plains": "2025-06-27 21:35:53 +0000",
       "minecraft:dripstone_caves": "2025-06-27 20:17:21 +0000",
+      "minecraft:snowy_taiga": "2025-06-27 21:35:31 +0000",
       "minecraft:cold_ocean": "2025-06-27 21:21:42 +0000",
       "minecraft:forest": "2025-06-27 20:19:42 +0000",
       "minecraft:ocean": "2025-06-27 21:16:14 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-06-27 21:29:35 +0000",
+      "minecraft:snowy_beach": "2025-06-27 21:35:28 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-27 21:15:10 +0000",
+      "minecraft:meadow": "2025-06-27 21:33:50 +0000",
       "minecraft:plains": "2025-06-27 20:10:25 +0000"
     },
     "done": false
