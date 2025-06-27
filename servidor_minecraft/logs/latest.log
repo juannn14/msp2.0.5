@@ -63,3 +63,8 @@
 [19:57:35] [Server thread/INFO]: Vityfraca10[/127.40.252.53:34883] logged in with entity id 116 at ([world]-1491.6686515961062, 72.0, 1544.0374035558664)
 [20:00:27] [Server thread/INFO]: [Not Secure] [Server] vity puto
 [20:00:39] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan puto
+[20:10:24] [User Authenticator #1/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
+[20:10:24] [Server thread/INFO]: aininsano joined the game
+[20:10:24] [Server thread/INFO]: aininsano[/127.224.206.148:46251] logged in with entity id 1580 at ([world]-40.5, 69.0, 38.5)
+[20:10:37] [Async Chat Thread - #3/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hola ain insan
+[20:11:17] [Server thread/INFO]: Vityfraca10 issued server command: /msg aininsano -1492 1544
