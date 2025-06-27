@@ -84,3 +84,9 @@
 [02:41:22] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 1.3663084535987764
 [02:42:08] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.44368859537371463
 [02:42:08] [Server thread/WARN]: Horse (vehicle of LJu4nn_L) moved wrongly! 0.9373775886533622
+[02:46:04] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[02:46:04] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[02:47:49] [Server thread/INFO]: Vityfraca10 issued server command: /msg saderos21 -1292 1843
+[02:48:04] [Server thread/INFO]: saderos21 issued server command: /msg Vityfraca10 -910 75 1909
+[02:49:53] [Server thread/INFO]: Vityfraca10 issued server command: /msg saderos21 -1480 1540
+[02:57:02] [Server thread/INFO]: Villager EntityVillager['Villager'/164, uuid='b77eee7d-eccd-400d-b1d0-cce54eb4eb6e', l='ServerLevel[world]', x=-1512.30, y=67.00, z=1549.70, cpos=[-95, 96], tl=93369, v=true] died, message: 'Villager was slain by SixSeven saderos21'
