@@ -9,6 +9,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2025-06-27 22:06:41 +0000",
       "minecraft:taiga": "2025-06-27 00:27:46 +0000",
+      "minecraft:frozen_river": "2025-06-28 13:30:30 +0000",
       "minecraft:cherry_grove": "2025-06-27 01:29:03 +0000",
       "minecraft:sunflower_plains": "2025-06-28 02:19:44 +0000",
       "minecraft:birch_forest": "2025-06-27 01:01:37 +0000",
@@ -19,7 +20,9 @@
       "minecraft:sparse_jungle": "2025-06-27 01:31:03 +0000",
       "minecraft:river": "2025-06-26 23:56:42 +0000",
       "minecraft:stony_shore": "2025-06-27 02:43:23 +0000",
+      "minecraft:snowy_plains": "2025-06-28 13:25:06 +0000",
       "minecraft:dripstone_caves": "2025-06-27 22:04:01 +0000",
+      "minecraft:snowy_taiga": "2025-06-28 13:33:16 +0000",
       "minecraft:swamp": "2025-06-27 00:27:55 +0000",
       "minecraft:grove": "2025-06-28 02:22:08 +0000",
       "minecraft:jagged_peaks": "2025-06-27 22:06:45 +0000",
@@ -533,6 +536,7 @@
       "cooked_mutton": "2025-06-28 02:45:41 +0000",
       "sweet_berries": "2025-06-28 13:19:33 +0000",
       "cooked_beef": "2025-06-27 00:14:10 +0000",
+      "apple": "2025-06-28 13:22:22 +0000",
       "bread": "2025-06-27 00:18:26 +0000",
       "golden_apple": "2025-06-28 02:53:31 +0000"
     },
@@ -1645,6 +1649,30 @@
   "minecraft:recipes/building_blocks/spruce_slab": {
     "criteria": {
       "has_planks": "2025-06-28 03:22:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-06-28 13:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-06-28 13:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2025-06-28 13:36:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-06-28 13:24:34 +0000"
     },
     "done": true
   },
