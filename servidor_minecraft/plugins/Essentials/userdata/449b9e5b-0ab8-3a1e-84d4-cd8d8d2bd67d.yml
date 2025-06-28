@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.40.252.53
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751081388423
+  login: 1751079521658
+money: '0'
+last-account-name: Vityfraca10
+logoutlocation:
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -1492.2483195697198
+  y: 72.0
+  z: 1543.5007398020527
+  yaw: -35.688720703125
+  pitch: 0.3920627236366272
