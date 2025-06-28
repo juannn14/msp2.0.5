@@ -71,9 +71,21 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-06-28 23:39:56 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2025-06-28 23:14:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-06-28 23:40:21 +0000"
     },
     "done": true
   },
@@ -191,6 +203,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-06-28 23:40:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-06-28 23:05:35 +0000"
@@ -287,6 +305,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2025-06-28 23:40:21 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_pressure_plate": {
     "criteria": {
       "has_planks": "2025-06-28 23:05:21 +0000"
@@ -362,6 +386,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2025-06-28 23:18:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-06-28 23:41:53 +0000"
     },
     "done": true
   },
@@ -493,10 +523,13 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-06-28 23:29:10 +0000",
+      "minecraft:birch_forest": "2025-06-28 23:42:18 +0000",
       "minecraft:windswept_hills": "2025-06-28 23:18:02 +0000",
       "minecraft:river": "2025-06-28 23:11:01 +0000",
       "minecraft:snowy_plains": "2025-06-28 23:15:47 +0000",
       "minecraft:forest": "2025-06-28 23:24:02 +0000",
+      "minecraft:windswept_forest": "2025-06-28 23:41:20 +0000",
       "minecraft:windswept_gravelly_hills": "2025-06-28 23:18:01 +0000",
       "minecraft:plains": "2025-06-28 23:02:26 +0000"
     },
@@ -601,6 +634,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-06-28 23:36:00 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-06-28 23:19:03 +0000"
@@ -640,6 +679,12 @@
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 23:22:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2025-06-28 23:40:33 +0000"
     },
     "done": true
   },
