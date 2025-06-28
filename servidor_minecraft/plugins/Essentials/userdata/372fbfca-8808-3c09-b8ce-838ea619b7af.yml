@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751081387569
+  logout: 1751121621793
   login: 1751116581744
 money: '0'
 last-account-name: LJu4nn_L
 logoutlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world
-  x: 708.1124403131928
-  y: 70.0
-  z: 191.58380445818113
-  yaw: 82.75732421875
-  pitch: 36.0000114440918
+  x: -810.7491076117543
+  y: 95.0
+  z: -6624.211689080588
+  yaw: -52.3887939453125
+  pitch: 12.450039863586426
 lastlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world

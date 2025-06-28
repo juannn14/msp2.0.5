@@ -1,21 +1,21 @@
-[13:15:44] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[13:15:47] [ServerMain/INFO]: Loaded 7 recipes
-[13:15:48] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[13:15:48] [Server thread/INFO]: Loading properties
-[13:15:48] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[13:15:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:15:48] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:15:49] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:51:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:51:38] [ServerMain/INFO]: Loaded 7 recipes
+[22:51:39] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:51:39] [Server thread/INFO]: Loading properties
+[22:51:39] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[22:51:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:51:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:51:42] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[13:15:49] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[13:15:49] [Server thread/INFO]: Default game type: SURVIVAL
-[13:15:49] [Server thread/INFO]: Generating keypair
-[13:15:50] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:15:50] [Server thread/INFO]: Using epoll channel type
-[13:15:50] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:15:50] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[13:15:50] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
+[22:51:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:51:43] [Server thread/INFO]: Default game type: SURVIVAL
+[22:51:43] [Server thread/INFO]: Generating keypair
+[22:51:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:51:44] [Server thread/INFO]: Using epoll channel type
+[22:51:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:51:44] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[22:51:44] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -25,7 +25,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[13:15:50] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
+[22:51:44] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/DeathMessages has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -51,68 +51,62 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[13:15:50] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:15:56] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
-[13:15:56] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
-[13:15:56] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[13:15:56] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[13:15:56] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[13:15:56] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
-[13:15:56] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[13:15:56] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[13:15:56] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[13:15:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:15:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:15:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:15:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:15:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:15:56] [Server thread/INFO]: Preparing level "world"
-[13:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:15:57] [Server thread/INFO]: Time elapsed: 425 ms
-[13:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:15:57] [Server thread/INFO]: Time elapsed: 130 ms
-[13:15:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:15:57] [Server thread/INFO]: Time elapsed: 108 ms
-[13:15:57] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
-[13:15:57] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[13:15:57] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[13:15:58] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[13:15:58] [Server thread/INFO]: [ClearLag] Loading modules...
-[13:15:58] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[13:15:58] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[13:15:58] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[13:15:58] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[13:15:58] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[13:15:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[13:15:58] [Thread-6/INFO]: [ClearLag] No updates found!
-[13:15:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[13:15:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[13:15:59] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[13:15:59] [Server thread/INFO]: [Essentials] Using locale en
-[13:16:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[13:16:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[13:16:00] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[13:16:00] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[13:16:00] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[13:16:00] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[13:16:01] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
-[13:16:01] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[13:16:01] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@735282da
-[13:16:01] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[13:16:01] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[13:16:02] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[13:16:02] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[13:16:02] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@5251dfae
-[13:16:02] [Server thread/INFO]: Running delayed init tasks
-[13:16:02] [Server thread/INFO]: Done (14.547s)! For help, type "help"
-[13:16:02] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
-[13:16:02] [Server thread/INFO]: Timings Reset
-[13:16:02] [Craft Scheduler Thread - 3 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
-[13:16:02] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
-[13:16:02] [Craft Scheduler Thread - 1 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[13:16:21] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[13:16:21] [Server thread/INFO]: LJu4nn_L joined the game
-[13:16:21] [Server thread/INFO]: LJu4nn_L[/127.203.218.242:40279] logged in with entity id 136 at ([world]708.1124403131928, 70.0, 191.58380445818113)
-[14:09:25] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Cover Me with Diamonds]
-[14:34:47] [Server thread/WARN]: Donkey (vehicle of LJu4nn_L) moved wrongly! 0.4594619543556477
-[14:34:52] [Server thread/WARN]: Donkey (vehicle of LJu4nn_L) moved wrongly! 0.285502674737021
+[22:51:44] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:51:54] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
+[22:51:54] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
+[22:51:54] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[22:51:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[22:51:54] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[22:51:54] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[22:51:54] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[22:51:54] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[22:51:54] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[22:51:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:51:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:51:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:51:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:51:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:51:54] [Server thread/INFO]: Preparing level "world"
+[22:51:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:51:56] [Server thread/INFO]: Time elapsed: 868 ms
+[22:51:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:51:57] [Server thread/INFO]: Time elapsed: 215 ms
+[22:51:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:51:57] [Server thread/INFO]: Time elapsed: 168 ms
+[22:51:57] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
+[22:51:57] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[22:51:57] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[22:51:57] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[22:51:58] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:51:58] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[22:51:58] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:51:58] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:51:58] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:51:58] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[22:51:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[22:51:58] [Thread-6/INFO]: [ClearLag] No updates found!
+[22:52:00] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:52:00] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:52:01] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[22:52:01] [Server thread/INFO]: [Essentials] Using locale en
+[22:52:02] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:52:02] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:52:02] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[22:52:02] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[22:52:03] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[22:52:03] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[22:52:04] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[22:52:04] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[22:52:05] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@15a10c6a
+[22:52:05] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[22:52:05] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[22:52:06] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[22:52:06] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[22:52:06] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@6ddd89c6
+[22:52:06] [Server thread/INFO]: Running delayed init tasks
+[22:52:06] [Server thread/INFO]: Done (27.159s)! For help, type "help"
+[22:52:06] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:52:06] [Server thread/INFO]: Timings Reset
+[22:52:07] [Craft Scheduler Thread - 3 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
+[22:52:07] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[22:52:07] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
