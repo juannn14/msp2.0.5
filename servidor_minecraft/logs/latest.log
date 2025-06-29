@@ -1,21 +1,21 @@
-[10:41:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:41:40] [ServerMain/INFO]: Loaded 7 recipes
-[10:41:41] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[10:41:41] [Server thread/INFO]: Loading properties
-[10:41:42] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[10:41:43] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:41:43] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:41:44] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[21:30:45] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:30:49] [ServerMain/INFO]: Loaded 7 recipes
+[21:30:51] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[21:30:51] [Server thread/INFO]: Loading properties
+[21:30:51] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[21:30:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:30:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:30:53] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[10:41:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[10:41:44] [Server thread/INFO]: Default game type: SURVIVAL
-[10:41:44] [Server thread/INFO]: Generating keypair
-[10:41:45] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:41:45] [Server thread/INFO]: Using epoll channel type
-[10:41:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[10:41:45] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[10:41:45] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
+[21:30:53] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[21:30:54] [Server thread/INFO]: Default game type: SURVIVAL
+[21:30:54] [Server thread/INFO]: Generating keypair
+[21:30:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:30:55] [Server thread/INFO]: Using epoll channel type
+[21:30:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:30:55] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[21:30:55] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -25,7 +25,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[10:41:45] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
+[21:30:55] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/DeathMessages has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -51,108 +51,73 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[10:41:45] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[10:41:51] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
-[10:41:51] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
-[10:41:51] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[10:41:51] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[10:41:51] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[10:41:51] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
-[10:41:51] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[10:41:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[10:41:51] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[10:41:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:41:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:41:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:41:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:41:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:41:51] [Server thread/INFO]: Preparing level "world"
-[10:41:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:41:52] [Server thread/INFO]: Time elapsed: 447 ms
-[10:41:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[10:41:52] [Server thread/INFO]: Time elapsed: 144 ms
-[10:41:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[10:41:53] [Server thread/INFO]: Time elapsed: 85 ms
-[10:41:53] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
-[10:41:53] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[10:41:53] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[10:41:53] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[10:41:53] [Server thread/INFO]: [ClearLag] Loading modules...
-[10:41:53] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[10:41:53] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[10:41:53] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[10:41:53] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[10:41:53] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[10:41:53] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[10:41:53] [Thread-6/INFO]: [ClearLag] No updates found!
-[10:41:54] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:41:54] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:41:55] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[10:41:55] [Server thread/INFO]: [Essentials] Using locale en
-[10:41:55] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:41:55] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:41:55] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[10:41:55] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[10:41:55] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[10:41:56] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[10:41:56] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
-[10:41:56] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[10:41:56] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@400ce286
-[10:41:56] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[10:41:57] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[10:41:57] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[10:41:57] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[10:41:57] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1344bc0c
-[10:41:57] [Server thread/INFO]: Running delayed init tasks
-[10:41:57] [Server thread/INFO]: Done (15.792s)! For help, type "help"
-[10:41:57] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
-[10:41:57] [Server thread/INFO]: Timings Reset
-[10:41:58] [Craft Scheduler Thread - 3 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
-[10:41:58] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
-[10:41:58] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[10:42:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[10:42:58] [Server thread/INFO]: Error: Player not found.
-[10:43:41] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[10:43:41] [Server thread/INFO]: LJu4nn_L joined the game
-[10:43:41] [Server thread/INFO]: LJu4nn_L[/127.203.218.242:43791] logged in with entity id 136 at ([world]-2846.0100319496037, 67.0, -17797.871324486405)
-[10:44:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[10:44:20] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[10:52:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[10:52:14] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[11:14:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[11:14:02] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[11:33:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[11:33:47] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[11:36:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[11:36:11] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[11:39:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[11:39:22] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[11:41:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[11:41:20] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[11:47:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L white_shulker_box{BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b},{Slot:1b,id:"minecraft:cobblestone",Count:64b},{Slot:2b,id:"minecraft:cobblestone",Count:64b},{Slot:3b,id:"minecraft:cobblestone",Count:64b},{Slot:4b,id:"minecraft:cobblestone",Count:64b},{Slot:5b,id:"minecraft:cobblestone",Count:64b},{Slot:6b,id:"minecraft:cobblestone",Count:64b},{Slot:7b,id:"minecraft:cobblestone",Count:64b},{Slot:8b,id:"minecraft:cobblestone",Count:64b},{Slot:9b,id:"minecraft:cobblestone",Count:64b},{Slot:10b,id:"minecraft:cobblestone",Count:64b},{Slot:11b,id:"minecraft:cobblestone",Count:64b},{Slot:12b,id:"minecraft:cobblestone",Count:64b},{Slot:13b,id:"minecraft:cobblestone",Count:64b},{Slot:14b,id:"minecraft:cobblestone",Count:64b},{Slot:15b,id:"minecraft:cobblestone",Count:64b},{Slot:16b,id:"minecraft:cobblestone",Count:64b},{Slot:17b,id:"minecraft:cobblestone",Count:64b},{Slot:18b,id:"minecraft:cobblestone",Count:64b},{Slot:19b,id:"minecraft:cobblestone",Count:64b},{Slot:20b,id:"minecraft:cobblestone",Count:64b},{Slot:21b,id:"minecraft:cobblestone",Count:64b},{Slot:22b,id:"minecraft:cobblestone",Count:64b},{Slot:23b,id:"minecraft:cobblestone",Count:64b},{Slot:24b,id:"minecraft:cobblestone",Count:64b},{Slot:25b,id:"minecraft:cobblestone",Count:64b},{Slot:26b,id:"minecraft:cobblestone",Count:64b}]}},1
-[11:47:12] [Server thread/INFO]: Error: Unknown item name: white_shulker_box{blockentitytag:{items:[{slot:0b,id:"minecraft:cobblestone",count:64b},{slot:1b,id:"minecraft:cobblestone",count:64b},{slot:2b,id:"minecraft:cobblestone",count:64b},{slot:3b,id:"minecraft:cobblestone",count:64b},{slot:4b,id:"minecraft:cobblestone",count:64b},{slot:5b,id:"minecraft:cobblestone",count:64b},{slot:6b,id:"minecraft:cobblestone",count:64b},{slot:7b,id:"minecraft:cobblestone",count:64b},{slot:8b,id:"minecraft:cobblestone",count:64b},{slot:9b,id:"minecraft:cobblestone",count:64b},{slot:10b,id:"minecraft:cobblestone",count:64b},{slot:11b,id:"minecraft:cobblestone",count:64b},{slot:12b,id:"minecraft:cobblestone",count:64b},{slot:13b,id:"minecraft:cobblestone",count:64b},{slot:14b,id:"minecraft:cobblestone",count:64b},{slot:15b,id:"minecraft:cobblestone",count:64b},{slot:16b,id:"minecraft:cobblestone",count:64b},{slot:17b,id:"minecraft:cobblestone",count:64b},{slot:18b,id:"minecraft:cobblestone",count:64b},{slot:19b,id:"minecraft:cobblestone",count:64b},{slot:20b,id:"minecraft:cobblestone",count:64b},{slot:21b,id:"minecraft:cobblestone",count:64b},{slot:22b,id:"minecraft:cobblestone",count:64b},{slot:23b,id:"minecraft:cobblestone",count:64b},{slot:24b,id:"minecraft:cobblestone",count:64b},{slot:25b,id:"minecraft:cobblestone",count:64b},{slot:26b,id:"minecraft:cobblestone",count:64b}]}},1.
-[11:48:17] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[11:48:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give @p white_shulker_box{BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b}]}},1
-[11:48:28] [Server thread/INFO]: Error: Unknown item name: white_shulker_box{blockentitytag:{items:[{slot:0b,id:"minecraft:cobblestone",count:64b}]}},1.
-[11:48:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L white_shulker_box{BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:cobblestone",Count:64b}]}},1
-[11:48:57] [Server thread/INFO]: Error: Unknown item name: white_shulker_box{blockentitytag:{items:[{slot:0b,id:"minecraft:cobblestone",count:64b}]}},1.
-[11:49:52] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[11:50:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:white_shulker_box{BlockEntityTag:{Items:[{Slot:0,id:"minecraft:cobblestone",Count:64}]} } 1
-[11:50:01] [Server thread/INFO]: Error: Unknown item name: minecraft:white_shulker_box{blockentitytag:{items:[{slot:0,id:"minecraft:cobblestone",count:64}]}.
-[11:50:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:white_shulker_box{BlockEntityTag:{Items:[{Slot:0,id:"minecraft:cobblestone",Count:64}]} } 1
-[11:50:11] [Server thread/INFO]: Error: Unknown item name: minecraft:white_shulker_box{blockentitytag:{items:[{slot:0,id:"minecraft:cobblestone",count:64}]}.
-[11:50:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L "minecraft:white_shulker_box{BlockEntityTag:{Items:[{Slot:0,id:\"minecraft:cobblestone\",Count:64b}]}}" 1
-[11:50:57] [Server thread/INFO]: Error: Unknown item name: "minecraft:white_shulker_box{blockentitytag:{items:[{slot:0,id:\"minecraft:cobblestone\",count:64b}]}}".
-[11:51:26] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:white_shulker_box{BlockEntityTag:{Items:[{Slot:0,id:"minecraft:cobblestone",Count:64b}]}} 1
-[11:51:26] [Server thread/INFO]: Error: Unknown item name: minecraft:white_shulker_box{blockentitytag:{items:[{slot:0,id:"minecraft:cobblestone",count:64b}]}}.
-[11:52:01] [Server thread/INFO]: Unknown command. Type "/help" for help.
-[11:52:11] [Server thread/INFO]: Gave 1 [White Shulker Box] to Clandestino LJu4nn_L
-[11:53:30] [Server thread/INFO]: Gave 1 [White Shulker Box] to Clandestino LJu4nn_L
-[12:03:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[12:03:46] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[12:06:33] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[12:06:33] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[12:08:22] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[12:08:23] [Server thread/INFO]: LJu4nn_L joined the game
-[12:08:23] [Server thread/INFO]: LJu4nn_L[/127.203.218.242:58081] logged in with entity id 16622 at ([world]-4032.868455465338, 74.0, -19978.457559337174)
-[12:21:17] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Voluntary Exile]
+[21:30:55] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:31:04] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
+[21:31:04] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
+[21:31:04] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[21:31:04] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[21:31:04] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[21:31:04] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[21:31:04] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[21:31:04] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[21:31:04] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[21:31:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:31:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:31:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:31:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:31:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:31:04] [Server thread/INFO]: Preparing level "world"
+[21:31:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:31:06] [Server thread/INFO]: Time elapsed: 551 ms
+[21:31:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:31:06] [Server thread/INFO]: Time elapsed: 270 ms
+[21:31:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:31:06] [Server thread/INFO]: Time elapsed: 210 ms
+[21:31:06] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
+[21:31:08] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[21:31:08] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[21:31:08] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[21:31:08] [Server thread/INFO]: [ClearLag] Loading modules...
+[21:31:08] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[21:31:08] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[21:31:08] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[21:31:08] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[21:31:08] [Thread-6/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[21:31:09] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[21:31:09] [Thread-6/INFO]: [ClearLag] No updates found!
+[21:31:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:31:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:31:12] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[21:31:12] [Server thread/INFO]: [Essentials] Using locale en
+[21:31:12] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:31:12] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:31:12] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[21:31:12] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[21:31:13] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[21:31:13] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[21:31:14] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[21:31:14] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[21:31:15] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@25aad550
+[21:31:15] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[21:31:15] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[21:31:15] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[21:31:15] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[21:31:15] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@58af31f5
+[21:31:16] [Server thread/INFO]: Running delayed init tasks
+[21:31:16] [Server thread/INFO]: Done (25.186s)! For help, type "help"
+[21:31:16] [Craft Scheduler Thread - 2 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:31:16] [Server thread/INFO]: Timings Reset
+[21:31:16] [Craft Scheduler Thread - 3 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
+[21:31:17] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[21:31:17] [Craft Scheduler Thread - 2 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[21:32:19] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[21:32:19] [Server thread/INFO]: LJu4nn_L joined the game
+[21:32:19] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:33545] logged in with entity id 135 at ([world]-4067.699999988079, 64.0, -20029.6101716653)
+[21:33:34] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[21:33:34] [Server thread/INFO]: Vityfraca10 joined the game
+[21:33:34] [Server thread/INFO]: Vityfraca10[/127.80.110.196:34707] logged in with entity id 413 at ([world]-1513.4151609906294, 67.0, 1541.7631535134108)
+[21:33:52] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos ya tenes base?
+[21:33:56] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no
+[21:34:05] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> jooo
+[21:34:27] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuanto falta para q se haga de dia?
+[21:34:31] [Async Chat Thread - #0/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nose
