@@ -265,6 +265,7 @@
       "minecraft:skeleton": "2025-06-28 02:44:32 +0000",
       "minecraft:spider": "2025-06-27 21:28:20 +0000",
       "minecraft:creeper": "2025-06-27 01:17:29 +0000",
+      "minecraft:phantom": "2025-06-29 12:11:32 +0000",
       "minecraft:husk": "2025-06-28 14:21:16 +0000",
       "minecraft:cave_spider": "2025-06-28 02:48:54 +0000",
       "minecraft:silverfish": "2025-06-29 00:25:59 +0000",
@@ -2077,12 +2078,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/flower_banner_pattern": {
-    "criteria": {
-      "has_oxeye_daisy": "2025-06-29 10:54:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2025-06-29 10:49:24 +0000"
@@ -2137,21 +2132,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
-    "criteria": {
-      "has_oxeye_daisy": "2025-06-29 10:54:19 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_stone": {
     "criteria": {
       "has_stone": "2025-06-29 10:49:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/repeater": {
-    "criteria": {
-      "has_redstone_torch": "2025-06-29 11:29:08 +0000"
     },
     "done": true
   },
@@ -2164,6 +2147,24 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-06-29 10:49:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-06-29 10:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-06-29 10:54:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2025-06-29 11:29:08 +0000"
     },
     "done": true
   },
