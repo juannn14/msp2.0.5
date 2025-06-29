@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
-  login: 1751151745827
+  logout: 1751156197449
+  login: 1751156202989
 money: '0'
 last-account-name: Santigameryt2213
 lastlocation:
@@ -28,3 +28,11 @@ lastlocation:
   z: 862.6999999880791
   yaw: -138.4112548828125
   pitch: 60.5248908996582
+logoutlocation:
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -904.5
+  y: 123.0
+  z: -6779.5
+  yaw: 89.99999237060547
+  pitch: 0.0

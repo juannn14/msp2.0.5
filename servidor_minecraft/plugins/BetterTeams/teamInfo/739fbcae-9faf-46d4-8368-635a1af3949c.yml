@@ -3,13 +3,14 @@ description: ''
 open: false
 pvp: false
 anchor: false
-home: ''
+home: world:-904.3839445296369:123.0:-6781.956639349285:6.1496887:27.300005
 color: '4'
 chests: []
 players:
-- 372fbfca-8808-3c09-b8ce-838ea619b7af,OWNER
+- 986f1d45-9217-3226-9537-75937cf04570,DEFAULT
 - 7ea258b1-1b85-30a5-8c77-4b115e61bb0c,DEFAULT
 - c5e6271c-ee48-3bbe-b5fe-1a3558ccc729,DEFAULT
+- 372fbfca-8808-3c09-b8ce-838ea619b7af,OWNER
 - d9292b5e-7694-3cd8-ad1d-7634b5ba32c6,DEFAULT
 anchoredPlayers: []
 level: 1
