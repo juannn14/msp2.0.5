@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751155341701
-  login: 1751152036328
+  logout: 1751155766259
+  login: 1751155766335
 money: '0'
 last-account-name: Vityfraca10
 logoutlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world
-  x: -1490.0668363766451
+  x: -1489.1766013941458
   y: 72.0
-  z: 1534.1666602786174
-  yaw: 50.096717834472656
-  pitch: 22.799415588378906
+  z: 1530.5261814541702
+  yaw: 5.89556884765625
+  pitch: 24.599288940429688

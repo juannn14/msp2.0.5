@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2025-06-29 00:11:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 23:22:16 +0000"
@@ -451,6 +457,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-06-29 00:11:23 +0000",
       "minecraft:enderman": "2025-06-28 23:47:21 +0000",
       "minecraft:zombie": "2025-06-28 23:03:20 +0000"
     },
@@ -504,6 +511,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-06-29 00:11:24 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/crossbow": {
     "criteria": {
       "has_iron_ingot": "2025-06-28 23:22:16 +0000"
@@ -541,6 +554,7 @@
       "minecraft:windswept_hills": "2025-06-28 23:18:02 +0000",
       "minecraft:river": "2025-06-28 23:11:01 +0000",
       "minecraft:snowy_plains": "2025-06-28 23:15:47 +0000",
+      "minecraft:dripstone_caves": "2025-06-29 00:10:20 +0000",
       "minecraft:swamp": "2025-06-28 23:50:28 +0000",
       "minecraft:forest": "2025-06-28 23:24:02 +0000",
       "minecraft:windswept_forest": "2025-06-28 23:41:20 +0000",
