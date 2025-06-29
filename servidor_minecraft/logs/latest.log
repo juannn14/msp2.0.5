@@ -148,3 +148,10 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [11:52:01] [Server thread/INFO]: Unknown command. Type "/help" for help.
 [11:52:11] [Server thread/INFO]: Gave 1 [White Shulker Box] to Clandestino LJu4nn_L
 [11:53:30] [Server thread/INFO]: Gave 1 [White Shulker Box] to Clandestino LJu4nn_L
+[12:03:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[12:03:46] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[12:06:33] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[12:06:33] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[12:08:22] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[12:08:23] [Server thread/INFO]: LJu4nn_L joined the game
+[12:08:23] [Server thread/INFO]: LJu4nn_L[/127.203.218.242:58081] logged in with entity id 16622 at ([world]-4032.868455465338, 74.0, -19978.457559337174)
