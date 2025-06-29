@@ -119,3 +119,5 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [10:44:20] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
 [10:52:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
 [10:52:14] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[11:14:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[11:14:02] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
