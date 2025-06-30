@@ -135,3 +135,8 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:07:21] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Into Fire]
 [02:11:34] [Server thread/INFO]: Villager EntityVillager['Nitwit'/6651, uuid='7adcd997-c241-4600-b411-65eae6202ccf', l='ServerLevel[world]', x=-1880.56, y=66.00, z=942.70, cpos=[-118, 58], tl=159246, v=true] died, message: 'Nitwit suffocated in a wall'
 [02:23:05] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Best Friends Forever]
+[02:32:49] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[02:32:49] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[02:32:51] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[02:32:51] [Server thread/INFO]: Vityfraca10 joined the game
+[02:32:51] [Server thread/INFO]: Vityfraca10[/127.80.110.196:38627] logged in with entity id 13103 at ([world]-1867.3720657808112, 64.0, 942.8580584660647)

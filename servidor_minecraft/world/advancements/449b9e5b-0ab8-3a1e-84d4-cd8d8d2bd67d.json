@@ -9,9 +9,12 @@
     "criteria": {
       "minecraft:old_growth_pine_taiga": "2025-06-29 22:38:01 +0000",
       "minecraft:taiga": "2025-06-29 22:17:10 +0000",
+      "minecraft:frozen_river": "2025-06-30 02:25:20 +0000",
       "minecraft:cherry_grove": "2025-06-27 02:08:11 +0000",
+      "minecraft:beach": "2025-06-30 02:26:13 +0000",
       "minecraft:river": "2025-06-28 02:35:39 +0000",
       "minecraft:stony_shore": "2025-06-27 01:14:11 +0000",
+      "minecraft:snowy_plains": "2025-06-30 02:25:17 +0000",
       "minecraft:dripstone_caves": "2025-06-27 01:33:27 +0000",
       "minecraft:forest": "2025-06-27 01:18:48 +0000",
       "minecraft:ocean": "2025-06-27 01:14:43 +0000",
@@ -2289,6 +2292,12 @@
   "minecraft:recipes/building_blocks/polished_basalt": {
     "criteria": {
       "has_basalt": "2025-06-30 00:16:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-06-30 02:23:05 +0000"
     },
     "done": true
   },
