@@ -202,3 +202,55 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [22:04:39] [Server thread/INFO]: Error: Unknown item name: give.
 [22:04:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L diamond_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5}]} 1
 [22:04:55] [Server thread/INFO]: Error: Unknown item name: diamond_pickaxe{enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5}]}.
+[22:06:16] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L diamond_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:efficiency",lvl:5s}]} 1
+[22:06:16] [Server thread/INFO]: Error: Unknown item name: diamond_pickaxe{enchantments:[{id:"minecraft:unbreaking",lvl:3s},{id:"minecraft:efficiency",lvl:5s}]}.
+[22:06:22] [Server thread/INFO]: Unknown command. Type "/help" for help.
+[22:07:07] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:diamond_pickaxe{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:5s}]} 1
+[22:07:07] [Server thread/INFO]: Error: Unknown item name: minecraft:diamond_pickaxe{enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:5s}]}.
+[22:07:53] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:diamond_pickaxe 1
+[22:07:53] [Server thread/INFO]: Giving 1 of diamond pickaxe to LJu4nn_L.
+[22:07:53] [Server thread/INFO]: Not enough space, 1 diamond pickaxe was lost.
+[22:08:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:diamond_pickaxe 1
+[22:08:18] [Server thread/INFO]: Giving 1 of diamond pickaxe to LJu4nn_L.
+[22:08:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /enchant LJu4nn_L unbreaking 3
+[22:08:34] [Server thread/INFO]: Error: Only in-game players can use enchant.
+[22:09:24] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:diamond_pickaxe{Enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:5s}]} 1
+[22:09:24] [Server thread/INFO]: Error: Unknown item name: minecraft:diamond_pickaxe{enchantments:[{id:\"minecraft:unbreaking\",lvl:3s},{id:\"minecraft:efficiency\",lvl:5s}]}.
+[22:10:55] [luckperms-command-executor/INFO]: [LP] Set essentials.give to true for lju4nn_l in context global.
+[22:11:07] [luckperms-command-executor/INFO]: [LP] Set essentials.enchant to true for lju4nn_l in context global.
+[22:11:16] [luckperms-command-executor/INFO]: [LP] Set minecraft.command.give to true for lju4nn_l in context global.
+[22:11:25] [luckperms-command-executor/INFO]: [LP] Set minecraft.command.enchant to true for lju4nn_l in context global.
+[22:12:00] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:diamond_sword
+[22:12:20] [Server thread/INFO]: LJu4nn_L issued server command: /enchant unbreaking 3
+[22:12:35] [Server thread/INFO]: LJu4nn_L issued server command: /enchant unbreaking 3
+[22:13:11] [luckperms-command-executor/INFO]: [LP] Running LuckPerms v5.5.0.
+[22:13:11] [luckperms-command-executor/INFO]: > /lp user <user>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp group <group>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp track <track>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp log
+[22:13:11] [luckperms-command-executor/INFO]: > /lp sync
+[22:13:11] [luckperms-command-executor/INFO]: > /lp info
+[22:13:11] [luckperms-command-executor/INFO]: > /lp editor [type]
+[22:13:11] [luckperms-command-executor/INFO]: > /lp verbose <on|record|off|upload> [filter]
+[22:13:11] [luckperms-command-executor/INFO]: > /lp tree [scope] [player]
+[22:13:11] [luckperms-command-executor/INFO]: > /lp search <permission>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp networksync
+[22:13:11] [luckperms-command-executor/INFO]: > /lp import <file>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp export <file>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp reloadconfig
+[22:13:11] [luckperms-command-executor/INFO]: > /lp bulkupdate
+[22:13:11] [luckperms-command-executor/INFO]: > /lp translations
+[22:13:11] [luckperms-command-executor/INFO]: > /lp creategroup <group>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp deletegroup <group>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp listgroups
+[22:13:11] [luckperms-command-executor/INFO]: > /lp createtrack <track>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp deletetrack <track>
+[22:13:11] [luckperms-command-executor/INFO]: > /lp listtracks
+[22:13:27] [Server thread/INFO]: LJu4nn_L issued server command: /enchant unbreaking 3
+[22:14:15] [luckperms-command-executor/INFO]: [LP] lju4nn_l already has minecraft.command.enchant set in context global.
+[22:14:26] [luckperms-command-executor/INFO]: [LP] lju4nn_l already has essentials.enchant set in context global.
+[22:14:49] [Server thread/INFO]: LJu4nn_L issued server command: /enchant unbreaking 3
+[22:15:17] [Server thread/INFO]: Made LJu4nn_ a server operator
+[22:15:29] [Server thread/INFO]: LJu4nn_L issued server command: /enchant unbreaking 3
+[22:15:41] [Server thread/INFO]: LJu4nn_L issued server command: /enchant durability 3
+[22:15:56] [Server thread/INFO]: LJu4nn_L issued server command: /lp reload
