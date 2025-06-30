@@ -133,3 +133,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:05:25] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
 [01:05:26] [Server thread/INFO]: Vityfraca10[/127.80.110.196:60305] logged in with entity id 130 at ([world]-1515.7570059380669, 67.0, 1538.607592098699)
 [01:07:21] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Into Fire]
+[02:11:34] [Server thread/INFO]: Villager EntityVillager['Nitwit'/6651, uuid='7adcd997-c241-4600-b411-65eae6202ccf', l='ServerLevel[world]', x=-1880.56, y=66.00, z=942.70, cpos=[-118, 58], tl=159246, v=true] died, message: 'Nitwit suffocated in a wall'
