@@ -147,3 +147,7 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [02:46:16] [Server thread/INFO]: Vityfraca10[/127.80.110.196:43115] logged in with entity id 15263 at ([world]-1864.2269297659077, 64.0, 941.6754626783969)
 [03:36:43] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [A Seedy Place]
 [03:41:35] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Sneak 100]
+[03:45:45] [User Authenticator #3/INFO]: UUID of player X_baned_X is 7ea258b1-1b85-30a5-8c77-4b115e61bb0c
+[03:45:45] [Server thread/INFO]: X_baned_X joined the game
+[03:45:45] [Server thread/INFO]: X_baned_X[/127.60.224.87:50797] logged in with entity id 25724 at ([world]706.6999999880791, 69.0, 192.53213679719886)
+[03:45:55] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hola
