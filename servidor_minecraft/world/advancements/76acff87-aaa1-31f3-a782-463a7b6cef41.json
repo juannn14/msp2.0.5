@@ -7,6 +7,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2025-06-30 18:49:22 +0000",
       "minecraft:frozen_river": "2025-06-27 01:59:29 +0000",
       "minecraft:cherry_grove": "2025-06-27 00:22:25 +0000",
       "minecraft:windswept_hills": "2025-06-27 00:12:13 +0000",
@@ -507,6 +508,7 @@
       "minecraft:spider": "2025-06-27 00:28:41 +0000",
       "minecraft:creeper": "2025-06-28 01:21:53 +0000",
       "minecraft:witch": "2025-06-27 20:41:53 +0000",
+      "minecraft:wither_skeleton": "2025-06-30 18:49:13 +0000",
       "minecraft:silverfish": "2025-06-27 00:58:31 +0000",
       "minecraft:enderman": "2025-06-27 20:26:23 +0000",
       "minecraft:zombie": "2025-06-27 00:19:19 +0000",
@@ -1869,6 +1871,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-06-28 03:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-06-30 18:49:11 +0000"
     },
     "done": true
   },
