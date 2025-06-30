@@ -223,3 +223,11 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [11:38:49] [Server thread/INFO]: LJu4nn_L issued server command: //set air
 [11:55:56] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
 [11:55:56] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[12:31:04] [User Authenticator #8/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[12:31:04] [Server thread/INFO]: LJu4nn_L joined the game
+[12:31:04] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:45069] logged in with entity id 72165 at ([world]-4016.7602908992203, 66.0, -19972.27644400987)
+[12:31:44] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[12:31:44] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[12:37:46] [User Authenticator #9/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[12:37:46] [Server thread/INFO]: LJu4nn_L joined the game
+[12:37:46] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:50419] logged in with entity id 72457 at ([world]-4022.5125512091886, 66.0, -19972.54048702174)
