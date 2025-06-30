@@ -143,3 +143,16 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [21:06:23] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp santigameryt2213 LJu4nn_L
 [21:06:34] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
 [21:06:34] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[21:20:32] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[21:20:32] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
+[21:20:32] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:57439] logged in with entity id 6941 at ([world]-4576.622620681277, 66.0, -20240.226490648085)
+[21:20:41] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[21:20:41] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[21:20:43] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[21:20:43] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
+[21:20:43] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:47259] logged in with entity id 6975 at ([world]-4576.622620681277, 66.0, -20240.226490648085)
+[21:21:02] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[21:21:02] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[21:21:08] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[21:21:08] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
+[21:21:08] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:34735] logged in with entity id 7024 at ([world]-4576.622620681277, 66.0, -20240.226490648085)
