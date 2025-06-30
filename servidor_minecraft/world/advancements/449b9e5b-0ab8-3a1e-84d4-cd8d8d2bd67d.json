@@ -1825,6 +1825,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2025-06-28 02:10:53 +0000",
+      "minecraft:soul_sand_valley": "2025-06-30 06:03:46 +0000",
       "minecraft:basalt_deltas": "2025-06-28 02:14:50 +0000",
       "minecraft:warped_forest": "2025-06-28 02:08:11 +0000"
     },
@@ -2484,6 +2485,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-06-30 05:55:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-06-30 05:34:09 +0000"
@@ -2532,6 +2539,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-06-30 05:55:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-06-30 05:34:09 +0000"
@@ -2565,6 +2578,12 @@
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2025-06-30 04:09:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-06-30 05:55:07 +0000"
     },
     "done": true
   },
