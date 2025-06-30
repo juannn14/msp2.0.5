@@ -213,3 +213,6 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [10:23:19] [Server thread/INFO]: darkkettoo[/127.173.139.204:41679] logged in with entity id 68190 at ([world]-251.33512301334454, 69.0, 66.993008587921)
 [10:23:20] [Server thread/INFO]: darkkettoo lost connection: Disconnected
 [10:23:20] [Server thread/INFO]: darkkettoo left the game
+[11:21:12] [User Authenticator #7/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[11:21:12] [Server thread/INFO]: LJu4nn_L joined the game
+[11:21:12] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:58117] logged in with entity id 68242 at ([world]-4037.536187006251, 66.0, -20003.30288566248)
