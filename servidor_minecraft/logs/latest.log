@@ -137,3 +137,6 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [20:45:44] [Server thread/INFO]: LJu4nn_L joined the game
 [20:45:44] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:32969] logged in with entity id 251 at ([world]-4017.365652591669, 66.0, -19968.81456710266)
 [20:47:05] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp santigameryt2213 LJu4nn_L
+[20:58:10] [Server thread/INFO]: LJu4nn_L issued server command: /tp @s -4044 -12.5 -19970
+[20:58:10] [Server thread/INFO]: [Essentials] LJu4nn_L was denied access to command.
+[21:03:22] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp santigameryt2213 LJu4nn_L

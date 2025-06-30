@@ -21,13 +21,13 @@ timestamps:
 money: '0'
 last-account-name: Santigameryt2213
 lastlocation:
-  world: d883ce04-edbf-4800-be82-c32288524a18
-  world-name: world_nether
-  x: -645.7838010011835
-  y: 57.0
-  z: -2216.865808712663
-  yaw: 23.096435546875
-  pitch: 19.273639678955078
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -4041.0028109073864
+  y: 63.53584062504456
+  z: -20169.018960623027
+  yaw: -175.920166015625
+  pitch: 27.45524024963379
 logoutlocation:
   world: d883ce04-edbf-4800-be82-c32288524a18
   world-name: world_nether
