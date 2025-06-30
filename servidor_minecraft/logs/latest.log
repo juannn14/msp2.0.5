@@ -146,3 +146,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:09:43] [Server thread/INFO]: Vityfraca10 joined the game
 [18:09:43] [Server thread/INFO]: Vityfraca10[/127.80.110.196:43509] logged in with entity id 1307 at ([world_nether]-189.5214653699289, 65.0, -991.3378075204131)
 [18:09:45] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[18:13:13] [Server thread/INFO]: LJu4nn_L issued server command: //walls stone_bricks
