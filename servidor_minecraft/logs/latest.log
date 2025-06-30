@@ -140,3 +140,8 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [02:32:51] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
 [02:32:51] [Server thread/INFO]: Vityfraca10 joined the game
 [02:32:51] [Server thread/INFO]: Vityfraca10[/127.80.110.196:38627] logged in with entity id 13103 at ([world]-1867.3720657808112, 64.0, 942.8580584660647)
+[02:46:14] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[02:46:14] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[02:46:16] [User Authenticator #2/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[02:46:16] [Server thread/INFO]: Vityfraca10 joined the game
+[02:46:16] [Server thread/INFO]: Vityfraca10[/127.80.110.196:43115] logged in with entity id 15263 at ([world]-1864.2269297659077, 64.0, 941.6754626783969)
