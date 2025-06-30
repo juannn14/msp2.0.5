@@ -134,3 +134,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [15:56:11] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:39681] logged in with entity id 124 at ([world]-4037.6290252372114, 84.0, -19987.408975970327)
 [15:56:53] [Server thread/INFO]: LJu4nn_L issued server command: //set stone_bricks
 [15:57:35] [Server thread/INFO]: LJu4nn_L issued server command: //walls stone_bricks
+[16:07:00] [Server thread/INFO]: LJu4nn_L issued server command: //set stone_bricks
