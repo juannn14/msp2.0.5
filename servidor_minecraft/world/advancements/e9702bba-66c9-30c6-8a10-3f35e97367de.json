@@ -120,9 +120,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+  "minecraft:recipes/combat/arrow": {
     "criteria": {
-      "has_golden_helmet": "2025-06-26 23:53:09 +0000"
+      "has_flint": "2025-06-26 23:53:06 +0000"
     },
     "done": true
   },
@@ -132,9 +132,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/arrow": {
+  "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
-      "has_flint": "2025-06-26 23:53:06 +0000"
+      "has_gold_nugget": "2025-06-26 23:53:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_helmet": "2025-06-26 23:53:09 +0000"
     },
     "done": true
   },
@@ -150,21 +156,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
-      "has_gold_nugget": "2025-06-26 23:53:07 +0000"
+      "has_dandelion": "2025-06-26 23:53:38 +0000"
     },
     "done": true
   },
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_cornflower": "2025-06-26 23:53:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-06-26 23:53:38 +0000"
     },
     "done": true
   },

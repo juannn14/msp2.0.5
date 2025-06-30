@@ -481,33 +481,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2025-06-27 00:40:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_leggings": "2025-06-27 00:14:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_bed": {
-    "criteria": {
-      "has_black_wool": "2025-06-27 00:41:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_pickaxe": "2025-06-27 00:13:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
-    "criteria": {
-      "has_gold_block": "2025-06-27 00:38:43 +0000"
     },
     "done": true
   },
@@ -517,15 +493,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
-      "has_raw_iron": "2025-06-27 00:29:00 +0000"
+      "has_iron_pickaxe": "2025-06-27 00:13:49 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/raw_iron_block": {
+  "minecraft:story/obtain_armor": {
     "criteria": {
-      "has_raw_iron": "2025-06-27 00:29:00 +0000"
+      "iron_leggings": "2025-06-27 00:14:14 +0000"
     },
     "done": true
   },
@@ -535,15 +511,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2025-06-27 00:41:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2025-06-27 00:14:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-06-27 00:14:17 +0000"
     },
     "done": true
   },
@@ -553,37 +529,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
-    "criteria": {
-      "has_raw_iron": "2025-06-27 00:29:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2025-06-27 00:40:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_banner": {
-    "criteria": {
-      "has_black_wool": "2025-06-27 00:41:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2025-06-27 00:40:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_nugget_from_blasting": {
-    "criteria": {
-      "has_iron_pickaxe": "2025-06-27 00:13:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-06-27 00:16:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
     "criteria": {
       "has_hay_block": "2025-06-27 00:16:30 +0000"
     },
@@ -601,21 +553,69 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/target": {
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
     "criteria": {
-      "has_hay_block": "2025-06-27 00:16:30 +0000"
+      "has_raw_iron": "2025-06-27 00:29:00 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/enchanting_table": {
+  "minecraft:recipes/building_blocks/raw_iron_block": {
     "criteria": {
-      "has_obsidian": "2025-06-27 00:14:17 +0000"
+      "has_raw_iron": "2025-06-27 00:29:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2025-06-27 00:29:00 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-06-27 00:32:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-06-27 00:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-06-27 00:40:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-06-27 00:40:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-06-27 00:40:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-06-27 00:41:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-06-27 00:41:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-06-27 00:41:15 +0000"
     },
     "done": true
   },

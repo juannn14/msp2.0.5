@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.173.139.204
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751279000986
+  login: 1751278999505
+money: '0'
+last-account-name: darkkettoo
+logoutlocation:
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -251.33512301334454
+  y: 69.0
+  z: 66.993008587921
+  yaw: -35.25048828125
+  pitch: 25.500038146972656
