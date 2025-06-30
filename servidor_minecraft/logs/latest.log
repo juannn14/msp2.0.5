@@ -221,3 +221,5 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [11:33:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
 [11:33:28] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
 [11:38:49] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[11:55:56] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[11:55:56] [Server thread/INFO]: Clandestino LJu4nn_L left the game
