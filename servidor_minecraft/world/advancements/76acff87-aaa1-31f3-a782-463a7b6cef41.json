@@ -505,6 +505,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2025-06-27 00:20:02 +0000",
+      "minecraft:magma_cube": "2025-06-30 18:51:32 +0000",
       "minecraft:spider": "2025-06-27 00:28:41 +0000",
       "minecraft:creeper": "2025-06-28 01:21:53 +0000",
       "minecraft:witch": "2025-06-27 20:41:53 +0000",
@@ -1871,6 +1872,36 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2025-06-28 03:23:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-06-30 18:51:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
     },
     "done": true
   },
