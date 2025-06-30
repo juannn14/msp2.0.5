@@ -12,12 +12,14 @@
       "minecraft:frozen_river": "2025-06-30 02:25:20 +0000",
       "minecraft:cherry_grove": "2025-06-27 02:08:11 +0000",
       "minecraft:beach": "2025-06-30 02:26:13 +0000",
+      "minecraft:sparse_jungle": "2025-06-30 05:44:30 +0000",
       "minecraft:river": "2025-06-28 02:35:39 +0000",
       "minecraft:stony_shore": "2025-06-27 01:14:11 +0000",
       "minecraft:snowy_plains": "2025-06-30 02:25:17 +0000",
       "minecraft:dripstone_caves": "2025-06-27 01:33:27 +0000",
       "minecraft:forest": "2025-06-27 01:18:48 +0000",
       "minecraft:ocean": "2025-06-27 01:14:43 +0000",
+      "minecraft:jungle": "2025-06-30 05:48:32 +0000",
       "minecraft:old_growth_birch_forest": "2025-06-27 01:18:42 +0000",
       "minecraft:deep_dark": "2025-06-29 22:46:06 +0000",
       "minecraft:meadow": "2025-06-28 23:31:11 +0000",
@@ -2554,9 +2556,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/warped_planks": {
+    "criteria": {
+      "has_logs": "2025-06-30 05:43:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2025-06-30 04:09:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-06-30 05:43:47 +0000"
     },
     "done": true
   },

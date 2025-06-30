@@ -164,3 +164,9 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [04:18:21] [Server thread/INFO]: X_baned_X lost connection: Disconnected
 [04:18:21] [Server thread/INFO]: Clandestino X_baned_X left the game
 [04:18:22] [Async Chat Thread - #4/INFO]: [Not Secure] [SixSeven] <Vityfraca10> JAJAJJAJAJAJAJJAJA
+[05:50:00] [User Authenticator #5/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[05:50:00] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
+[05:50:00] [Server thread/INFO]: LJu4nn_L[/127.80.110.196:42175] logged in with entity id 55639 at ([world]-4047.0244041824917, 66.0, -20008.864368111754)
+[05:50:59] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[05:50:59] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[05:55:07] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Hidden in the Depths]
