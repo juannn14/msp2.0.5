@@ -1877,21 +1877,15 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-06-30 18:49:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/magma_block": {
     "criteria": {
       "has_magma_cream": "2025-06-30 18:51:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2025-06-30 19:15:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
-    "criteria": {
-      "has_nether_bricks": "2025-06-30 19:08:24 +0000"
     },
     "done": true
   },
@@ -1901,9 +1895,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+  "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_gold_nugget": "2025-06-30 19:22:30 +0000"
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-06-30 19:01:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_nether_bricks": {
+    "criteria": {
+      "has_nether_bricks": "2025-06-30 19:08:24 +0000"
     },
     "done": true
   },
@@ -1925,33 +1937,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-06-30 19:22:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lectern": {
-    "criteria": {
-      "has_book": "2025-06-30 19:01:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2025-06-30 19:15:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/nether_brick_wall_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-06-30 19:08:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
-    "criteria": {
-      "has_book": "2025-06-30 19:01:08 +0000"
     },
     "done": true
   },
@@ -1961,21 +1949,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_planks": {
-    "criteria": {
-      "has_logs": "2025-06-30 19:20:13 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/nether_brick_slab_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2025-06-30 19:08:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2025-06-30 19:01:08 +0000"
     },
     "done": true
   },
@@ -1985,21 +1961,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/warped_hyphae": {
+  "minecraft:recipes/decorations/nether_brick_fence": {
     "criteria": {
-      "has_log": "2025-06-30 19:20:13 +0000"
+      "has_nether_bricks": "2025-06-30 19:08:24 +0000"
     },
     "done": true
   },
-  "minecraft:nether/fast_travel": {
+  "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
-      "travelled": "2025-06-30 19:38:02 +0000"
+      "has_basalt": "2025-06-30 19:15:49 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
-      "fortress": "2025-06-30 18:49:11 +0000"
+      "has_basalt": "2025-06-30 19:15:49 +0000"
     },
     "done": true
   },
@@ -2009,9 +1985,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/nether_brick_fence": {
+  "minecraft:recipes/building_blocks/warped_planks": {
     "criteria": {
-      "has_nether_bricks": "2025-06-30 19:08:24 +0000"
+      "has_logs": "2025-06-30 19:20:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_hyphae": {
+    "criteria": {
+      "has_log": "2025-06-30 19:20:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-30 19:22:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-06-30 19:22:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-06-30 19:38:02 +0000"
     },
     "done": true
   },

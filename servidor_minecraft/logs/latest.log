@@ -161,3 +161,12 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [19:21:18] [Server thread/INFO]: SixSeven saderos21 has completed the challenge [Hot Tourist Destinations]
 [19:38:01] [Server thread/INFO]: SixSeven Vityfraca10 has completed the challenge [Subspace Bubble]
 [19:38:02] [Server thread/INFO]: SixSeven saderos21 has completed the challenge [Subspace Bubble]
+[19:44:16] [Server thread/INFO]: saderos21 lost connection: Disconnected
+[19:44:16] [Server thread/INFO]: SixSeven saderos21 left the game
+[19:44:32] [User Authenticator #4/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
+[19:44:32] [Server thread/INFO]: SixSeven saderos21 joined the game
+[19:44:32] [Server thread/INFO]: saderos21[/127.64.125.32:56101] logged in with entity id 28231 at ([world_nether]-502.69992179196026, 62.0, -2493.358148582455)
+[19:44:52] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[19:44:52] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[19:45:19] [Server thread/INFO]: saderos21 lost connection: Disconnected
+[19:45:19] [Server thread/INFO]: SixSeven saderos21 left the game
