@@ -273,3 +273,24 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:46:21] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
 [18:46:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
 [18:46:47] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[18:48:44] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> UFFFFFFF
+[18:48:51] [Async Chat Thread - #24/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me chete pero mal
+[18:48:55] [Async Chat Thread - #25/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ok
+[18:48:55] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> lo malo
+[18:49:01] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no estoy full netherite
+[18:49:11] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
+[18:49:15] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no tengo diamantes
+[18:49:19] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenes diamantes?
+[18:49:23] [Async Chat Thread - #25/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no
+[18:49:26] [Async Chat Thread - #24/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
+[18:52:28] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[18:52:28] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[18:55:52] [User Authenticator #5/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[18:55:52] [Server thread/INFO]: LJu4nn_L joined the game
+[18:55:52] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:57037] logged in with entity id 32668 at ([world]-27573.314600001915, 64.0, -19837.30000001192)
+[18:56:16] [Server thread/INFO]: Villager EntityVillager['Librarian'/32670, uuid='77eefd25-3b6c-4449-a9ad-cb97575feaab', l='ServerLevel[world]', x=-27572.46, y=64.88, z=-19837.44, cpos=[-1724, -1240], tl=3644, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[18:57:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[18:57:18] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[18:57:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[18:57:57] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[18:58:04] [Server thread/INFO]: Villager EntityVillager['Librarian'/32984, uuid='b6c34a34-d53a-47c2-afad-0c0641ecee63', l='ServerLevel[world]', x=-27574.39, y=64.00, z=-19838.63, cpos=[-1724, -1240], tl=2118, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
