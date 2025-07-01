@@ -16,15 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751312719697
+  logout: 1751337578595
   login: 1751336209385
 money: '0'
 last-account-name: saderos21
 logoutlocation:
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -1872.823121638075
+  y: 64.0
+  z: 940.0270116400311
+  yaw: 58.7138671875
+  pitch: -15.942248344421387
+lastlocation:
   world: d883ce04-edbf-4800-be82-c32288524a18
   world-name: world_nether
-  x: -518.3918232255467
-  y: 64.0
-  z: -2493.674785624574
-  yaw: -111.76446533203125
-  pitch: 3.9877755641937256
+  x: -354.13513728645364
+  y: 37.0
+  z: -2361.599170794931
+  yaw: -81.14285278320312
+  pitch: 63.147132873535156

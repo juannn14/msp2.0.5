@@ -196,3 +196,99 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [02:19:00] [Server thread/INFO]: Vityfraca10 issued server command: /team chat -244 107
 [02:19:00] [Craft Scheduler Thread - 169 - BetterTeams/INFO]: [Team] Vityfraca10: -244 107 
 [02:21:53] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:lighter
+[02:22:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[02:22:49] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[02:23:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[02:23:27] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[02:24:03] [Server thread/INFO]: Clandestino LJu4nn_L has completed the challenge [Subspace Bubble]
+[02:24:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6642ms or 132 ticks behind
+[02:24:13] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <saderos21> A TU MUJER AGUJERO NEGRO
+[02:24:17] [Async Chat Thread - #6/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSAKAJSKJASKJSA
+[02:24:31] [Async Chat Thread - #7/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> alto logro
+[02:24:38] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <aininsano> gordo vome trabas
+[02:24:51] [Async Chat Thread - #6/INFO]: [Not Secure] [SixSeven] <aininsano> pero que viva el porno
+[02:25:03] [Server thread/INFO]: saderos21 issued server command: /team chat -298 61 -2401
+[02:25:03] [Craft Scheduler Thread - 205 - BetterTeams/INFO]: [Team] **saderos21: -298 61 -2401 
+[02:25:41] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <saderos21> cambiaste de base?
+[02:27:06] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> eu juan
+[02:27:10] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> me tepeas a
+[02:27:13] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
+[02:27:13] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> ain???????????????????????????????????
+[02:27:16] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
+[02:27:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp saderos21 aininsano
+[02:27:37] [Async Chat Thread - #9/INFO]: [Not Secure] [SixSeven] <saderos21> gracx
+[02:32:49] [Server thread/INFO]: LJu4nn_L issued server command: /luckperms info
+[02:33:01] [Server thread/INFO]: LJu4nn_L issued server command: /luckperms:permissions
+[02:34:59] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan
+[02:35:03] [Async Chat Thread - #10/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
+[02:35:25] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> porq mierda los aldeanos tardan 3 años en agarrar los trabajos
+[02:35:36] [Async Chat Thread - #11/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORQ MRD ME CULPAS A MI
+[02:35:43] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nose
+[02:35:50] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> capaz q sabes
+[02:35:52] [Async Chat Thread - #10/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dejame q ahi le pregunto a la consola amigo
+[02:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi le pregunto al server de paso
+[02:36:09] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> bue
+[02:39:38] [Server thread/INFO]: saderos21 lost connection: Disconnected
+[02:39:38] [Server thread/INFO]: SixSeven saderos21 left the game
+[02:46:37] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[02:46:38] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
+[02:46:39] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
+[02:46:40] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
+[02:46:40] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> z
+[02:46:40] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> z
+[02:46:42] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzzz
+[02:46:43] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
+[02:46:43] [Async Chat Thread - #13/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no puedo
+[02:46:44] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[02:46:45] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[02:49:37] [Netty Epoll Server IO #0/ERROR]: Received class net.minecraft.network.protocol.game.PacketPlayInTeleportAccept that couldn't be processed
+java.lang.ClassCastException: class net.minecraft.server.network.HandshakeListener cannot be cast to class net.minecraft.network.protocol.game.PacketListenerPlayIn (net.minecraft.server.network.HandshakeListener and net.minecraft.network.protocol.game.PacketListenerPlayIn are in unnamed module of loader java.net.URLClassLoader @1a86f2f1)
+	at net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket.a(ServerboundAcceptTeleportationPacket.java:10) ~[?:?]
+	at net.minecraft.network.Connection.genericsFtw(Connection.java:324) ~[?:?]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:308) ~[?:?]
+	at net.minecraft.network.Connection.channelRead0(Connection.java:51) ~[?:?]
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:122) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[02:50:03] [Async Chat Thread - #15/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CHICKEN JOCKEY
+[02:50:06] [Async Chat Thread - #15/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AJJAJAJA
+[02:50:09] [Async Chat Thread - #16/INFO]: [Not Secure] [SixSeven] <Vityfraca10> JAJAJ
