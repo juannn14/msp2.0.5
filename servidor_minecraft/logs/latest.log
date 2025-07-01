@@ -395,3 +395,19 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [20:39:23] [Async Chat Thread - #36/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no puedo
 [20:48:20] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
 [20:48:20] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] LuckPerms already has data for player 'Santigameryt2213' - but this data is stored under a different UUID.
+[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] 'Santigameryt2213' has previously used the unique ids [ca862aea-478e-3bb5-8617-ab94ae2d99c4] but is now connecting with '986f1d45-9217-3226-9537-75937cf04570'
+[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[20:59:45] [User Authenticator #7/INFO]: UUID of player Santigameryt2213 is 986f1d45-9217-3226-9537-75937cf04570
+[20:59:45] [Server thread/INFO]: Clandestino Santigameryt2213 joined the game
+[20:59:45] [Server thread/INFO]: Santigameryt2213[/127.212.15.218:40143] logged in with entity id 59245 at ([world_nether]-1142.995560423733, 99.0, -2298.9798027808342)
+[20:59:52] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> bieeeeeeeeeeeen
+[20:59:57] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> si se pudo juan :D
+[21:00:03] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> sigo con 2 cora eu
+[21:00:05] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> gotii
+[21:00:08] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSJAKSJKAJS
+[21:00:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[21:00:31] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[21:00:38] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi te tepeo
