@@ -313,3 +313,42 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [19:04:02] [Async Chat Thread - #31/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por fin
 [19:07:30] [Server thread/INFO]: Villager EntityVillager['Librarian'/36127, uuid='b61ae09e-cef1-4d93-88f2-e4972ac06c5d', l='ServerLevel[world]', x=-1873.50, y=64.00, z=946.30, cpos=[-118, 59], tl=459699, v=true] died, message: 'Librarian went up in flames'
 [19:08:07] [Server thread/INFO]: Villager EntityVillager['Fisherman'/36247, uuid='84b2513f-adb4-4561-80fb-840224f0e0a3', l='ServerLevel[world]', x=-1869.50, y=64.00, z=946.30, cpos=[-117, 59], tl=463963, v=true] died, message: 'Fisherman went up in flames'
+[19:24:18] [Server thread/INFO]: Villager EntityVillager['Librarian'/32708, uuid='bbf0ff0e-dfda-4768-a64b-ecf80af2dd62', l='ServerLevel[world]', x=-27555.01, y=66.00, z=-19844.95, cpos=[-1723, -1241], tl=58954, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[19:26:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:30] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:31] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:32] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:33] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:34] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:34] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:36] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:37] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:38] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:39] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:55] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:56] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:57] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:26:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:26:58] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:27:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:27:00] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:27:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:27:01] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:27:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:27:01] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:27:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:27:02] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:27:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
+[19:27:03] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
