@@ -1851,6 +1851,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-01 23:05:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2025-07-01 21:58:52 +0000"
@@ -1887,6 +1893,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-07-01 23:05:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-01 21:58:00 +0000"
@@ -1896,6 +1908,12 @@
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-07-01 21:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-07-01 23:05:26 +0000"
     },
     "done": true
   },
