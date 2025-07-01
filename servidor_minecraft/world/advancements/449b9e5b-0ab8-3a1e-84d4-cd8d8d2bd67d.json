@@ -587,6 +587,7 @@
       "minecraft:cave_spider": "2025-06-30 21:48:17 +0000",
       "minecraft:piglin": "2025-06-30 06:16:33 +0000",
       "minecraft:enderman": "2025-06-30 01:29:26 +0000",
+      "minecraft:silverfish": "2025-07-01 02:52:16 +0000",
       "minecraft:zombie": "2025-06-27 01:18:00 +0000",
       "minecraft:drowned": "2025-06-30 02:35:03 +0000",
       "minecraft:zombie_villager": "2025-06-29 22:29:05 +0000"
@@ -2785,6 +2786,12 @@
   "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2025-07-01 01:55:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-07-01 02:55:12 +0000"
     },
     "done": true
   },
