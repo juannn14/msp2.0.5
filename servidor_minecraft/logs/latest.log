@@ -237,3 +237,39 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:33:41] [Async Chat Thread - #19/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me toca eso y voy por netherite
 [18:33:54] [Async Chat Thread - #18/INFO]: [Not Secure] [SixSeven] <Vityfraca10> a mi tmb me falta eso JAJAJ
 [18:37:24] [Server thread/INFO]: Villager EntityVillager['Librarian'/25491, uuid='4679b7eb-ea00-49c8-bafe-18ec04da9aab', l='ServerLevel[world]', x=-27609.70, y=70.00, z=-19828.93, cpos=[-1726, -1240], tl=5924, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[18:37:37] [Server thread/INFO]: Villager EntityVillager['Villager'/26829, uuid='56f48fd3-620b-4f5f-a31b-44b597377da6', l='ServerLevel[world]', x=-27607.57, y=70.00, z=-19828.52, cpos=[-1726, -1240], tl=72, v=true] died, message: 'Villager was slain by Clandestino LJu4nn_L'
+[18:37:44] [Server thread/INFO]: Villager EntityVillager['Librarian'/26815, uuid='e4a097e2-a65a-499f-bf91-07be7e3d0ba5', l='ServerLevel[world]', x=-27608.90, y=70.00, z=-19829.62, cpos=[-1726, -1240], tl=250, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[18:41:11] [Async Chat Thread - #20/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VAMOOOOOOOOOOOOOOOOOOO
+[18:41:16] [Async Chat Thread - #21/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORFIN
+[18:42:34] [Async Chat Thread - #22/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZ
+[18:42:35] [Async Chat Thread - #23/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
+[18:42:36] [Async Chat Thread - #22/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
+[18:42:37] [Async Chat Thread - #23/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
+[18:43:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:38] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:39] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:40] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:41] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:41] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:42] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:42] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:43] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:43] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:44] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:45] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:46] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:47] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:43:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
+[18:43:48] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
+[18:46:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[18:46:21] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[18:46:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[18:46:47] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
