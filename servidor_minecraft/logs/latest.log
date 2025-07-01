@@ -132,3 +132,8 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [12:05:01] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
 [12:05:01] [Server thread/INFO]: LJu4nn_L joined the game
 [12:05:01] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:44827] logged in with entity id 146 at ([world]-27544.703334339032, 63.0, -19821.694604534554)
+[12:15:13] [Server thread/INFO]: Villager EntityVillager['Villager'/237, uuid='e7b67138-dae2-4992-8223-8d4696de5642', l='ServerLevel[world]', x=-27605.30, y=64.00, z=-19854.64, cpos=[-1726, -1241], tl=44302, v=true] died, message: 'Villager was slain by Clandestino LJu4nn_L'
+[12:19:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[12:19:00] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[12:20:50] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[12:20:50] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
