@@ -222,3 +222,18 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:15:39] [Server thread/INFO]: santigameryt2213[/127.31.73.181:41567] logged in with entity id 21829 at ([world]-28.5, 67.0, 43.5)
 [18:15:48] [Server thread/INFO]: santigameryt2213 lost connection: Disconnected
 [18:15:48] [Server thread/INFO]: santigameryt2213 left the game
+[18:30:06] [User Authenticator #4/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[18:30:06] [Server thread/INFO]: LJu4nn_L joined the game
+[18:30:06] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:58019] logged in with entity id 24463 at ([world]-27581.402397433227, 63.0, -19831.897793450808)
+[18:30:11] [Async Chat Thread - #16/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> aloo
+[18:30:18] [Async Chat Thread - #17/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hello
+[18:30:52] [Async Chat Thread - #16/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos q tan cerca estas de las cords 30000, 64, 1600???
+[18:31:04] [Async Chat Thread - #17/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nosee
+[18:31:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[18:31:32] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[18:33:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[18:33:20] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[18:33:34] [Async Chat Thread - #18/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dale mrd q me toca irrompibilidad
+[18:33:41] [Async Chat Thread - #19/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me toca eso y voy por netherite
+[18:33:54] [Async Chat Thread - #18/INFO]: [Not Secure] [SixSeven] <Vityfraca10> a mi tmb me falta eso JAJAJ
+[18:37:24] [Server thread/INFO]: Villager EntityVillager['Librarian'/25491, uuid='4679b7eb-ea00-49c8-bafe-18ec04da9aab', l='ServerLevel[world]', x=-27609.70, y=70.00, z=-19828.93, cpos=[-1726, -1240], tl=5924, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
