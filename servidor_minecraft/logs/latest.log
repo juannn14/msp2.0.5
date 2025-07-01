@@ -156,3 +156,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [17:11:38] [Async Chat Thread - #3/INFO]: [Not Secure] [SixSeven] <Vityfraca10> uena
 [17:11:52] [Server thread/INFO]: Villager EntityVillager['Librarian'/3649, uuid='bf6e8884-66f8-4b1f-af66-740add6bdd67', l='ServerLevel[world]', x=-27526.92, y=69.42, z=-19838.32, cpos=[-1721, -1240], tl=5653, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
 [17:12:10] [Server thread/INFO]: Villager EntityVillager['Librarian'/5779, uuid='c48e783a-1aee-4e96-9c1d-3e365a93e7a0', l='ServerLevel[world]', x=-27528.70, y=70.00, z=-19836.30, cpos=[-1721, -1240], tl=285, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[17:18:19] [Server thread/INFO]: SixSeven Vityfraca10 has completed the challenge [Cover Me in Debris]
