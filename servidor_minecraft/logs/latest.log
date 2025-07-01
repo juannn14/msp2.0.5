@@ -212,3 +212,13 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [17:58:57] [Server thread/INFO]: LJu4nn_L[/127.31.73.181:44523] logged in with entity id 19561 at ([world]-27581.402397433227, 63.0, -19831.897793450808)
 [17:59:24] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
 [17:59:24] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] LuckPerms already has data for player 'santigameryt2213' - but this data is stored under a different UUID.
+[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] 'santigameryt2213' has previously used the unique ids [986f1d45-9217-3226-9537-75937cf04570] but is now connecting with 'ca862aea-478e-3bb5-8617-ab94ae2d99c4'
+[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[18:15:39] [User Authenticator #3/INFO]: UUID of player santigameryt2213 is ca862aea-478e-3bb5-8617-ab94ae2d99c4
+[18:15:39] [Server thread/INFO]: santigameryt2213 joined the game
+[18:15:39] [Server thread/INFO]: santigameryt2213[/127.31.73.181:41567] logged in with entity id 21829 at ([world]-28.5, 67.0, 43.5)
+[18:15:48] [Server thread/INFO]: santigameryt2213 lost connection: Disconnected
+[18:15:48] [Server thread/INFO]: santigameryt2213 left the game
