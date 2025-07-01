@@ -1875,6 +1875,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-07-01 23:14:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-01 21:58:00 +0000"
@@ -1908,6 +1914,12 @@
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2025-07-01 21:48:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-07-01 23:14:12 +0000"
     },
     "done": true
   },
