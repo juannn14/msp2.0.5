@@ -173,3 +173,26 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [02:06:47] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> insolito
 [02:07:09] [Server thread/INFO]: SixSeven aininsano has made the advancement [A Terrible Fortress]
 [02:08:51] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [A Terrible Fortress]
+[02:15:41] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[02:15:41] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[02:15:42] [User Authenticator #2/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[02:15:42] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
+[02:15:42] [Server thread/INFO]: Vityfraca10[/127.80.110.196:37871] logged in with entity id 10367 at ([world]-1892.568176871198, 68.0, 935.8691269183304)
+[02:16:25] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> maxi
+[02:16:28] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
+[02:16:29] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no esta
+[02:16:46] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vity
+[02:16:49] [Async Chat Thread - #5/INFO]: [Not Secure] [SixSeven] <Vityfraca10> q
+[02:16:49] [User Authenticator #3/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
+[02:16:49] [Server thread/INFO]: saderos21 joined the game
+[02:16:49] [Server thread/INFO]: saderos21[/127.64.125.32:39481] logged in with entity id 10699 at ([world_nether]-518.3918232255467, 64.0, -2493.674785624574)
+[02:16:54] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi vaa
+[02:16:59] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ya me pedi la placa
+[02:17:02] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> la ram
+[02:17:09] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y el procesador
+[02:17:26] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> en 3 dias por ahi
+[02:17:30] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me llega todo
+[02:18:26] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> otra fortaleza
+[02:19:00] [Server thread/INFO]: Vityfraca10 issued server command: /team chat -244 107
+[02:19:00] [Craft Scheduler Thread - 169 - BetterTeams/INFO]: [Team] Vityfraca10: -244 107 
+[02:21:53] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:lighter
