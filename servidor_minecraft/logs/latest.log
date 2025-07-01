@@ -352,3 +352,6 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [19:27:02] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
 [19:27:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
 [19:27:03] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
+[19:30:36] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Take Aim]
+[19:34:02] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[19:34:02] [Server thread/INFO]: Clandestino LJu4nn_L left the game
