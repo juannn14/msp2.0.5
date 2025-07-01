@@ -1,21 +1,21 @@
-[01:51:48] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:51:52] [ServerMain/INFO]: Loaded 7 recipes
-[01:51:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[01:51:54] [Server thread/INFO]: Loading properties
-[01:51:54] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[01:51:56] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:51:56] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:51:56] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[12:03:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:04:01] [ServerMain/INFO]: Loaded 7 recipes
+[12:04:03] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[12:04:03] [Server thread/INFO]: Loading properties
+[12:04:03] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[12:04:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:04:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:04:05] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:51:56] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:51:57] [Server thread/INFO]: Default game type: SURVIVAL
-[01:51:57] [Server thread/INFO]: Generating keypair
-[01:51:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:51:57] [Server thread/INFO]: Using epoll channel type
-[01:51:57] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:51:57] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[01:51:58] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
+[12:04:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[12:04:06] [Server thread/INFO]: Default game type: SURVIVAL
+[12:04:06] [Server thread/INFO]: Generating keypair
+[12:04:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:04:07] [Server thread/INFO]: Using epoll channel type
+[12:04:07] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[12:04:07] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[12:04:07] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -25,7 +25,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[01:51:58] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
+[12:04:08] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/DeathMessages has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -51,273 +51,84 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[01:51:58] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[01:52:06] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
-[01:52:07] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
-[01:52:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7140cc92]
-[01:52:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[01:52:09] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
-[01:52:09] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[01:52:09] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[01:52:09] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[01:52:09] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
-[01:52:09] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[01:52:09] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[01:52:09] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[01:52:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:52:09] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
-[01:52:10] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:52:10] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[01:52:10] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[01:52:12] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[01:52:13] [Server thread/INFO]:         __    
-[01:52:13] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[01:52:13] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:52:13] [Server thread/INFO]: 
-[01:52:13] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:52:14] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:52:15] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:52:15] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:52:15] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3385ms)
-[01:52:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:52:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:52:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:52:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:52:15] [Server thread/INFO]: Preparing level "world"
-[01:52:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:52:19] [Server thread/INFO]: Time elapsed: 571 ms
-[01:52:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:52:20] [Server thread/INFO]: Time elapsed: 259 ms
-[01:52:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:52:20] [Server thread/INFO]: Time elapsed: 157 ms
-[01:52:20] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
-[01:52:20] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[01:52:20] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[01:52:20] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[01:52:20] [Server thread/INFO]: [ClearLag] Loading modules...
-[01:52:20] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[01:52:20] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[01:52:20] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[01:52:20] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[01:52:20] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[01:52:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[01:52:21] [Thread-9/INFO]: [ClearLag] No updates found!
-[01:52:22] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:52:22] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:52:23] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[01:52:23] [Server thread/INFO]: [Essentials] Using locale en
-[01:52:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:52:24] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:52:24] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[01:52:24] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[01:52:24] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[01:52:24] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[01:52:25] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[01:52:25] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[01:52:25] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
-[01:52:25] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[01:52:26] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@1ad5cd9f
-[01:52:26] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[01:52:26] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[01:52:27] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[01:52:27] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[01:52:27] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@1b0fe6a5
-[01:52:27] [Server thread/INFO]: Running delayed init tasks
-[01:52:27] [Server thread/INFO]: Done (33.511s)! For help, type "help"
-[01:52:27] [Server thread/INFO]: Timings Reset
-[01:52:27] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:52:28] [Craft Scheduler Thread - 4 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
-[01:52:28] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
-[01:52:28] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[01:53:02] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[01:53:03] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
-[01:53:03] [Server thread/INFO]: Vityfraca10[/127.80.110.196:44739] logged in with entity id 167 at ([world]-1889.8360285037927, 68.0, 936.4484030239464)
-[01:53:38] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[01:53:38] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
-[01:53:38] [Server thread/INFO]: LJu4nn_L[/127.201.192.112:39067] logged in with entity id 448 at ([world_nether]-1095.245401719807, 80.0, -2541.69714385834)
-[01:53:54] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juanceto04 te fuiste perma baneadooo
-[01:54:14] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahora me cheto y cagaron
-[01:54:18] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos primero vity
-[01:54:20] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ohhh
-[01:54:23] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por q sos vity
-[01:54:28] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ohh
-[01:54:30] [Async Chat Thread - #0/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no }
-[01:54:33] [Async Chat Thread - #0/INFO]: [Not Secure] [SixSeven] <Vityfraca10> potfa
-[01:54:37] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> paz y amor
-[01:54:50] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> sos el team enemigo chavalin
-[01:55:09] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> pero somos 2v1 xq roman es -1
-[01:55:17] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JASKJSAKJASKJKASJKAS
-[01:55:26] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a roman todavia le tengo q enseñar pvp
-[01:55:34] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> para q al menos te pueda matar a vos
-[01:55:38] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> maxi es un vividito
-[01:55:45] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> siisi
-[01:55:49] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q no creo ganarle
-[01:55:56] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> xq no viste como pevepeo ahora
-[01:56:06] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy a averiguar
-[01:56:24] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> pero primero necesito reparacion
-[01:56:26] [Async Chat Thread - #0/INFO]: [Not Secure] [SixSeven] <Vityfraca10> eso lo veremos en un futuro(frase gigachad
-[01:58:23] [User Authenticator #1/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
-[01:58:23] [Server thread/INFO]: aininsano joined the game
-[01:58:23] [Server thread/INFO]: aininsano[/127.224.206.148:41173] logged in with entity id 1553 at ([world]-992.3675681260124, 61.12497368264857, 1248.188418489883)
-[02:00:58] [Server thread/INFO]: SixSeven aininsano was shot by Skeleton
-[02:06:09] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASIU
-[02:06:10] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI
-[02:06:12] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI
-[02:06:13] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI
-[02:06:14] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI
-[02:06:16] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AJJAJAJA
-[02:06:17] [Async Chat Thread - #2/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ?
-[02:06:27] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> de pedo puse un bloque
-[02:06:35] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> casi me caigo en lava
-[02:06:40] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> sin esperanzas
-[02:06:47] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> insolito
-[02:07:09] [Server thread/INFO]: SixSeven aininsano has made the advancement [A Terrible Fortress]
-[02:08:51] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [A Terrible Fortress]
-[02:15:41] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
-[02:15:41] [Server thread/INFO]: SixSeven Vityfraca10 left the game
-[02:15:42] [User Authenticator #2/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[02:15:42] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
-[02:15:42] [Server thread/INFO]: Vityfraca10[/127.80.110.196:37871] logged in with entity id 10367 at ([world]-1892.568176871198, 68.0, 935.8691269183304)
-[02:16:25] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> maxi
-[02:16:28] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[02:16:29] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no esta
-[02:16:46] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vity
-[02:16:49] [Async Chat Thread - #5/INFO]: [Not Secure] [SixSeven] <Vityfraca10> q
-[02:16:49] [User Authenticator #3/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
-[02:16:49] [Server thread/INFO]: saderos21 joined the game
-[02:16:49] [Server thread/INFO]: saderos21[/127.64.125.32:39481] logged in with entity id 10699 at ([world_nether]-518.3918232255467, 64.0, -2493.674785624574)
-[02:16:54] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi vaa
-[02:16:59] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ya me pedi la placa
-[02:17:02] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> la ram
-[02:17:09] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y el procesador
-[02:17:26] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> en 3 dias por ahi
-[02:17:30] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me llega todo
-[02:18:26] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> otra fortaleza
-[02:19:00] [Server thread/INFO]: Vityfraca10 issued server command: /team chat -244 107
-[02:19:00] [Craft Scheduler Thread - 169 - BetterTeams/INFO]: [Team] Vityfraca10: -244 107 
-[02:21:53] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:lighter
-[02:22:49] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[02:22:49] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[02:23:27] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[02:23:27] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[02:24:03] [Server thread/INFO]: Clandestino LJu4nn_L has completed the challenge [Subspace Bubble]
-[02:24:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6642ms or 132 ticks behind
-[02:24:13] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <saderos21> A TU MUJER AGUJERO NEGRO
-[02:24:17] [Async Chat Thread - #6/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSAKAJSKJASKJSA
-[02:24:31] [Async Chat Thread - #7/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> alto logro
-[02:24:38] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <aininsano> gordo vome trabas
-[02:24:51] [Async Chat Thread - #6/INFO]: [Not Secure] [SixSeven] <aininsano> pero que viva el porno
-[02:25:03] [Server thread/INFO]: saderos21 issued server command: /team chat -298 61 -2401
-[02:25:03] [Craft Scheduler Thread - 205 - BetterTeams/INFO]: [Team] **saderos21: -298 61 -2401 
-[02:25:41] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <saderos21> cambiaste de base?
-[02:27:06] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> eu juan
-[02:27:10] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> me tepeas a
-[02:27:13] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[02:27:13] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <saderos21> ain???????????????????????????????????
-[02:27:16] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
-[02:27:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp saderos21 aininsano
-[02:27:37] [Async Chat Thread - #9/INFO]: [Not Secure] [SixSeven] <saderos21> gracx
-[02:32:49] [Server thread/INFO]: LJu4nn_L issued server command: /luckperms info
-[02:33:01] [Server thread/INFO]: LJu4nn_L issued server command: /luckperms:permissions
-[02:34:59] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan
-[02:35:03] [Async Chat Thread - #10/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[02:35:25] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> porq mierda los aldeanos tardan 3 años en agarrar los trabajos
-[02:35:36] [Async Chat Thread - #11/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORQ MRD ME CULPAS A MI
-[02:35:43] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nose
-[02:35:50] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> capaz q sabes
-[02:35:52] [Async Chat Thread - #10/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dejame q ahi le pregunto a la consola amigo
-[02:36:01] [Async Chat Thread - #11/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi le pregunto al server de paso
-[02:36:09] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> bue
-[02:39:38] [Server thread/INFO]: saderos21 lost connection: Disconnected
-[02:39:38] [Server thread/INFO]: SixSeven saderos21 left the game
-[02:46:37] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:46:38] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[02:46:39] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[02:46:40] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[02:46:40] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> z
-[02:46:40] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> z
-[02:46:42] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzzz
-[02:46:43] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[02:46:43] [Async Chat Thread - #13/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no puedo
-[02:46:44] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:46:45] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[02:49:37] [Netty Epoll Server IO #0/ERROR]: Received class net.minecraft.network.protocol.game.PacketPlayInTeleportAccept that couldn't be processed
-java.lang.ClassCastException: class net.minecraft.server.network.HandshakeListener cannot be cast to class net.minecraft.network.protocol.game.PacketListenerPlayIn (net.minecraft.server.network.HandshakeListener and net.minecraft.network.protocol.game.PacketListenerPlayIn are in unnamed module of loader java.net.URLClassLoader @1a86f2f1)
-	at net.minecraft.network.protocol.game.ServerboundAcceptTeleportationPacket.a(ServerboundAcceptTeleportationPacket.java:10) ~[?:?]
-	at net.minecraft.network.Connection.genericsFtw(Connection.java:324) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:308) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:51) ~[?:?]
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:333) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:454) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:290) ~[netty-codec-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:122) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-handler-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-transport-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:800) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:499) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:397) ~[netty-transport-classes-epoll-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.87.Final.jar:4.1.87.Final]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[02:50:03] [Async Chat Thread - #15/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CHICKEN JOCKEY
-[02:50:06] [Async Chat Thread - #15/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AJJAJAJA
-[02:50:09] [Async Chat Thread - #16/INFO]: [Not Secure] [SixSeven] <Vityfraca10> JAJAJ
-[02:54:39] [Server thread/WARN]: aininsano moved too quickly! 9.80380916237641,-2.2752370094690093,-0.30240493914948274
-[02:55:12] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Enchanter]
-[02:57:13] [Async Chat Thread - #17/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me dormi sentado SAKJKASJKASJSA
-[02:57:47] [Async Chat Thread - #17/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> QUE PORONGA Q NO APAREZEN ALDEAS
-[03:00:49] [Server thread/WARN]: aininsano moved too quickly! -10.007762366331463,-0.7531999805212024,0.04877183189091738
-[03:05:54] [Async Chat Thread - #20/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz?
-[03:06:00] [Async Chat Thread - #20/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no
-[03:11:08] [Server thread/WARN]: aininsano moved too quickly! -9.007787587361918,-1.5,-7.9729720622465265
-[03:15:31] [Server thread/WARN]: aininsano was kicked due to keepalive timeout!
-[03:15:31] [Server thread/INFO]: aininsano lost connection: Timed out
-[03:15:31] [Server thread/INFO]: aininsano left the game
-[03:15:43] [User Authenticator #4/INFO]: UUID of player aininsano is b356fad1-842c-328a-97d0-2f0a38f6dbee
-[03:15:43] [Server thread/INFO]: SixSeven aininsano joined the game
-[03:15:43] [Server thread/INFO]: aininsano[/127.224.206.148:54783] logged in with entity id 65863 at ([world_nether]-194.38700331065652, 98.69568317254246, -85.30000001192093)
-[03:18:19] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Those Were the Days]
-[03:18:33] [Async Chat Thread - #21/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a cuanto estan del end
-[03:19:41] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [War Pigs]
-[03:19:48] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Who is Cutting Onions?]
-[03:25:59] [Server thread/INFO]: LJu4nn_L issued server command: //set air
-[03:26:14] [Server thread/INFO]: LJu4nn_L issued server command: //set air
-[03:26:44] [Server thread/INFO]: LJu4nn_L issued server command: //set air
-[03:27:06] [Server thread/INFO]: LJu4nn_L issued server command: //set air
-[03:28:34] [Server thread/WARN]: aininsano was kicked for floating too long!
-[03:28:34] [Server thread/INFO]: aininsano lost connection: Flying is not enabled on this server
-[03:28:34] [Server thread/INFO]: aininsano left the game
-[03:33:20] [Server thread/INFO]: LJu4nn_L lost connection: Timed out
-[03:33:20] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[03:33:20] [Server thread/INFO]: Vityfraca10 lost connection: Timed out
-[03:33:20] [Server thread/INFO]: SixSeven Vityfraca10 left the game
+[12:04:08] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:04:16] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
+[12:04:16] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
+[12:04:17] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c70712a]
+[12:04:17] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[12:04:18] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
+[12:04:18] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[12:04:18] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[12:04:18] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[12:04:18] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[12:04:18] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[12:04:18] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[12:04:18] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[12:04:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:04:18] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
+[12:04:18] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[12:04:19] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[12:04:19] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[12:04:21] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[12:04:22] [Server thread/INFO]:         __    
+[12:04:22] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[12:04:22] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[12:04:22] [Server thread/INFO]: 
+[12:04:22] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[12:04:23] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[12:04:24] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[12:04:24] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[12:04:24] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3118ms)
+[12:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:04:24] [Server thread/INFO]: Preparing level "world"
+[12:04:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:04:29] [Server thread/INFO]: Time elapsed: 1033 ms
+[12:04:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:04:29] [Server thread/INFO]: Time elapsed: 229 ms
+[12:04:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:04:29] [Server thread/INFO]: Time elapsed: 185 ms
+[12:04:29] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
+[12:04:30] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[12:04:30] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[12:04:30] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[12:04:30] [Server thread/INFO]: [ClearLag] Loading modules...
+[12:04:30] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[12:04:30] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[12:04:30] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[12:04:30] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[12:04:30] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[12:04:30] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[12:04:30] [Thread-9/INFO]: [ClearLag] No updates found!
+[12:04:31] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[12:04:31] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[12:04:32] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[12:04:32] [Server thread/INFO]: [Essentials] Using locale en
+[12:04:33] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[12:04:33] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[12:04:33] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[12:04:33] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[12:04:33] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[12:04:33] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[12:04:33] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[12:04:34] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[12:04:34] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[12:04:34] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[12:04:34] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@60db653d
+[12:04:34] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[12:04:34] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[12:04:35] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[12:04:35] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[12:04:35] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@393473fd
+[12:04:36] [Server thread/INFO]: Running delayed init tasks
+[12:04:36] [Server thread/INFO]: Done (32.945s)! For help, type "help"
+[12:04:36] [Server thread/INFO]: Timings Reset
+[12:04:36] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[12:04:36] [Craft Scheduler Thread - 4 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
+[12:04:36] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[12:04:36] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[12:05:01] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[12:05:01] [Server thread/INFO]: LJu4nn_L joined the game
+[12:05:01] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:44827] logged in with entity id 146 at ([world]-27544.703334339032, 63.0, -19821.694604534554)
