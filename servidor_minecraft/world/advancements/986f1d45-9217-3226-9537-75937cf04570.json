@@ -264,7 +264,8 @@
       "porkchop": "2025-06-28 23:13:16 +0000",
       "mutton": "2025-06-28 23:10:40 +0000",
       "golden_apple": "2025-06-30 00:27:39 +0000",
-      "rotten_flesh": "2025-06-28 23:42:35 +0000"
+      "rotten_flesh": "2025-06-28 23:42:35 +0000",
+      "cooked_chicken": "2025-07-01 21:26:11 +0000"
     },
     "done": false
   },
@@ -956,6 +957,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-06-30 00:19:55 +0000",
       "minecraft:nether_wastes": "2025-06-29 23:30:30 +0000",
+      "minecraft:soul_sand_valley": "2025-07-01 21:24:30 +0000",
       "minecraft:basalt_deltas": "2025-06-30 21:38:15 +0000"
     },
     "done": false
@@ -1815,6 +1817,18 @@
   "minecraft:recipes/building_blocks/crimson_hyphae": {
     "criteria": {
       "has_log": "2025-06-30 22:08:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-07-01 21:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-07-01 21:28:32 +0000"
     },
     "done": true
   },

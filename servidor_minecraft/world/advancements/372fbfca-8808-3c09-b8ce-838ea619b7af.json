@@ -2249,10 +2249,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-07-01 02:18:34 +0000",
       "minecraft:nether_wastes": "2025-06-30 21:26:53 +0000",
+      "minecraft:soul_sand_valley": "2025-07-01 21:24:33 +0000",
       "minecraft:basalt_deltas": "2025-06-30 21:38:01 +0000",
       "minecraft:warped_forest": "2025-07-01 20:57:52 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -2590,15 +2591,39 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-07-01 21:24:04 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2025-07-01 20:46:09 +0000"
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-07-01 21:25:26 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lightning_rod": {
     "criteria": {
       "has_copper_ingot": "2025-07-01 20:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2025-07-01 21:25:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2025-07-01 21:25:26 +0000"
     },
     "done": true
   },
