@@ -577,6 +577,7 @@
     "criteria": {
       "minecraft:blaze": "2025-06-30 01:07:16 +0000",
       "minecraft:skeleton": "2025-06-27 01:26:27 +0000",
+      "minecraft:hoglin": "2025-07-01 03:23:51 +0000",
       "minecraft:magma_cube": "2025-06-30 01:05:59 +0000",
       "minecraft:spider": "2025-06-27 01:20:07 +0000",
       "minecraft:piglin_brute": "2025-07-01 03:19:26 +0000",
@@ -2820,6 +2821,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2025-07-01 03:22:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_shovel_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-07-01 03:08:51 +0000"
@@ -2838,9 +2845,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/netherite_upgrade_smithing_template": {
+    "criteria": {
+      "has_netherite_upgrade_smithing_template": "2025-07-01 03:26:15 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_ingot_from_blasting_nether_gold_ore": {
     "criteria": {
       "has_nether_gold_ore": "2025-07-01 03:17:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template": {
+    "criteria": {
+      "has_snout_armor_trim_smithing_template": "2025-07-01 03:26:34 +0000"
     },
     "done": true
   },
@@ -2889,6 +2908,12 @@
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-07-01 03:19:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/snout_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-07-01 03:26:34 +0000"
     },
     "done": true
   },

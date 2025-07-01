@@ -310,3 +310,14 @@ java.lang.ClassCastException: class net.minecraft.server.network.HandshakeListen
 [03:18:33] [Async Chat Thread - #21/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a cuanto estan del end
 [03:19:41] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [War Pigs]
 [03:19:48] [Server thread/INFO]: SixSeven Vityfraca10 has made the advancement [Who is Cutting Onions?]
+[03:25:59] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[03:26:14] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[03:26:44] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[03:27:06] [Server thread/INFO]: LJu4nn_L issued server command: //set air
+[03:28:34] [Server thread/WARN]: aininsano was kicked for floating too long!
+[03:28:34] [Server thread/INFO]: aininsano lost connection: Flying is not enabled on this server
+[03:28:34] [Server thread/INFO]: aininsano left the game
+[03:33:20] [Server thread/INFO]: LJu4nn_L lost connection: Timed out
+[03:33:20] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[03:33:20] [Server thread/INFO]: Vityfraca10 lost connection: Timed out
+[03:33:20] [Server thread/INFO]: SixSeven Vityfraca10 left the game
