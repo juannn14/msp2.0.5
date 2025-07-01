@@ -294,3 +294,22 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:57:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
 [18:57:57] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
 [18:58:04] [Server thread/INFO]: Villager EntityVillager['Librarian'/32984, uuid='b6c34a34-d53a-47c2-afad-0c0641ecee63', l='ServerLevel[world]', x=-27574.39, y=64.00, z=-19838.63, cpos=[-1724, -1240], tl=2118, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
+[18:58:14] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[18:58:14] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[18:58:15] [Async Chat Thread - #27/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[18:58:16] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
+[18:58:16] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zz
+[19:00:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
+[19:00:40] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
+[19:00:46] [Async Chat Thread - #28/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan
+[19:00:51] [Async Chat Thread - #29/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
+[19:00:54] [Async Chat Thread - #28/INFO]: [Not Secure] [SixSeven] <Vityfraca10> vos mña vas al colegio?
+[19:00:58] [Async Chat Thread - #29/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> depende
+[19:01:03] [Async Chat Thread - #28/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si toman falta si
+[19:02:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
+[19:02:39] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
+[19:03:52] [Async Chat Thread - #30/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahora si
+[19:03:59] [Async Chat Thread - #31/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy a por netherite
+[19:04:02] [Async Chat Thread - #31/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por fin
+[19:07:30] [Server thread/INFO]: Villager EntityVillager['Librarian'/36127, uuid='b61ae09e-cef1-4d93-88f2-e4972ac06c5d', l='ServerLevel[world]', x=-1873.50, y=64.00, z=946.30, cpos=[-118, 59], tl=459699, v=true] died, message: 'Librarian went up in flames'
+[19:08:07] [Server thread/INFO]: Villager EntityVillager['Fisherman'/36247, uuid='84b2513f-adb4-4561-80fb-840224f0e0a3', l='ServerLevel[world]', x=-1869.50, y=64.00, z=946.30, cpos=[-117, 59], tl=463963, v=true] died, message: 'Fisherman went up in flames'
