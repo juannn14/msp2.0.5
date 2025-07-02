@@ -202,3 +202,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [17:59:52] [Server thread/INFO]: LJu4nn_L[/127.31.73.181:49441] logged in with entity id 45516 at ([world]-49605.69999998808, 5.0, -12020.542419506688)
 [18:00:08] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
 [18:00:08] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[18:29:03] [Server thread/INFO]: Villager EntityVillager['Villager'/47072, uuid='150b685e-1682-44a6-9538-9c1f7fe413e3', l='ServerLevel[world]', x=-1888.30, y=67.00, z=960.84, cpos=[-119, 60], tl=26573, v=true] died, message: 'Villager was slain by Zombie'
