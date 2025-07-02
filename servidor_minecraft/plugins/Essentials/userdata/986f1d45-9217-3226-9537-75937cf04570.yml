@@ -16,7 +16,7 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751278943326
+  logout: 1751412975752
   login: 1751403585097
 money: '0'
 last-account-name: Santigameryt2213
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: d883ce04-edbf-4800-be82-c32288524a18
   world-name: world_nether
-  x: -633.3391396454776
-  y: 57.0
-  z: -2241.1104006186397
-  yaw: -10.176239013671875
-  pitch: 13.522416114807129
+  x: -6085.5269626758945
+  y: 16.0
+  z: -2275.623001316232
+  yaw: -17.7467041015625
+  pitch: 28.653188705444336

@@ -1,21 +1,21 @@
-[16:55:33] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[16:55:39] [ServerMain/INFO]: Loaded 7 recipes
-[16:55:40] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[16:55:40] [Server thread/INFO]: Loading properties
-[16:55:40] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[16:55:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[16:55:42] [Server thread/INFO]: Using 4 threads for Netty based IO
-[16:55:42] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[15:21:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:21:11] [ServerMain/INFO]: Loaded 7 recipes
+[15:21:12] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[15:21:12] [Server thread/INFO]: Loading properties
+[15:21:12] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[15:21:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:21:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:21:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[16:55:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[16:55:43] [Server thread/INFO]: Default game type: SURVIVAL
-[16:55:43] [Server thread/INFO]: Generating keypair
-[16:55:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:55:44] [Server thread/INFO]: Using epoll channel type
-[16:55:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[16:55:44] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[16:55:44] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
+[15:21:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[15:21:15] [Server thread/INFO]: Default game type: SURVIVAL
+[15:21:15] [Server thread/INFO]: Generating keypair
+[15:21:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:21:16] [Server thread/INFO]: Using epoll channel type
+[15:21:16] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:21:16] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[15:21:16] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -25,7 +25,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[16:55:44] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
+[15:21:17] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/DeathMessages has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -51,914 +51,85 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[16:55:44] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[16:55:53] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
-[16:55:53] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
-[16:55:54] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6d32b0c7]
-[16:55:54] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[16:55:55] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
-[16:55:55] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[16:55:55] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[16:55:55] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[16:55:55] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
-[16:55:55] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[16:55:55] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[16:55:55] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[16:55:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[16:55:55] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
-[16:55:55] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[16:55:55] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[16:55:56] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[16:55:58] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[16:55:59] [Server thread/INFO]:         __    
-[16:55:59] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[16:55:59] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[16:55:59] [Server thread/INFO]: 
-[16:55:59] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[16:56:00] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[16:56:01] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[16:56:01] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[16:56:01] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3315ms)
-[16:56:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:56:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:56:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:56:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:56:01] [Server thread/INFO]: Preparing level "world"
-[16:56:04] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:56:05] [Server thread/INFO]: Time elapsed: 994 ms
-[16:56:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[16:56:05] [Server thread/INFO]: Time elapsed: 183 ms
-[16:56:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[16:56:05] [Server thread/INFO]: Time elapsed: 96 ms
-[16:56:05] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
-[16:56:05] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[16:56:05] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[16:56:06] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[16:56:06] [Server thread/INFO]: [ClearLag] Loading modules...
-[16:56:06] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[16:56:06] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[16:56:06] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[16:56:06] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[16:56:06] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[16:56:06] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[16:56:06] [Thread-9/INFO]: [ClearLag] No updates found!
-[16:56:08] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[16:56:08] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[16:56:09] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[16:56:09] [Server thread/INFO]: [Essentials] Using locale en
-[16:56:09] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[16:56:09] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[16:56:09] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[16:56:09] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[16:56:09] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[16:56:09] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[16:56:10] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[16:56:10] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[16:56:10] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
-[16:56:11] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[16:56:11] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@6492be8a
-[16:56:11] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[16:56:11] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[16:56:12] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[16:56:12] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[16:56:12] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@73d21bbf
-[16:56:13] [Server thread/INFO]: Running delayed init tasks
-[16:56:13] [Server thread/INFO]: Done (33.323s)! For help, type "help"
-[16:56:13] [Server thread/INFO]: Timings Reset
-[16:56:13] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[16:56:14] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
-[16:56:14] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
-[16:56:14] [Craft Scheduler Thread - 4 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
-[16:56:29] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[16:56:30] [Server thread/INFO]: Clandestino LJu4nn_L joined the game
-[16:56:30] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:33041] logged in with entity id 146 at ([world]-27581.534877758426, 71.0, -19800.552529731754)
-[16:56:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5210ms or 104 ticks behind
-[16:58:18] [User Authenticator #1/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[16:58:18] [Server thread/INFO]: Vityfraca10 joined the game
-[16:58:18] [Server thread/INFO]: Vityfraca10[/127.31.73.181:53143] logged in with entity id 541 at ([world_nether]-192.95988083117055, 73.09835927353836, -483.375905510679)
-[17:02:44] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me falta prote 4
-[17:02:52] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> aldeanos pinchilas
-[17:02:58] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> la papa
-[17:03:04] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> justo cuando quiero prote 4 no dan
-[17:03:10] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me dan hasta reparacion
-[17:03:12] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSAJKSJAKSJA
-[17:03:24] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> a vos tmb te tardan tres horas en agarrar trabajo?
-[17:03:30] [Async Chat Thread - #1/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> SI
-[17:03:35] [Async Chat Thread - #0/INFO]: [Not Secure] [SixSeven] <Vityfraca10> JJAJA
-[17:05:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[17:05:34] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[17:06:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[17:06:14] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[17:07:06] [Server thread/INFO]: Villager EntityVillager['Librarian'/2931, uuid='a02cb513-fb2a-4896-bef4-30a27b8c9999', l='ServerLevel[world]', x=-27528.66, y=70.00, z=-19836.80, cpos=[-1721, -1240], tl=1686, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[17:11:30] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VAMOOOO
-[17:11:32] [Async Chat Thread - #3/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> filo 5
-[17:11:37] [Async Chat Thread - #2/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> porfin
-[17:11:38] [Async Chat Thread - #3/INFO]: [Not Secure] [SixSeven] <Vityfraca10> uena
-[17:11:52] [Server thread/INFO]: Villager EntityVillager['Librarian'/3649, uuid='bf6e8884-66f8-4b1f-af66-740add6bdd67', l='ServerLevel[world]', x=-27526.92, y=69.42, z=-19838.32, cpos=[-1721, -1240], tl=5653, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[17:12:10] [Server thread/INFO]: Villager EntityVillager['Librarian'/5779, uuid='c48e783a-1aee-4e96-9c1d-3e365a93e7a0', l='ServerLevel[world]', x=-27528.70, y=70.00, z=-19836.30, cpos=[-1721, -1240], tl=285, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[17:18:19] [Server thread/INFO]: SixSeven Vityfraca10 has completed the challenge [Cover Me in Debris]
-[17:26:35] [Async Chat Thread - #4/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> NO ME TOCA PROTE 4
-[17:26:39] [Async Chat Thread - #5/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> DIOSS
-[17:26:39] [Async Chat Thread - #4/INFO]: [Not Secure] [SixSeven] <Vityfraca10> JAJ
-[17:26:53] [Server thread/INFO]: Villager EntityVillager['Villager'/5927, uuid='15b02fc7-453b-4307-a80c-43eca43130cd', l='ServerLevel[world]', x=-27526.30, y=70.00, z=-19836.30, cpos=[-1721, -1240], tl=17618, v=true] died, message: 'Villager was slain by Clandestino LJu4nn_L'
-[17:30:43] [Async Chat Thread - #7/INFO]: [Not Secure] [SixSeven] <Vityfraca10> zzz?
-[17:30:49] [Async Chat Thread - #6/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PROTE 4
-[17:30:51] [Async Chat Thread - #7/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AJJAJAJJA
-[17:30:53] [Async Chat Thread - #6/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORFIN
-[17:35:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:35:02] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:35:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:35:09] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:35:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:35:11] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:35:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:35:12] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:35:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:35:14] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:36:26] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan
-[17:36:29] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[17:36:33] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <Vityfraca10> cuantas muertes tenes
-[17:36:36] [Async Chat Thread - #9/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 7
-[17:36:44] [Async Chat Thread - #8/INFO]: [Not Secure] [SixSeven] <Vityfraca10> che clw
-[17:38:09] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:09] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:38:10] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:10] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:38:11] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:11] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:38:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:12] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:38:14] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:14] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:38:15] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[17:38:15] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[17:40:32] [Async Chat Thread - #10/INFO]: [Not Secure] [SixSeven] <Vityfraca10> repaaracionnn
-[17:40:36] [Async Chat Thread - #11/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> bienn
-[17:40:43] [Async Chat Thread - #10/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> yo me puse en todo reparacion
-[17:43:27] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[17:43:28] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[17:43:29] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[17:43:30] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[17:43:30] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> z
-[17:43:30] [Async Chat Thread - #13/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zz
-[17:43:32] [Async Chat Thread - #12/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzzz
-[17:45:49] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vuelvo en un ratoo
-[17:45:53] [Async Chat Thread - #14/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy a comer
-[17:45:54] [Async Chat Thread - #15/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ok
-[17:45:56] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[17:45:56] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[17:58:57] [User Authenticator #2/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[17:58:57] [Server thread/INFO]: LJu4nn_L joined the game
-[17:58:57] [Server thread/INFO]: LJu4nn_L[/127.31.73.181:44523] logged in with entity id 19561 at ([world]-27581.402397433227, 63.0, -19831.897793450808)
-[17:59:24] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[17:59:24] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] LuckPerms already has data for player 'santigameryt2213' - but this data is stored under a different UUID.
-[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] 'santigameryt2213' has previously used the unique ids [986f1d45-9217-3226-9537-75937cf04570] but is now connecting with 'ca862aea-478e-3bb5-8617-ab94ae2d99c4'
-[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
-[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
-[18:15:39] [User Authenticator #3/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
-[18:15:39] [User Authenticator #3/INFO]: UUID of player santigameryt2213 is ca862aea-478e-3bb5-8617-ab94ae2d99c4
-[18:15:39] [Server thread/INFO]: santigameryt2213 joined the game
-[18:15:39] [Server thread/INFO]: santigameryt2213[/127.31.73.181:41567] logged in with entity id 21829 at ([world]-28.5, 67.0, 43.5)
-[18:15:48] [Server thread/INFO]: santigameryt2213 lost connection: Disconnected
-[18:15:48] [Server thread/INFO]: santigameryt2213 left the game
-[18:30:06] [User Authenticator #4/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[18:30:06] [Server thread/INFO]: LJu4nn_L joined the game
-[18:30:06] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:58019] logged in with entity id 24463 at ([world]-27581.402397433227, 63.0, -19831.897793450808)
-[18:30:11] [Async Chat Thread - #16/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> aloo
-[18:30:18] [Async Chat Thread - #17/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hello
-[18:30:52] [Async Chat Thread - #16/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos q tan cerca estas de las cords 30000, 64, 1600???
-[18:31:04] [Async Chat Thread - #17/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nosee
-[18:31:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[18:31:32] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[18:33:20] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[18:33:20] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[18:33:34] [Async Chat Thread - #18/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dale mrd q me toca irrompibilidad
-[18:33:41] [Async Chat Thread - #19/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me toca eso y voy por netherite
-[18:33:54] [Async Chat Thread - #18/INFO]: [Not Secure] [SixSeven] <Vityfraca10> a mi tmb me falta eso JAJAJ
-[18:37:24] [Server thread/INFO]: Villager EntityVillager['Librarian'/25491, uuid='4679b7eb-ea00-49c8-bafe-18ec04da9aab', l='ServerLevel[world]', x=-27609.70, y=70.00, z=-19828.93, cpos=[-1726, -1240], tl=5924, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[18:37:37] [Server thread/INFO]: Villager EntityVillager['Villager'/26829, uuid='56f48fd3-620b-4f5f-a31b-44b597377da6', l='ServerLevel[world]', x=-27607.57, y=70.00, z=-19828.52, cpos=[-1726, -1240], tl=72, v=true] died, message: 'Villager was slain by Clandestino LJu4nn_L'
-[18:37:44] [Server thread/INFO]: Villager EntityVillager['Librarian'/26815, uuid='e4a097e2-a65a-499f-bf91-07be7e3d0ba5', l='ServerLevel[world]', x=-27608.90, y=70.00, z=-19829.62, cpos=[-1726, -1240], tl=250, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[18:41:11] [Async Chat Thread - #20/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VAMOOOOOOOOOOOOOOOOOOO
-[18:41:16] [Async Chat Thread - #21/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORFIN
-[18:42:34] [Async Chat Thread - #22/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZ
-[18:42:35] [Async Chat Thread - #23/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
-[18:42:36] [Async Chat Thread - #22/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
-[18:42:37] [Async Chat Thread - #23/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ZZZZ
-[18:43:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:38] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:39] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:40] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:41] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:41] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:41] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:42] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:42] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:43] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:43] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:44] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:44] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:45] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:45] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:46] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:46] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:47] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:43:48] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[18:43:48] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
-[18:46:21] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[18:46:21] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[18:46:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[18:46:47] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[18:48:44] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> UFFFFFFF
-[18:48:51] [Async Chat Thread - #24/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me chete pero mal
-[18:48:55] [Async Chat Thread - #25/INFO]: [Not Secure] [SixSeven] <Vityfraca10> ok
-[18:48:55] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> lo malo
-[18:49:01] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no estoy full netherite
-[18:49:11] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[18:49:15] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no tengo diamantes
-[18:49:19] [Async Chat Thread - #25/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenes diamantes?
-[18:49:23] [Async Chat Thread - #25/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no
-[18:49:26] [Async Chat Thread - #24/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[18:52:28] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[18:52:28] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[18:55:52] [User Authenticator #5/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[18:55:52] [Server thread/INFO]: LJu4nn_L joined the game
-[18:55:52] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:57037] logged in with entity id 32668 at ([world]-27573.314600001915, 64.0, -19837.30000001192)
-[18:56:16] [Server thread/INFO]: Villager EntityVillager['Librarian'/32670, uuid='77eefd25-3b6c-4449-a9ad-cb97575feaab', l='ServerLevel[world]', x=-27572.46, y=64.88, z=-19837.44, cpos=[-1724, -1240], tl=3644, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[18:57:18] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[18:57:18] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[18:57:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[18:57:57] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[18:58:04] [Server thread/INFO]: Villager EntityVillager['Librarian'/32984, uuid='b6c34a34-d53a-47c2-afad-0c0641ecee63', l='ServerLevel[world]', x=-27574.39, y=64.00, z=-19838.63, cpos=[-1724, -1240], tl=2118, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[18:58:14] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[18:58:14] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[18:58:15] [Async Chat Thread - #27/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[18:58:16] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[18:58:16] [Async Chat Thread - #26/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zz
-[19:00:40] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[19:00:40] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[19:00:46] [Async Chat Thread - #28/INFO]: [Not Secure] [SixSeven] <Vityfraca10> juan
-[19:00:51] [Async Chat Thread - #29/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[19:00:54] [Async Chat Thread - #28/INFO]: [Not Secure] [SixSeven] <Vityfraca10> vos mña vas al colegio?
-[19:00:58] [Async Chat Thread - #29/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> depende
-[19:01:03] [Async Chat Thread - #28/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si toman falta si
-[19:02:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[19:02:39] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[19:03:52] [Async Chat Thread - #30/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahora si
-[19:03:59] [Async Chat Thread - #31/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy a por netherite
-[19:04:02] [Async Chat Thread - #31/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por fin
-[19:07:30] [Server thread/INFO]: Villager EntityVillager['Librarian'/36127, uuid='b61ae09e-cef1-4d93-88f2-e4972ac06c5d', l='ServerLevel[world]', x=-1873.50, y=64.00, z=946.30, cpos=[-118, 59], tl=459699, v=true] died, message: 'Librarian went up in flames'
-[19:08:07] [Server thread/INFO]: Villager EntityVillager['Fisherman'/36247, uuid='84b2513f-adb4-4561-80fb-840224f0e0a3', l='ServerLevel[world]', x=-1869.50, y=64.00, z=946.30, cpos=[-117, 59], tl=463963, v=true] died, message: 'Fisherman went up in flames'
-[19:24:18] [Server thread/INFO]: Villager EntityVillager['Librarian'/32708, uuid='bbf0ff0e-dfda-4768-a64b-ecf80af2dd62', l='ServerLevel[world]', x=-27555.01, y=66.00, z=-19844.95, cpos=[-1723, -1241], tl=58954, v=true] died, message: 'Librarian was slain by Clandestino LJu4nn_L'
-[19:26:30] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:30] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:31] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:32] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:32] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:33] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:33] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:34] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:34] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:34] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:36] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:36] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:37] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:37] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:38] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:38] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:39] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:39] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:55] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:55] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:56] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:56] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:57] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:57] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:26:58] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:26:58] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:27:00] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:27:00] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:27:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:27:01] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:27:01] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:27:01] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:27:02] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:27:02] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:27:03] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:emerald 64
-[19:27:03] [Server thread/INFO]: Giving 64 of emerald to LJu4nn_L.
-[19:30:36] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Take Aim]
-[19:34:02] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
-[19:34:02] [Server thread/INFO]: Clandestino LJu4nn_L left the game
-[20:22:08] [User Authenticator #6/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
-[20:22:08] [Server thread/INFO]: LJu4nn_L joined the game
-[20:22:08] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:58159] logged in with entity id 50524 at ([world]-27557.7095741871, 66.0, -19819.73599988435)
-[20:22:52] [Async Chat Thread - #32/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> mañna no voy al cole
-[20:22:55] [Async Chat Thread - #33/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos?
-[20:23:04] [Async Chat Thread - #32/INFO]: [Not Secure] [SixSeven] <Vityfraca10> cuentan la falta?
-[20:23:14] [Async Chat Thread - #33/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ni idea
-[20:23:19] [Async Chat Thread - #32/INFO]: [Not Secure] [SixSeven] <Vityfraca10> nose
-[20:23:34] [Async Chat Thread - #33/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> yo voy el jueves por el tema del recuperatorio de la toledo
-[20:23:47] [Async Chat Thread - #32/INFO]: [Not Secure] [SixSeven] <Vityfraca10> q bot
-[20:24:02] [Async Chat Thread - #33/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y la semana q viene falto toda la semana
-[20:24:13] [Async Chat Thread - #32/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por las vacaciones de invierno
-[20:24:23] [Async Chat Thread - #33/INFO]: [Not Secure] [SixSeven] <Vityfraca10> la semana q viene no hay clases ._.
-[20:24:28] [Async Chat Thread - #33/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> menos mal
-[20:24:42] [Async Chat Thread - #32/INFO]: [Not Secure] [SixSeven] <Vityfraca10> si es vacaciones
-[20:27:24] [Async Chat Thread - #34/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:27:25] [Async Chat Thread - #34/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:27:26] [Async Chat Thread - #35/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:27:27] [Async Chat Thread - #34/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:27:27] [Async Chat Thread - #34/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:27:28] [Async Chat Thread - #34/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:28:14] [Async Chat Thread - #35/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no conoces algun texture pack de pvp 1.20.1???
-[20:39:10] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:11] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:12] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:12] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:13] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:14] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:15] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:16] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zz
-[20:39:17] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:18] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:19] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:20] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzz
-[20:39:21] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:22] [Async Chat Thread - #37/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:23] [Async Chat Thread - #36/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> zzzz
-[20:39:23] [Async Chat Thread - #36/INFO]: [Not Secure] [SixSeven] <Vityfraca10> no puedo
-[20:48:20] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
-[20:48:20] [Server thread/INFO]: SixSeven Vityfraca10 left the game
-[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] LuckPerms already has data for player 'Santigameryt2213' - but this data is stored under a different UUID.
-[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] 'Santigameryt2213' has previously used the unique ids [ca862aea-478e-3bb5-8617-ab94ae2d99c4] but is now connecting with '986f1d45-9217-3226-9537-75937cf04570'
-[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
-[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
-[20:59:45] [User Authenticator #7/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
-[20:59:45] [User Authenticator #7/INFO]: UUID of player Santigameryt2213 is 986f1d45-9217-3226-9537-75937cf04570
-[20:59:45] [Server thread/INFO]: Clandestino Santigameryt2213 joined the game
-[20:59:45] [Server thread/INFO]: Santigameryt2213[/127.212.15.218:40143] logged in with entity id 59245 at ([world_nether]-1142.995560423733, 99.0, -2298.9798027808342)
-[20:59:52] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> bieeeeeeeeeeeen
-[20:59:57] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> si se pudo juan :D
-[21:00:03] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> sigo con 2 cora eu
-[21:00:05] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> gotii
-[21:00:08] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSJAKSJKAJS
-[21:00:31] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode creative LJu4nn_L
-[21:00:31] [Server thread/INFO]: Set game mode creative for LJu4nn_L.
-[21:00:38] [Async Chat Thread - #38/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi te tepeo
-[21:00:43] [Async Chat Thread - #39/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dale :(
-[21:01:48] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan
-[21:01:52] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[21:01:56] [Async Chat Thread - #41/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me sigo murie ndo
-[21:02:00] [Async Chat Thread - #41/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KJSAKJSAKJS
-[21:02:00] [Async Chat Thread - #41/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tepeame
-[21:02:04] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VOY
-[21:02:11] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me esta haciendo compania un piglin chiquito
-[21:02:12] [Async Chat Thread - #41/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> estoy en el nether
-[21:02:20] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tepeame
-[21:02:21] [Async Chat Thread - #41/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no encuentro el portal
-[21:02:26] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> como que no
-[21:03:26] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan
-[21:03:29] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy
-[21:03:31] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenes comida?
-[21:03:34] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no
-[21:03:41] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y como que ya voy
-[21:03:50] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ni sabes donde estoy
-[21:03:54] [Async Chat Thread - #40/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> necesito el portaaaaaal
-[21:04:26] [Async Chat Thread - #42/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> por lo menos dame comida
-[21:05:38] [Async Chat Thread - #43/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> sisi
-[21:05:39] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy
-[21:05:54] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> como que voy??
-[21:06:02] [Async Chat Thread - #43/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> te paso mis cords?
-[21:06:08] [Server thread/INFO]: LJu4nn_L issued server command: /tp @s -27572 63.5 -19830
-[21:06:18] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dale
-[21:06:34] [Async Chat Thread - #43/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> -1142
-[21:06:44] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 99
-[21:06:52] [Async Chat Thread - #43/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> -2299
-[21:07:00] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> esas son is cords
-[21:07:09] [Server thread/INFO]: Made LJu4nn_L a server operator
-[21:07:11] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> del nether no?
-[21:07:25] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no llego al portal
-[21:07:30] [Server thread/INFO]: LJu4nn_L issued server command: /tp @s -27572 63.5 -19830
-[21:07:33] [Async Chat Thread - #43/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> como
-[21:07:39] [Server thread/INFO]: LJu4nn_L issued server command: /tp @s -27572 63.5 -19830
-[21:07:42] [Async Chat Thread - #44/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y pq tu nombre es rojo ahora?
-[21:08:56] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no te podes tepear a mi mejor?
-[21:08:56] [Server thread/INFO]: LJu4nn_L issued server command: /tp LJu4nn_L -27500, 63, -19800
-[21:09:00] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ya que tenes tp
-[21:09:08] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> sisisis
-[21:09:10] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> o no
-[21:09:14] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te tepeo a mi
-[21:09:20] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dale me muero de todo
-[21:09:22] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> estoy llegando a la aldea
-[21:09:27] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de hambre y de vida
-[21:10:15] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dale juan
-[21:10:20] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VOY
-[21:10:30] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tanto que me apurabas y ni estas "listo"
-[21:10:45] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> escuche algo muy raro
-[21:10:47] [Async Chat Thread - #45/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> es q 5 minutos antes me meti al nether
-[21:11:22] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ghast cerca
-[21:11:26] [Async Chat Thread - #46/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> muy cerca :(
-[21:12:05] [Server thread/INFO]: LJu4nn_L issued server command: /tp LJu4nn_L -27500 63 -19500
-[21:12:35] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> llegue
-[21:12:48] [Async Chat Thread - #47/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dale :
-[21:12:52] [Async Chat Thread - #47/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> :(
-[21:13:12] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /gamemode survival LJu4nn_L
-[21:13:12] [Server thread/INFO]: Set game mode survival for LJu4nn_L.
-[21:13:19] [Async Chat Thread - #47/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> aim ded
-[21:13:20] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[21:13:28] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> casi me uero
-[21:13:49] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> por fin uedo correr
-[21:14:06] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame esa espada
-[21:14:11] [Async Chat Thread - #47/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de donde sacaste tantas esmeraldas
-[21:14:18] [Async Chat Thread - #47/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> de palos rey
-[21:14:22] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> de tanto talar
-[21:14:37] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan
-[21:14:40] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[21:14:48] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> decime por favor que no usaste creativo
-[21:14:50] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> -.-
-[21:14:54] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> noup
-[21:14:59] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> nada de creativo
-[21:15:00] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> muchos stacks de cosas tenes
-[21:15:07] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por primera vez en mi vida
-[21:15:30] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> NO SABES CUANTOS STACKS DE MADERA TENIA
-[21:16:04] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y sabia q me ibas a decir lo de creativo por la cantidad exorbitante de esmeraldas
-[21:16:06] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenes minerales que no sean esmeraldas?
-[21:16:15] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me faltan diamantes
-[21:16:19] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bruh
-[21:16:40] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> un rrecuerdito del neder
-[21:16:48] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me mataron los bichos al aldeano de las armaduras y espadas
-[21:16:57] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nuuuu
-[21:17:08] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bro, el uego quito 1 entidad xd
-[21:17:51] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenes un pico de diamante?
-[21:17:57] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de yero
-[21:18:01] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[21:18:03] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> espada?
-[21:18:08] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame
-[21:18:12] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de diamon
-[21:18:20] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero e la vas a devolver? :
-[21:18:21] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame
-[21:18:24] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si rey
-[21:19:00] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> de nada
-[21:19:05] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> SIENTO EL PODER
-[21:19:11] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahora no hace falta cocinar
-[21:19:35] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> voy a mataar algunos bichos de ahi
-[21:19:42] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenes diamantes?
-[21:19:46] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ni uno
-[21:19:49] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[21:19:57] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos al nether por netherite
-[21:20:08] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> voy
-[21:20:11] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te necesito a vos por las camas
-[21:20:36] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> vamos
-[21:20:45] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tengo comida de sobra
-[21:21:04] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> lpm
-[21:21:08] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me quede corto
-[21:21:18] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> llevate todas las camas
-[21:21:20] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y lana
-[21:21:49] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no se q vamos hacer con tantas esmeraldas
-[21:21:52] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tu armadura
-[21:22:04] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que tiene
-[21:22:12] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tu armadura de diamante
-[21:22:21] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[21:22:27] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no tengo
-[21:22:37] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a bueno
-[21:23:30] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos nomas
-[21:23:34] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> al nether
-[21:23:35] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bueno
-[21:23:49] [Async Chat Thread - #49/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que lindoooo
-[21:23:56] [Async Chat Thread - #48/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> una fortress alado del portal
-[21:24:33] [Server thread/INFO]: Clandestino LJu4nn_L has completed the challenge [Hot Tourist Destinations]
-[21:25:02] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> veni
-[21:25:26] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Into Fire]
-[21:25:49] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bien
-[21:26:01] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[21:26:22] [Async Chat Thread - #51/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tengo botin 3
-[21:26:29] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> increible
-[21:26:33] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me da mas probabilidad para la cabeza de whiter
-[21:27:16] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenes cord del portal
-[21:27:20] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no
-[21:27:31] [Async Chat Thread - #50/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> entonces coo pensas volver??
-[21:27:41] [Async Chat Thread - #51/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> em
-[21:27:50] [Async Chat Thread - #51/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tas pndj
-[21:27:52] [Async Chat Thread - #51/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> espera aca
-[21:29:00] [Async Chat Thread - #52/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> perdi el portal
-[21:29:05] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ._.
-[21:29:32] [Server thread/INFO]: LJu4nn_L issued server command: /tp LJu4nn_L Santigameryt2213
-[21:29:42] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> todo en mental
-[21:29:56] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nada
-[21:30:02] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> BIEEENNN JUAAAANNN
-[21:30:50] [Async Chat Thread - #52/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me quede sin comida
-[21:30:59] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> veni
-[21:31:07] [Async Chat Thread - #52/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos por los chanchos
-[21:32:01] [Async Chat Thread - #52/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no tengo flechaas
-[21:32:05] [Async Chat Thread - #53/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> necesito solo una
-[21:32:11] [Async Chat Thread - #52/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tengo infinidad
-[21:34:04] [Async Chat Thread - #54/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tengo flechas yo creo
-[21:34:16] [Async Chat Thread - #54/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> encontre los chanchos
-[21:34:22] [Async Chat Thread - #54/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> osea el bioma
-[21:35:46] [Async Chat Thread - #56/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamoo
-[21:36:15] [Async Chat Thread - #56/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos por una bastionw
-[21:37:20] [Async Chat Thread - #59/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> vamos a hacer puente?
-[21:37:25] [Async Chat Thread - #58/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
-[21:40:25] [Server thread/INFO]: LJu4nn_L issued server command: /locate structure minecraft:bastion_remnant
-[21:40:25] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 10 ms
-[21:40:45] [Async Chat Thread - #60/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> creo q ya se donde esta
-[21:41:26] [Async Chat Thread - #60/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSAJKSAJKSJA
-[21:41:27] [Async Chat Thread - #60/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> CASI MUEROOOOOOOOOOOOOOOOOO D:
-[21:41:31] [Async Chat Thread - #60/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI TE CAES
-[21:41:33] [Async Chat Thread - #61/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> aaaaaaa
-[21:41:39] [Async Chat Thread - #61/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> NO ME DIGAS PLT
-[21:42:37] [Async Chat Thread - #61/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> estoy traumatizado :(
-[21:47:21] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CUCHA
-[21:47:25] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> CUCHO
-[21:47:29] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tengo minimapa
-[21:47:33] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> veo los bichos
-[21:47:34] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> jaker
-[21:47:35] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> es aca
-[21:47:59] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Those Were the Days]
-[21:48:05] [Server thread/INFO]: Clandestino Santigameryt2213 has made the advancement [Those Were the Days]
-[21:48:06] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JUJUU
-[21:48:21] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> QUE HACEEEESSSS
-[21:48:31] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> NO SUBAS
-[21:48:36] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> LO SE
-[21:48:42] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> NO ROMPAS
-[21:48:46] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> NO ME DEJES ATRAS
-[21:48:48] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> FALTA Q SE TE CAIGA LAVA
-[21:49:04] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tepeae en un lugar medianamente seguro
-[21:49:29] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[21:49:37] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CUIDADO
-[21:49:44] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me kge encima
-[21:49:53] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> LOS PIGLINS EN BRUTO TE MATAN DE 2 TOQUES
-[21:49:59] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> lo se
-[21:50:56] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> mientras mas altura mejor
-[21:50:57] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cucha
-[21:51:01] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> solo necesitamos
-[21:51:08] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nederait
-[21:51:10] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> la plantilla de mejora
-[21:51:13] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bruh
-[21:51:28] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no bajes
-[21:51:34] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> daaleeee
-[21:51:38] [Async Chat Thread - #64/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> juan nunca muere
-[21:51:55] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> XDDDD
-[21:52:02] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JAJAJJA
-[21:52:07] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> CASI
-[21:52:24] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cierto q rompe escudo
-[21:52:32] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [War Pigs]
-[21:52:36] [Async Chat Thread - #62/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a no sos un govir
-[21:53:48] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuanta obsidiana tnes
-[21:53:53] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 0
-[21:54:17] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuidadoooooooooooooooooooooooooooooo
-[21:54:26] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te dije q no bajaras
-[21:54:33] [Async Chat Thread - #66/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tengo plantilla ya
-[21:54:44] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero quiero ir por el cofre mas grande
-[21:54:52] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> UNA FORTRESS???
-[21:55:01] [Async Chat Thread - #65/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JAJAJJAJA
-[21:56:32] [Async Chat Thread - #67/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me puedo poner espectador para ver si tenemos el cofre mas grande?
-[21:56:39] [Async Chat Thread - #67/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bn
-[21:56:46] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode spectator
-[21:56:59] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode survival
-[21:57:10] [Async Chat Thread - #67/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tengo bloque de hierro
-[21:57:17] [Async Chat Thread - #67/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y de oro
-[21:57:45] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode spectator
-[21:58:05] [Async Chat Thread - #67/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> mmmmm
-[21:58:10] [Async Chat Thread - #68/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dudo q tenga
-[21:58:42] [Server thread/INFO]: LJu4nn_L issued server command: /locate structure minecraft:bastion_remnant
-[21:58:42] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
-[21:58:48] [Server thread/INFO]: LJu4nn_L issued server command: /tp @s -4592 ~ -2832
-[21:58:52] [Server thread/INFO]: Clandestino Santigameryt2213 has made the advancement [War Pigs]
-[21:58:59] [Async Chat Thread - #68/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> PICO DE DIAMANTEEE
-[21:59:23] [Async Chat Thread - #68/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> con maldicion de desaparicion :(
-[22:00:29] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> estoy buscando otra bastion
-[22:00:29] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> estoy exterminando cerdos
-[22:00:48] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> puto e dejaste solo aca
-[22:00:58] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahi te tepeo
-[22:01:02] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> esa bastion es una mrd
-[22:01:05] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> Nononononono
-[22:01:08] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> aun no
-[22:01:24] [Server thread/INFO]: LJu4nn_L issued server command: /locate structure minecraft:bastion_remnant
-[22:01:24] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 51 ms
-[22:01:39] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tepeame cuando quieras ya
-[22:01:59] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> mejor tepeame ahora
-[22:02:06] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy
-[22:02:49] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> las bastions q encuentro no tienen cofre chetado
-[22:02:50] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> osea
-[22:02:55] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cofres en e centro
-[22:03:05] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> noo
-[22:03:10] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AHI TE TEPEO
-[22:03:14] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bn
-[22:03:17] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ESTA BASTION ESTA EPICA
-[22:03:25] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> QUITEO
-[22:03:29] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> QUIETO
-[22:03:37] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode survival
-[22:03:37] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dale
-[22:03:43] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[22:03:44] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero en un lugar seguro tepeame
-[22:04:01] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuidado abajo
-[22:04:07] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> aca tenemos los re cofres
-[22:04:16] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> miramira
-[22:04:22] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> godd
-[22:04:28] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a lo mejor
-[22:04:33] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero si muero desaparece el pico
-[22:04:35] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> hacemos un golem de hierro
-[22:04:39] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> pero no dura nada
-[22:04:53] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero tengo 1 solo y los bloques se encuentran en los cofres
-[22:05:02] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cucha
-[22:05:04] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me tiro
-[22:05:08] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> NO
-[22:05:11] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
-[22:05:12] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> te vas a morir
-[22:05:13] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> mira
-[22:05:18] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ademas esta lleno
-[22:05:26] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> te van a qliar
-[22:05:37] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tirate
-[22:05:48] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dale
-[22:05:52] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ya
-[22:05:53] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ya
-[22:06:11] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me comi al tio del cerdo ese
-[22:06:12] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuidado
-[22:06:52] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cuidadooo
-[22:07:25] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[22:07:32] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> los molestos de las ballestas
-[22:07:38] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> mal
-[22:07:45] [Async Chat Thread - #69/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> voy hacer algo
-[22:07:51] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no me va a gustar
-[22:07:52] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que no sea suicida
-[22:07:56] [Async Chat Thread - #70/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no
-[22:08:51] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[22:09:48] [Async Chat Thread - #71/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vienen
-[22:09:56] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame bloques
-[22:10:44] [Async Chat Thread - #71/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a lo mejor
-[22:10:47] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me sale
-[22:10:52] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a lo mejor no
-[22:10:57] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> shh
-[22:11:00] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> positivo
-[22:11:04] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame bloques
-[22:11:09] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ya no tengo as
-[22:11:12] [Async Chat Thread - #72/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> aceptas las lanas
-[22:13:36] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JUJUU
-[22:13:49] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> salió viste?
-[22:13:49] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> noooo
-[22:13:52] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dejame algo
-[22:14:02] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> igual es un casco de diamante
-[22:14:06] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 3 diamantes
-[22:14:10] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y una plantilla
-[22:14:21] [Server thread/INFO]: Clandestino LJu4nn_L has made the advancement [Hidden in the Depths]
-[22:14:26] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ojoo
-[22:14:34] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> escombros ancestrales
-[22:15:08] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> toca ir para arriba
-[22:15:11] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> por el otro
-[22:15:13] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cofre
-[22:15:26] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> full arriba?
-[22:15:30] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
-[22:15:33] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> al techio
-[22:15:35] [Async Chat Thread - #73/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bn
-[22:16:11] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> espera juaaaaann
-[22:16:28] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ni llegue bancaa
-[22:16:37] [Async Chat Thread - #74/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ya no tengo mouse
-[22:17:48] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> llegue
-[22:17:57] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[22:18:12] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> NO LEISTE LO QUE DIJE
-[22:18:16] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no
-[22:18:18] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> NO TENGO MOUSEE
-[22:18:24] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSJAKSAJKSAJKSJAKSAJKASJKSAJKASJASKJKAJSKSAKJSAKSJAKSAJKSAJSJAKJSA
-[22:18:38] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> porq no tenes mouse
-[22:18:53] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> PQ LA PAJERA DE MI HERMANA LE SACO LAAS PILAS JUSTO AHORA
-[22:19:04] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no puedo atacar con el mousepad
-[22:19:12] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q te devuelvas las pilaaaas
-[22:19:13] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tengo que dar 1000 clicks
-[22:19:25] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> dice que segun son de ella
-[22:19:29] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> lpmmmmm
-[22:19:33] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> bueee
-[22:19:37] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q clw q ess
-[22:19:45] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no pelees
-[22:20:02] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero no quiero quedarme aca esperando
-[22:20:11] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> para eso ubieras venido solo :(
-[22:20:21] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> nunca dije q esperes
-[22:20:27] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dije q no pelees
-[22:20:32] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenes q venir
-[22:21:18] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> JUAN, GHAST
-[22:21:32] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> matalo
-[22:22:21] [Server thread/INFO]: Clandestino LJu4nn_L has completed the challenge [Return to Sender]
-[22:22:26] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> waos
-[22:22:26] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JUJUU
-[22:22:37] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> SE LO DEVOLVI CON LA FLECHAAAAAAAAAAAAA
-[22:22:45] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no sabias que se podia?
-[22:23:18] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y que hago yo?
-[22:23:46] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan
-[22:23:49] [Async Chat Thread - #75/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> QUEU
-[22:23:54] [Async Chat Thread - #77/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que pasa?
-[22:23:57] [Async Chat Thread - #77/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> nada
-[22:23:59] [Async Chat Thread - #77/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> donde estas
-[22:24:00] [Async Chat Thread - #77/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KJSAKJSKJAS
-[22:24:07] [Async Chat Thread - #77/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y que hago ahora yo
-[22:24:18] [Async Chat Thread - #76/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> bancame ahi
-[22:25:27] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode spectator
-[22:25:50] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode survival
-[22:26:01] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode spectator
-[22:26:44] [Async Chat Thread - #78/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> estoy buscando otra bastion
-[22:26:44] [Async Chat Thread - #79/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan no e tepies a ningun lado
-[22:26:53] [Async Chat Thread - #78/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me quedo afk
-[22:26:59] [Async Chat Thread - #79/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> buenobueno
-[22:27:34] [Server thread/INFO]: LJu4nn_L issued server command: /locate structure minecraft:bastion_remnant
-[22:27:34] [Server thread/INFO]: Locating element minecraft:bastion_remnant took 0 ms
-[22:28:36] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode creative
-[22:30:03] [Server thread/INFO]: LJu4nn_L issued server command: /gamemode survival
-[22:37:02] [Async Chat Thread - #80/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vivis?
-[22:41:10] [Async Chat Thread - #83/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> sigo sin mouse
-[22:41:27] [Async Chat Thread - #82/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y sigo sin saber como atacar rapido
-[22:41:58] [Async Chat Thread - #83/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que encontraste juan
-[22:42:00] [Async Chat Thread - #82/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ?
-[22:47:51] [Async Chat Thread - #84/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> juan
-[22:47:54] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> queu
-[22:47:58] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ahh
-[22:48:00] [Async Chat Thread - #84/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> recien veo
-[22:48:01] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que hago con las camas
-[22:48:06] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> buee
-[22:48:07] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te tepeo a mi
-[22:48:14] [Async Chat Thread - #84/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> donde estas?
-[22:48:18] [Async Chat Thread - #84/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> saque un ligote de netherite nomas
-[22:48:24] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> un toque lejos
-[22:48:29] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> shiftea
-[22:48:33] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> seguis en el nether??
-[22:48:37] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[22:48:47] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tepeame cuando estes en el overworld}
-[22:48:51] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a buenno
-[22:48:54] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> veni
-[22:49:03] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos por netherite
-[22:49:14] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero vos explotas las camas
-[22:49:17] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> sisis
-[22:49:28] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te tengo a vos como burro de carg
-[22:49:39] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bruh
-[22:49:54] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> veni
-[22:49:59] [Async Chat Thread - #84/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> y que hago con las lanas
-[22:50:09] [Async Chat Thread - #85/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> banca un toque
-[22:50:11] [Async Chat Thread - #86/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> veni
-[22:52:52] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q pinchila
-[22:52:58] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tenemos lava arriba
-[22:53:00] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[22:53:01] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> o al frente
-[22:53:06] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bue
-[22:53:59] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame
-[22:54:47] [Async Chat Thread - #88/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame
-[22:55:34] [Async Chat Thread - #88/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame
-[22:56:31] [Async Chat Thread - #87/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que vrg
-[22:57:27] [Async Chat Thread - #88/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ahii
-[22:59:04] [Async Chat Thread - #89/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te juro q usaria xray pero no tengo
-[22:59:10] [Async Chat Thread - #89/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bruh
-[22:59:29] [Async Chat Thread - #89/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> es q en la 1.20.1 es mucho mas dificil q la 1.16
-[22:59:35] [Async Chat Thread - #89/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a
-[22:59:50] [Async Chat Thread - #89/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> a partir de la 1.19 se volvio muy dificil encontrar netherite
-[23:01:08] [Async Chat Thread - #91/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pinchila
-[23:01:32] [Async Chat Thread - #91/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> casi
-[23:01:42] [Async Chat Thread - #91/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ya se
-[23:02:02] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nanananana
-[23:02:05] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSJAKJSAKJSAKJAS
-[23:02:05] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> increible
-[23:02:10] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> vamo o no?
-[23:02:18] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> DEPENDE
-[23:02:25] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de que
-[23:02:26] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> porq los cofres son pinchilas
-[23:02:34] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenes razon
-[23:02:40] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y no nos vamos a pasar el juego hasta tenes full netherite
-[23:03:38] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> QUE HACES
-[23:04:00] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no puedo construir sin mouse
-[23:04:37] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q clww
-[23:04:47] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> PORFIN
-[23:04:49] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que paso
-[23:04:49] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> UNO
-[23:04:59] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tiramelo
-[23:05:09] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 1 de 70
-[23:05:21] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> LPM
-[23:05:26] [Server thread/INFO]: Clandestino Santigameryt2213 has made the advancement [Hidden in the Depths]
-[23:05:31] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> logrito
-[23:05:58] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> cama?
-[23:06:34] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> otro
-[23:06:36] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> es mas efectivo asi
-[23:06:38] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> AJJAJAJAJ
-[23:06:51] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero yo quiero kaboom
-[23:06:54] [Async Chat Thread - #93/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> :(
-[23:06:57] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> INTENTA CON CAMAS
-[23:07:28] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 3
-[23:07:31] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> nooooooooooooooooooooo
-[23:07:34] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> PUTA LAVAAA
-[23:07:37] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JAJAAJJAJAJAJAJA
-[23:07:53] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no mas kaboom? :(
-[23:08:11] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> sos un suicida
-[23:08:12] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ksjaksjkasjkasj
-[23:08:21] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no hay chance
-[23:08:24] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ni idea como resisto tanto
-[23:08:29] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> arriba hay mas lava aun}
-[23:08:51] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenes pocion para lava?
-[23:08:57] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no
-[23:09:00] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me la gaste
-[23:09:09] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> o vas a seguir intentando suicidarte
-[23:09:14] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> uy
-[23:09:29] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> llename de lava nomas
-[23:10:09] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ahi hay 1
-[23:10:21] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> la netherite resiste a laa lava
-[23:10:28] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> lo se
-[23:10:59] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ahi ta
-[23:11:08] [Async Chat Thread - #92/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> por ahi hhabia otro
-[23:11:16] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> vamonos
-[23:11:20] [Async Chat Thread - #94/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> listo
-[23:11:46] [Server thread/INFO]: LJu4nn_L issued server command: /tp Santigameryt2213 LJu4nn_L
-[23:12:36] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> kaboom
-[23:12:44] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> kaboom?
-[23:12:44] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dale
-[23:12:48] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos tenes suerte
-[23:13:08] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> viste
-[23:13:20] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tenias que decir "si rico, kaboom"
-[23:13:23] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> XDDDD
-[23:14:06] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> kaboom
-[23:14:23] [Async Chat Thread - #96/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> joo
-[23:15:07] [Async Chat Thread - #95/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> se me esta acabando el pico
-[23:15:16] [Async Chat Thread - #96/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me voy a givear xp
-[23:15:18] [Async Chat Thread - #96/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> KSAKSJAKJSKJA
-[23:15:59] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[23:16:08] [Async Chat Thread - #96/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> TOMA
-[23:16:21] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[23:16:22] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[23:17:17] [Async Chat Thread - #97/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> VERI GUD
-[23:18:23] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y?
-[23:18:28] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nd
-[23:18:50] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ultimas 3 camas
-[23:19:34] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> Y?
-[23:19:38] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nada
-[23:20:28] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nada
-[23:20:32] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> JOOO
-[23:21:11] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ultima cama
-[23:21:18] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> ultimo kaboom
-[23:21:44] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 2 :D
-[23:21:48] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> uff
-[23:21:52] [Server thread/INFO]: LJu4nn_L issued server command: /tp LJu4nn_L Santigameryt2213
-[23:22:04] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vamos 14
-[23:22:08] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 14 de 70
-[23:22:10] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> o banca
-[23:22:15] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[23:22:16] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 37 x 2?
-[23:22:23] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 74
-[23:22:30] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 74 brother
-[23:22:34] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> 14 de 74
-[23:22:34] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> yes
-[23:23:10] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> es muy buena idea lo de la tnt tambien
-[23:23:14] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> pero es mucho farm
-[23:23:19] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cucha
-[23:23:23] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> pica con esto
-[23:23:27] [Server thread/INFO]: LJu4nn_L issued server command: /give LJu4nn_L minecraft:experience_bottle 64
-[23:23:32] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> para
-[23:24:13] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> 1
-[23:24:30] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> junto sho
-[23:24:34] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> bueno
-[23:24:35] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> uh
-[23:24:45] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no
-[23:24:47] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> nonononoon
-[23:24:57] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cierto q tenemos q son 4
-[23:25:01] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> con 4 de oro
-[23:25:04] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> le pusiste toque de seda al pico principal?
-[23:25:06] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y ahi un lingote
-[23:25:13] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> al q tenes si
-[23:25:19] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> a bn
-[23:25:31] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> te sirve toque de seda?
-[23:25:37] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> meh
-[23:25:52] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos vas a juntar las pepitas?
-[23:25:57] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> si
-[23:26:00] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dame ese
-[23:26:06] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> te olvidas que}
-[23:26:34] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> q cosa
-[23:26:34] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> tengo 10 bloques de oro, 10 lingotes de oro y 8 menas de las pepitas
-[23:26:44] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> tira todo eso
-[23:26:50] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[23:26:53] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> si
-[23:27:01] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> empeza de 0 con las pepitas
-[23:27:14] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no voy a tirar los oros
-[23:28:07] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> cucha
-[23:28:11] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[23:28:13] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> vos mañana vas?
-[23:28:23] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> posiblemente no
-[23:28:27] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> goti
-[23:28:34] [Async Chat Thread - #99/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> mi papa mañana se tiene que ir muy temprano
-[23:28:45] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> me aguantas hasta las 22:00????
-[23:28:50] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no
-[23:28:52] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> jooo
-[23:28:54] [Async Chat Thread - #100/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> dalee
-[23:30:38] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que
-[23:30:43] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> hasta las 10 hermanito
-[23:30:48] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no me van a dejar
-[23:31:01] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> de pdo me dejas hasta las 21
-[23:31:06] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> yo voy apagar el server ahora
-[23:31:08] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> me dejan*
-[23:31:12] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> que}
-[23:31:14] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> no
-[23:31:15] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> porq faltan q encuentren nuestra base
-[23:31:28] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> estamos solos ._:
-[23:31:44] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> pero maxi se une como a las 9
-[23:31:49] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y vity tambien
-[23:32:01] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> y si lo dejo prendido estamos jugados
-[23:32:04] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> pero como putas encuentran las bases nuestras siepe
-[23:32:12] [Async Chat Thread - #101/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> ni idea
-[23:32:31] [Async Chat Thread - #102/INFO]: [Not Secure] [Clandestino] <Santigameryt2213> maxi tiene algun truco o hack
+[15:21:17] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:21:25] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
+[15:21:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
+[15:21:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7eb00545]
+[15:21:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[15:21:27] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
+[15:21:27] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[15:21:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[15:21:27] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[15:21:27] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[15:21:27] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[15:21:28] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[15:21:28] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[15:21:28] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:21:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
+[15:21:29] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:21:29] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[15:21:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[15:21:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[15:21:32] [Server thread/INFO]:         __    
+[15:21:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[15:21:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:21:32] [Server thread/INFO]: 
+[15:21:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:21:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:21:35] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:21:35] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:21:36] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4183ms)
+[15:21:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:21:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:21:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:21:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:21:36] [Server thread/INFO]: Preparing level "world"
+[15:21:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:21:40] [Server thread/INFO]: Time elapsed: 1149 ms
+[15:21:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:21:40] [Server thread/INFO]: Time elapsed: 157 ms
+[15:21:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:21:41] [Server thread/INFO]: Time elapsed: 91 ms
+[15:21:41] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
+[15:21:41] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[15:21:41] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:21:41] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[15:21:41] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:21:41] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[15:21:41] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:21:41] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:21:42] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[15:21:42] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:21:42] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[15:21:42] [Thread-9/INFO]: [ClearLag] No updates found!
+[15:21:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:21:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:21:45] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[15:21:45] [Server thread/INFO]: [Essentials] Using locale en
+[15:21:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:21:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:21:45] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[15:21:45] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[15:21:45] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[15:21:45] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[15:21:46] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[15:21:46] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[15:21:46] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[15:21:46] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[15:21:47] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@ccd57f5
+[15:21:47] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[15:21:47] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[15:21:48] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[15:21:48] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[15:21:48] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@12908cc2
+[15:21:49] [Server thread/INFO]: Running delayed init tasks
+[15:21:49] [Server thread/INFO]: Done (37.100s)! For help, type "help"
+[15:21:49] [Server thread/INFO]: Timings Reset
+[15:21:49] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:21:49] [Craft Scheduler Thread - 4 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
+[15:21:49] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] There is a new EssentialsX version available for download: 2.21.1.
+[15:21:49] [Craft Scheduler Thread - 5 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html?branch=stable
+[15:21:57] [User Authenticator #0/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[15:21:57] [Server thread/INFO]: LJu4nn_L joined the game
+[15:21:58] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:41937] logged in with entity id 116 at ([world_nether]-6084.89935820603, 16.0, -2274.3730025876093)
+[15:22:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5049ms or 100 ticks behind
