@@ -160,3 +160,8 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [16:02:59] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:experience_bottle 64
 [16:02:59] [Server thread/INFO]: Giving 64 of experience bottle to LJu4nn_L.
 [16:02:59] [Server thread/INFO]: Not enough space, 64 experience bottle was lost.
+[16:13:05] [Server thread/INFO]: Made LJu4nn_L no longer a server operator
+[16:14:47] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /give LJu4nn_L minecraft:flint_and_steel 1
+[16:14:47] [Server thread/INFO]: Giving 1 of flint and steel to LJu4nn_L.
+[16:15:10] [Server thread/INFO]: Nothing changed. The player is not an operator
+[16:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5556ms or 111 ticks behind
