@@ -2784,5 +2784,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-07-02 16:20:14 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

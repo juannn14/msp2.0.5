@@ -165,3 +165,8 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [16:14:47] [Server thread/INFO]: Giving 1 of flint and steel to LJu4nn_L.
 [16:15:10] [Server thread/INFO]: Nothing changed. The player is not an operator
 [16:15:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5556ms or 111 ticks behind
+[16:22:49] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[16:22:49] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[16:22:57] [User Authenticator #1/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[16:22:57] [Server thread/INFO]: LJu4nn_L joined the game
+[16:22:57] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:38769] logged in with entity id 21250 at ([world]-46964.86401245075, 82.0, -12037.028714612472)
