@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751479208797
-  login: 1751479192145
+  logout: 1751482152147
+  login: 1751482111042
 money: '0'
 last-account-name: LJu4nn_L
 logoutlocation:
@@ -25,9 +25,9 @@ logoutlocation:
   world-name: world
   x: -49605.69999998808
   y: 5.0
-  z: -12020.514350677055
-  yaw: -125.9094467163086
-  pitch: 14.399946212768555
+  z: -12020.71227278015
+  yaw: -139.10926818847656
+  pitch: 15.149944305419922
 lastlocation:
   world: d883ce04-edbf-4800-be82-c32288524a18
   world-name: world_nether

@@ -203,3 +203,13 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [18:00:08] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
 [18:00:08] [Server thread/INFO]: Clandestino LJu4nn_L left the game
 [18:29:03] [Server thread/INFO]: Villager EntityVillager['Villager'/47072, uuid='150b685e-1682-44a6-9538-9c1f7fe413e3', l='ServerLevel[world]', x=-1888.30, y=67.00, z=960.84, cpos=[-119, 60], tl=26573, v=true] died, message: 'Villager was slain by Zombie'
+[18:45:50] [User Authenticator #7/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[18:45:50] [Server thread/INFO]: LJu4nn_L joined the game
+[18:45:50] [Server thread/INFO]: LJu4nn_L[/127.31.73.181:59491] logged in with entity id 51705 at ([world]-49605.69999998808, 5.0, -12020.514350677055)
+[18:47:43] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[18:47:43] [Server thread/INFO]: Clandestino LJu4nn_L left the game
+[18:48:30] [User Authenticator #8/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[18:48:31] [Server thread/INFO]: LJu4nn_L joined the game
+[18:48:31] [Server thread/INFO]: LJu4nn_L[/127.31.73.181:50005] logged in with entity id 52468 at ([world]-49605.69999998808, 5.0, -12020.346452876935)
+[18:49:12] [Server thread/INFO]: LJu4nn_L lost connection: Disconnected
+[18:49:12] [Server thread/INFO]: Clandestino LJu4nn_L left the game
