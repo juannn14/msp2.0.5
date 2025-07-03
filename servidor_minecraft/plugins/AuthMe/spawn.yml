@@ -1,10 +1,10 @@
 spawn:
-  world: ''
-  x: ''
-  y: ''
-  z: ''
-  yaw: ''
-  pitch: ''
+  world: world
+  x: 2.2223035997540478E7
+  y: 68.0
+  z: 2.2221946728242856E7
+  yaw: 90.45001
+  pitch: -2.2499435
 firstspawn:
   world: ''
   x: ''

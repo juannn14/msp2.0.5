@@ -793,3 +793,23 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:41:40] [Server thread/INFO]: darkkettoo issued server command: //set air
 [01:42:14] [Server thread/INFO]: darkkettoo issued server command: //restore
 [01:42:55] [Server thread/INFO]: darkkettoo issued server command: //replace
+[01:51:52] [Server thread/INFO]: darkkettoo issued server command: /authme setspawn
+[01:52:13] [Server thread/INFO]: darkkettoo issued server command: /authme setspawn
+[01:52:19] [Server thread/INFO]: darkkettoo lost connection: Disconnected
+[01:52:19] [Server thread/INFO]: darkkettoo left the game
+[01:52:26] [User Authenticator #2/INFO]: UUID of player darkkettoo is e9702bba-66c9-30c6-8a10-3f35e97367de
+[01:52:26] [Server thread/INFO]: darkkettoo joined the game
+[01:52:26] [Server thread/INFO]: darkkettoo[/127.3.239.6:56163] logged in with entity id 7265 at ([world]2.2223002829753898E7, 82.36996733681333, 2.222196207960448E7)
+[01:52:36] [Craft Scheduler Thread - 134 - AuthMe/INFO]: [AuthMe] darkkettoo logged in 127.3.239.6
+[01:56:13] [Server thread/INFO]: darkkettoo issued server command: /authme reload
+[01:56:13] [Server thread/INFO]: [AuthMe] Unhooked from Permissions!
+[01:56:13] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[01:56:13] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:56:13] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/msp2.0.5/servidor_minecraft/plugins/Essentials/spawn.yml'
+[01:56:13] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[01:56:23] [Server thread/INFO]: darkkettoo lost connection: Disconnected
+[01:56:23] [Server thread/INFO]: darkkettoo left the game
+[01:56:27] [User Authenticator #3/INFO]: UUID of player darkkettoo is e9702bba-66c9-30c6-8a10-3f35e97367de
+[01:56:27] [Server thread/INFO]: darkkettoo joined the game
+[01:56:27] [Server thread/INFO]: darkkettoo[/127.3.239.6:44257] logged in with entity id 7936 at ([world]2.222299444584775E7, 87.40760119470784, 2.2221988258436013E7)
+[01:56:46] [Craft Scheduler Thread - 161 - AuthMe/INFO]: [AuthMe] darkkettoo logged in 127.3.239.6

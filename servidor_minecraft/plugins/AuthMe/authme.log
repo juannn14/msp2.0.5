@@ -57,3 +57,10 @@
 
 [07-03 01:31:44]: [FINE] darkkettoo logged in 127.3.239.6
 [07-03 01:38:26]: [FINE] darkkettoo logged in 127.3.239.6
+[07-03 01:52:36]: [FINE] darkkettoo logged in 127.3.239.6
+[07-03 01:56:13]: [INFO] Unhooked from Permissions!
+[07-03 01:56:13]: [INFO] Hooked into LuckPerms!
+[07-03 01:56:13]: [INFO] SQLite Setup finished
+[07-03 01:56:13]: [INFO] Essentials spawn file not found: '/workspaces/msp2.0.5/servidor_minecraft/plugins/Essentials/spawn.yml'
+[07-03 01:56:13]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[07-03 01:56:46]: [FINE] darkkettoo logged in 127.3.239.6
