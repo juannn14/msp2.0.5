@@ -821,6 +821,7 @@
       "beef": "2025-06-27 01:20:20 +0000",
       "baked_potato": "2025-06-30 02:02:09 +0000",
       "bread": "2025-06-27 02:25:52 +0000",
+      "cookie": "2025-07-04 21:45:40 +0000",
       "glow_berries": "2025-06-29 22:38:54 +0000"
     },
     "done": false
@@ -3217,12 +3218,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
-    "criteria": {
-      "has_lapis_ore": "2025-07-04 02:10:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
     "criteria": {
       "has_smooth_quartz": "2025-07-04 01:25:51 +0000"
@@ -3232,6 +3227,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
     "criteria": {
       "has_smooth_quartz": "2025-07-04 01:25:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_lapis_ore": {
+    "criteria": {
+      "has_lapis_ore": "2025-07-04 02:10:32 +0000"
     },
     "done": true
   },
