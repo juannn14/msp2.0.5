@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751507783932
+  logout: 1751508164477
   login: 1751507787878
 money: '0'
 last-account-name: darkkettoo
 logoutlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world
-  x: 2.222299444584775E7
-  y: 87.40760119470784
-  z: 2.2221988258436013E7
-  yaw: 31.65008544921875
-  pitch: 25.65005111694336
+  x: 2.222303600418846E7
+  y: 68.0
+  z: 2.2221946897085615E7
+  yaw: 89.24978637695312
+  pitch: -0.2999427914619446
 lastlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world
