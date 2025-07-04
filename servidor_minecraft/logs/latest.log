@@ -176,3 +176,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:23:01] [Craft Scheduler Thread - 58 - AuthMe/INFO]: [AuthMe] Vityfraca10 logged in 127.31.73.181
 [01:26:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp vityfraca10 0 70 0
 [01:26:28] [Server thread/INFO]: Teleporting...
+[02:18:51] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.3526407590020426
