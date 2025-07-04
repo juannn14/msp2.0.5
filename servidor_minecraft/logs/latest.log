@@ -158,3 +158,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [21:45:24] [Server thread/INFO]: [Not Secure] [Server] vity putoo
 [21:45:30] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> la vane
 [22:33:34] [Server thread/INFO]: Named entity EntityZombie['gaga'/8501, uuid='5583c326-0811-4ac7-a9cc-dfa425ef84ba', l='ServerLevel[world]', x=-1443.50, y=65.94, z=1537.96, cpos=[-91, 96], tl=873, v=true] died: gaga was burnt to a crisp whilst fighting SixSeven Vityfraca10
+[22:44:48] [Server thread/INFO]: Named entity EntityZombie['gaga'/8549, uuid='2d4de296-178b-45d8-ade1-6f3a60b61980', l='ServerLevel[world]', x=-1443.00, y=65.94, z=1538.70, cpos=[-91, 96], tl=13927, v=true] died: gaga was slain by SixSeven Vityfraca10
