@@ -174,3 +174,5 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:22:51] [Server thread/INFO]: Vityfraca10 joined the game
 [01:22:51] [Server thread/INFO]: Vityfraca10[/127.31.73.181:40667] logged in with entity id 1195 at ([world]2.2223035997540478E7, 68.0, 2.2221946728242856E7)
 [01:23:01] [Craft Scheduler Thread - 58 - AuthMe/INFO]: [AuthMe] Vityfraca10 logged in 127.31.73.181
+[01:26:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp vityfraca10 0 70 0
+[01:26:28] [Server thread/INFO]: Teleporting...
