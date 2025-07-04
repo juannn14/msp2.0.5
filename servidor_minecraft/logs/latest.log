@@ -157,3 +157,4 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [21:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5538ms or 110 ticks behind
 [21:45:24] [Server thread/INFO]: [Not Secure] [Server] vity putoo
 [21:45:30] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> la vane
+[22:33:34] [Server thread/INFO]: Named entity EntityZombie['gaga'/8501, uuid='5583c326-0811-4ac7-a9cc-dfa425ef84ba', l='ServerLevel[world]', x=-1443.50, y=65.94, z=1537.96, cpos=[-91, 96], tl=873, v=true] died: gaga was burnt to a crisp whilst fighting SixSeven Vityfraca10
