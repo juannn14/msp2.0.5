@@ -596,6 +596,7 @@
       "minecraft:piglin": "2025-06-30 06:16:33 +0000",
       "minecraft:enderman": "2025-06-30 01:29:26 +0000",
       "minecraft:silverfish": "2025-07-01 02:52:16 +0000",
+      "minecraft:endermite": "2025-07-04 21:53:12 +0000",
       "minecraft:zombie": "2025-06-27 01:18:00 +0000",
       "minecraft:drowned": "2025-06-30 02:35:03 +0000",
       "minecraft:zombie_villager": "2025-06-29 22:29:05 +0000"
@@ -822,7 +823,8 @@
       "baked_potato": "2025-06-30 02:02:09 +0000",
       "bread": "2025-06-27 02:25:52 +0000",
       "cookie": "2025-07-04 21:45:40 +0000",
-      "glow_berries": "2025-06-29 22:38:54 +0000"
+      "glow_berries": "2025-06-29 22:38:54 +0000",
+      "golden_carrot": "2025-07-04 21:51:24 +0000"
     },
     "done": false
   },
@@ -3239,6 +3241,24 @@
   "minecraft:recipes/misc/lapis_lazuli_from_smelting_lapis_ore": {
     "criteria": {
       "has_lapis_ore": "2025-07-04 02:10:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-07-04 21:53:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2025-07-04 21:53:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_allium": {
+    "criteria": {
+      "has_allium": "2025-07-04 21:53:44 +0000"
     },
     "done": true
   },
