@@ -178,3 +178,17 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [01:26:28] [Server thread/INFO]: Teleporting...
 [02:18:51] [Server thread/WARN]: Boat (vehicle of Vityfraca10) moved wrongly! 0.3526407590020426
 [02:47:02] [Server thread/INFO]: Named entity EntityZombie['gracias'/14568, uuid='a2292678-3498-4863-ae05-a6934fc2cec2', l='ServerLevel[world]', x=-1443.55, y=65.94, z=1538.21, cpos=[-91, 96], tl=7985, v=true] died: gracias burned to death
+[03:03:38] [User Authenticator #2/INFO]: UUID of player LJu4nn_L is 372fbfca-8808-3c09-b8ce-838ea619b7af
+[03:03:38] [Server thread/INFO]: LJu4nn_L joined the game
+[03:03:38] [Server thread/INFO]: LJu4nn_L[/127.3.239.6:40693] logged in with entity id 20839 at ([world]2.2223035997540478E7, 68.0, 2.2221946728242856E7)
+[03:03:47] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> hola tetas
+[03:03:52] [Server thread/INFO]: [AuthMe] LJu4nn_L registered 127.3.239.6
+[03:03:52] [Craft Scheduler Thread - 661 - AuthMe/INFO]: [AuthMe] The user LJu4nn_L has 2 accounts:
+[03:03:52] [Craft Scheduler Thread - 661 - AuthMe/INFO]: [AuthMe] §7darkkettoo, §aLJu4nn_L§7.
+[03:03:52] [Craft Scheduler Thread - 661 - AuthMe/INFO]: [AuthMe] LJu4nn_L logged in 127.3.239.6
+[03:04:03] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> QUE LINDO LOS FPS
+[03:04:08] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> buee
+[03:04:28] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> SI HASTA JUEGO CON SHADERS
+[03:04:51] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> oero los optimizaste o no tocaste nada
+[03:05:02] [Async Chat Thread - #0/INFO]: [Not Secure] [Clandestino] <LJu4nn_L> no optimize nada
+[03:05:16] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> entonces te va mejor q a mi
