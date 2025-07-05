@@ -7,9 +7,8 @@ home: ''
 color: b
 chests: []
 players:
-- b356fad1-842c-328a-97d0-2f0a38f6dbee,DEFAULT
 - 76acff87-aaa1-31f3-a782-463a7b6cef41,OWNER
-- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d,DEFAULT
+- b356fad1-842c-328a-97d0-2f0a38f6dbee,DEFAULT
 anchoredPlayers: []
 level: 1
 tag: ''

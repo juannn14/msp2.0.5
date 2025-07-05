@@ -194,3 +194,30 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 [02:51:13] [User Authenticator #4/INFO]: UUID of player saderos21 is 76acff87-aaa1-31f3-a782-463a7b6cef41
 [02:51:13] [Server thread/INFO]: SixSeven saderos21 joined the game
 [02:51:13] [Server thread/INFO]: saderos21[/127.31.73.181:39691] logged in with entity id 3341 at ([world]-1495.015471209205, 72.0, 1542.3590583605687)
+[02:51:52] [Server thread/INFO]: saderos21 lost connection: Disconnected
+[02:51:52] [Server thread/INFO]: SixSeven saderos21 left the game
+[02:53:20] [User Authenticator #5/WARN]: [LuckPerms] LuckPerms already has data for player 'Saderos21' - but this data is stored under a different UUID.
+[02:53:20] [User Authenticator #5/WARN]: [LuckPerms] 'Saderos21' has previously used the unique ids [76acff87-aaa1-31f3-a782-463a7b6cef41] but is now connecting with 'c2344ae7-75e9-3f48-904e-80b5af648371'
+[02:53:20] [User Authenticator #5/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[02:53:20] [User Authenticator #5/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[02:53:20] [User Authenticator #5/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[02:53:20] [User Authenticator #5/INFO]: UUID of player Saderos21 is c2344ae7-75e9-3f48-904e-80b5af648371
+[02:53:20] [Server thread/INFO]: Saderos21 joined the game
+[02:53:20] [Server thread/INFO]: Saderos21[/127.73.165.201:36319] logged in with entity id 3534 at ([world]-53.62642683294531, 68.0, 115.75349413004905)
+[02:54:49] [Server thread/INFO]: Saderos21 issued server command: /team create SixSeven
+[02:55:21] [Server thread/INFO]: Saderos21 issued server command: /team create Kam4da$
+[02:55:46] [Server thread/INFO]: Saderos21 issued server command: /team create Kam4da
+[02:55:57] [Server thread/INFO]: Saderos21 issued server command: /team color green
+[02:56:02] [Async Chat Thread - #1/INFO]: [Not Secure] [Kam4da] <Saderos21> reqw
+[02:56:56] [Server thread/INFO]: Vityfraca10 issued server command: /team create dad
+[02:57:03] [Server thread/INFO]: Vityfraca10 issued server command: /team leave
+[02:57:32] [Server thread/INFO]: Saderos21 issued server command: /team invite Vityfraca10
+[02:57:36] [Server thread/INFO]: Vityfraca10 issued server command: /team join Kam4da
+[02:57:43] [Server thread/INFO]: Vityfraca10 lost connection: Disconnected
+[02:57:43] [Server thread/INFO]: Vityfraca10 left the game
+[02:57:45] [User Authenticator #6/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[02:57:45] [Server thread/INFO]: Vityfraca10 joined the game
+[02:57:45] [Server thread/INFO]: Vityfraca10[/127.31.73.181:39129] logged in with entity id 4777 at ([world]-1490.093697332701, 72.0, 1543.5552289356624)
+[02:57:48] [Async Chat Thread - #2/INFO]: [Not Secure] [Kam4da] <Vityfraca10> ad
+[03:01:28] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp saderos21 vityfraca10
+[03:01:41] [Server thread/INFO]: Kam4da Saderos21 has made the advancement [Cover Me with Diamonds]

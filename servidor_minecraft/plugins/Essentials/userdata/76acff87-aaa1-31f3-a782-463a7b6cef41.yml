@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1751683864786
+  logout: 1751683912187
   login: 1751683873195
 money: '0'
 last-account-name: saderos21
 logoutlocation:
   world: d17c060c-c6b2-4554-9223-b94573b36c2a
   world-name: world
-  x: -1495.015471209205
+  x: -1495.4302600983583
   y: 72.0
-  z: 1542.3590583605687
-  yaw: -141.68756103515625
-  pitch: 26.399673461914062
+  z: 1542.8307617795217
+  yaw: -143.0375213623047
+  pitch: 20.699670791625977

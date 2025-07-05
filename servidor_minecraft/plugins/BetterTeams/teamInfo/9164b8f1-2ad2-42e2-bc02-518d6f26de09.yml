@@ -1,0 +1,14 @@
+name: Kam4da
+description: ''
+open: false
+pvp: false
+anchor: false
+home: ''
+color: a
+chests: []
+players:
+- c2344ae7-75e9-3f48-904e-80b5af648371,OWNER
+- 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d,DEFAULT
+anchoredPlayers: []
+level: 1
+tag: ''
