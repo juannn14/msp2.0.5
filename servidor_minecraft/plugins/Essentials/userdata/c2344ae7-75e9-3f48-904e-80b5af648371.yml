@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.73.165.201
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751683144637
+  login: 1751683107178
+money: '0'
+last-account-name: Saderos21
+logoutlocation:
+  world: d17c060c-c6b2-4554-9223-b94573b36c2a
+  world-name: world
+  x: -1.4553101205919832
+  y: 68.0
+  z: 39.97763715408021
+  yaw: -47.696136474609375
+  pitch: 17.100065231323242
+lastlocation:
+  world: d883ce04-edbf-4800-be82-c32288524a18
+  world-name: world_nether
+  x: -354.13513728645364
+  y: 37.0
+  z: -2361.599170794931
+  yaw: -81.14285278320312
+  pitch: 63.147132873535156
+past-usernames:
+- saderos21

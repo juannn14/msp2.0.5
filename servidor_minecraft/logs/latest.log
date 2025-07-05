@@ -1,22 +1,22 @@
-[21:40:15] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[21:40:20] [ServerMain/INFO]: Loaded 7 recipes
-[21:40:21] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[21:40:21] [Server thread/INFO]: Loading properties
-[21:40:21] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[21:40:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[21:40:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[21:40:23] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[02:31:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:31:25] [ServerMain/INFO]: Loaded 7 recipes
+[02:31:26] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:31:26] [Server thread/INFO]: Loading properties
+[02:31:26] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[02:31:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:31:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:31:27] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[21:40:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[21:40:24] [Server thread/INFO]: Default game type: SURVIVAL
-[21:40:24] [Server thread/INFO]: Generating keypair
-[21:40:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:40:25] [Server thread/INFO]: Using epoll channel type
-[21:40:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[21:40:25] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
-[21:40:25] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Essentials' for files 'plugins/EssentialsX-2.21.1.jar' and 'plugins/EssentialsX-2.20.1.jar' in 'plugins'
-[21:40:25] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
+[02:31:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[02:31:28] [Server thread/INFO]: Default game type: SURVIVAL
+[02:31:28] [Server thread/INFO]: Generating keypair
+[02:31:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:31:28] [Server thread/INFO]: Using epoll channel type
+[02:31:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:31:28] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[02:31:28] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Ambiguous plugin name 'Essentials' for files 'plugins/EssentialsX-2.21.1.jar' and 'plugins/EssentialsX-2.20.1.jar' in 'plugins'
+[02:31:28] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/orebfuscator-plugin-5.5.4.jar' in 'plugins'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:39) ~[paper-1.20.1.jar:git-Paper-196]
@@ -26,7 +26,7 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[21:40:26] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
+[02:31:28] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load plugin 'DeathMessages-Modern-1.4.20.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/DeathMessages has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:127) ~[paper-1.20.1.jar:git-Paper-196]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:35) ~[paper-1.20.1.jar:git-Paper-196]
@@ -52,111 +52,123 @@ Caused by: java.lang.UnsupportedClassVersionError: dev/mrshawn/deathmessages/Dea
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:76) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.createInstance(SpigotPluginProvider.java:123) ~[paper-1.20.1.jar:git-Paper-196]
 	... 9 more
-[21:40:26] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[21:40:34] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
-[21:40:34] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
-[21:40:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@45a28d31]
-[21:40:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
-[21:40:36] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
-[21:40:36] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
-[21:40:36] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
-[21:40:36] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
-[21:40:36] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
-[21:40:36] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
-[21:40:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
-[21:40:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[21:40:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[21:40:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
-[21:40:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[21:40:37] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[21:40:37] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
-[21:40:39] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
-[21:40:41] [Server thread/INFO]:         __    
-[21:40:41] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
-[21:40:41] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[21:40:41] [Server thread/INFO]: 
-[21:40:41] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[21:40:41] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[21:40:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[21:40:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[21:40:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4496ms)
-[21:40:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[21:40:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[21:40:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[21:40:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[21:40:43] [Server thread/INFO]: Preparing level "world"
-[21:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:40:47] [Server thread/INFO]: Time elapsed: 519 ms
-[21:40:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[21:40:48] [Server thread/INFO]: Time elapsed: 194 ms
-[21:40:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[21:40:48] [Server thread/INFO]: Time elapsed: 362 ms
-[21:40:48] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
-[21:40:48] [Server thread/INFO]: [Playtimes] Successfully loaded.
-[21:40:48] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
-[21:40:48] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
-[21:40:49] [Server thread/INFO]: [ClearLag] Loading modules...
-[21:40:49] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
-[21:40:49] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
-[21:40:49] [Server thread/INFO]: [ClearLag] Modules have been loaded!
-[21:40:49] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
-[21:40:49] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
-[21:40:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
-[21:40:49] [Thread-9/INFO]: [ClearLag] No updates found!
-[21:40:51] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[21:40:51] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[21:40:51] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[21:40:51] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
-[21:40:51] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[21:40:51] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[21:40:51] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
-[21:40:52] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[21:40:53] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
-[21:40:53] [Server thread/INFO]: [Essentials] Using locale en
-[21:40:53] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[21:40:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[21:40:54] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
-[21:40:54] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
-[21:40:54] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
-[21:40:54] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
-[21:40:54] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
-[21:40:55] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
-[21:40:55] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
-[21:40:55] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
-[21:40:57] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@6a98845f
-[21:40:57] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
-[21:40:57] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
-[21:40:57] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
-[21:40:57] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
-[21:40:57] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@5df1081d
-[21:40:58] [Server thread/INFO]: Running delayed init tasks
-[21:40:58] [Craft Scheduler Thread - 5 - Essentials/INFO]: [Essentials] Fetching version information...
-[21:40:58] [Server thread/INFO]: Done (37.256s)! For help, type "help"
-[21:40:58] [Server thread/INFO]: Timings Reset
-[21:40:59] [Craft Scheduler Thread - 4 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
-[21:43:02] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
-[21:43:02] [Server thread/INFO]: Vityfraca10 joined the game
-[21:43:02] [Server thread/INFO]: Vityfraca10[/127.31.73.181:38737] logged in with entity id 151 at ([world]-1868.5321336361264, 64.0, 941.6819965555098)
-[21:43:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5538ms or 110 ticks behind
-[21:45:24] [Server thread/INFO]: [Not Secure] [Server] vity putoo
-[21:45:30] [Async Chat Thread - #1/INFO]: [Not Secure] [SixSeven] <Vityfraca10> la vane
-[22:33:34] [Server thread/INFO]: Named entity EntityZombie['gaga'/8501, uuid='5583c326-0811-4ac7-a9cc-dfa425ef84ba', l='ServerLevel[world]', x=-1443.50, y=65.94, z=1537.96, cpos=[-91, 96], tl=873, v=true] died: gaga was burnt to a crisp whilst fighting SixSeven Vityfraca10
-[22:44:48] [Server thread/INFO]: Named entity EntityZombie['gaga'/8549, uuid='2d4de296-178b-45d8-ade1-6f3a60b61980', l='ServerLevel[world]', x=-1443.00, y=65.94, z=1538.70, cpos=[-91, 96], tl=13927, v=true] died: gaga was slain by SixSeven Vityfraca10
-[23:53:06] [Server thread/INFO]: Named entity EntityZombie['gaga'/19310, uuid='091fd151-ee48-4bf3-87b9-8342cda7b4c0', l='ServerLevel[world]', x=-1443.74, y=65.94, z=1541.55, cpos=[-91, 96], tl=17312, v=true] died: gaga was burnt to a crisp whilst fighting SixSeven Vityfraca10
+[02:31:28] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R1.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[02:31:34] [Server thread/WARN]: Legacy plugin Playtimes v1.6.2b does not specify an api-version.
+[02:31:34] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.0-beta-02+e11f161
+[02:31:35] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4ef9a38]
+[02:31:35] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[02:31:35] [Server thread/INFO]: [Playtimes] Loading server plugin Playtimes v1.6.2b
+[02:31:35] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[02:31:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.1
+[02:31:35] [Server thread/INFO]: [StatsSB] Loading server plugin StatsSB v4.1-Lite
+[02:31:35] [Server thread/INFO]: [ActionHealth] Loading server plugin ActionHealth v3.5.9
+[02:31:35] [Server thread/INFO]: [BetterTeams] Loading server plugin BetterTeams v4.13.4
+[02:31:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file config.yml is up to date
+[02:31:36] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[02:31:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:31:36] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.0-beta-02+e11f161
+[02:31:36] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:31:36] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[02:31:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[02:31:37] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[02:31:38] [Server thread/INFO]:         __    
+[02:31:38] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[02:31:38] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:31:38] [Server thread/INFO]: 
+[02:31:38] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:31:38] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:31:39] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:31:39] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:31:39] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1847ms)
+[02:31:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:31:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:31:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:31:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:31:39] [Server thread/INFO]: Preparing level "world"
+[02:31:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:31:42] [Server thread/INFO]: Time elapsed: 509 ms
+[02:31:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:31:42] [Server thread/INFO]: Time elapsed: 200 ms
+[02:31:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:31:42] [Server thread/INFO]: Time elapsed: 101 ms
+[02:31:42] [Server thread/INFO]: [Playtimes] Enabling Playtimes v1.6.2b*
+[02:31:42] [Server thread/INFO]: [Playtimes] Successfully loaded.
+[02:31:42] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[02:31:42] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[02:31:43] [Server thread/INFO]: [ClearLag] Loading modules...
+[02:31:43] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (net.minecraft.server.v1_20_R1.MinecraftServer)
+[02:31:43] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[02:31:43] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[02:31:43] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[02:31:43] [Thread-9/INFO]: [ClearLag] Checking for updates compatible with your bukkit version [1.20]...
+[02:31:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.1
+[02:31:43] [Thread-9/INFO]: [ClearLag] No updates found!
+[02:31:44] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[02:31:44] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:31:44] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:31:44] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:31:45] [Server thread/INFO]: [Essentials] Loaded 43517 items from items.json.
+[02:31:45] [Server thread/INFO]: [Essentials] Using locale en
+[02:31:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:31:46] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:31:46] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[02:31:46] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[02:31:46] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[02:31:46] [Server thread/INFO]: [StatsSB] Enabling StatsSB v4.1-Lite
+[02:31:46] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Starting...
+[02:31:46] [Server thread/INFO]: [io.aquaticlabs.libs.zaxxer.hikari.HikariDataSource] Aquatic Labs Sqlite Pool - Start completed.
+[02:31:46] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.5.9
+[02:31:46] [Server thread/INFO]: [BetterTeams] Enabling BetterTeams v4.13.4
+[02:31:47] [Server thread/INFO]: [BetterTeams] MessageSender declared: com.booksaw.betterTeams.message.AdventureMessageSender@224c12d3
+[02:31:47] [Server thread/INFO]: [BetterTeams] [BetterTeams] Checking if the file messages.yml is up to date
+[02:31:47] [Server thread/INFO]: [BetterTeams] [BetterTeams] File is up to date
+[02:31:47] [Server thread/INFO]: [BetterTeams] Display team name config value: prefix
+[02:31:47] [Server thread/INFO]: [BetterTeams] Loading below name. Type: PREFIX
+[02:31:47] [Server thread/INFO]: [BetterTeams] teamManagement declared: com.booksaw.betterTeams.events.MCTeamManagement@5552a8e7
+[02:31:48] [Server thread/INFO]: Running delayed init tasks
+[02:31:48] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:31:48] [Server thread/INFO]: Done (21.963s)! For help, type "help"
+[02:31:48] [Server thread/INFO]: Timings Reset
+[02:31:48] [Craft Scheduler Thread - 3 - Playtimes/INFO]: [Playtimes] [PlayTimes] Plugin is up to date! - 1.6.2b
+[02:31:59] [User Authenticator #0/INFO]: UUID of player Vityfraca10 is 449b9e5b-0ab8-3a1e-84d4-cd8d8d2bd67d
+[02:31:59] [Server thread/INFO]: SixSeven Vityfraca10 joined the game
+[02:32:00] [Server thread/INFO]: Vityfraca10[/127.31.73.181:57667] logged in with entity id 149 at ([world]-1490.890299491656, 72.5625, 1544.983810404129)
+[02:34:39] [User Authenticator #1/WARN]: [LuckPerms] LuckPerms already has data for player 'Saderos21' - but this data is stored under a different UUID.
+[02:34:39] [User Authenticator #1/WARN]: [LuckPerms] 'Saderos21' has previously used the unique ids [76acff87-aaa1-31f3-a782-463a7b6cef41] but is now connecting with 'c2344ae7-75e9-3f48-904e-80b5af648371'
+[02:34:39] [User Authenticator #1/WARN]: [LuckPerms] The UUID the player is connecting with now is NOT Mojang-assigned (type 3). This implies that THIS server is not authenticating correctly, but one (or more) of the other servers/proxies in the network are.
+[02:34:39] [User Authenticator #1/WARN]: [LuckPerms] If you're using BungeeCord/Velocity, please ensure that IP-Forwarding is setup correctly on all of your backend servers!
+[02:34:39] [User Authenticator #1/WARN]: [LuckPerms] See here for more info: https://luckperms.net/wiki/Network-Installation#pre-setup
+[02:34:39] [User Authenticator #1/INFO]: UUID of player Saderos21 is c2344ae7-75e9-3f48-904e-80b5af648371
+[02:34:39] [Server thread/INFO]: Saderos21 joined the game
+[02:34:39] [Server thread/INFO]: Saderos21[/127.73.165.201:41485] logged in with entity id 569 at ([world]-26.5, 67.0, 39.5)
+[02:35:08] [Server thread/INFO]: Saderos21 lost connection: Disconnected
+[02:35:08] [Server thread/INFO]: Saderos21 left the game
+[02:38:27] [User Authenticator #2/INFO]: UUID of player Saderos21 is c2344ae7-75e9-3f48-904e-80b5af648371
+[02:38:27] [Server thread/INFO]: Saderos21 joined the game
+[02:38:27] [Server thread/INFO]: Saderos21[/127.73.165.201:57701] logged in with entity id 1133 at ([world]-10.930507590315589, 67.0, 17.15824153526344)
+[02:38:50] [Server thread/INFO]: Saderos21 issued server command: /brush
+[02:39:04] [Server thread/INFO]: Saderos21 lost connection: Disconnected
+[02:39:04] [Server thread/INFO]: Saderos21 left the game
+[02:39:16] [Server thread/INFO]: [Essentials] CONSOLE issued server command: /tp saderos21 vityfraca10
+[02:39:16] [Server thread/INFO]: Error: Player not found.
